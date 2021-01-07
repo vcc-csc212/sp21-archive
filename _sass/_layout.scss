@@ -93,22 +93,25 @@ header {
 		margin: 0;
 	}
 
-	h1 {
+	h1  {
 		padding: $emblem-vertical-padding $emblem-horizontal-padding;
-		height: $nav-header-height;
-		box-sizing: border-box;
 		background-color: $brand-colour;
-		color: #fff;
 		margin: 0;
-		font-size: 1.7rem;
-		line-height: 0.8;
+		box-sizing: border-box;
 		letter-spacing: 0;
 		font-weight: 600;
 		text-indent: 0;
-		@include display-flex();
-		@include flex-direction(row);
-		@include align-items(center);
 		border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+
+		a, a:hover {
+			text-decoration: none;
+			color: #fff;
+			font-size: 1.7rem;
+			line-height: 0.8;
+			@include display-flex();
+			@include flex-direction(row);
+			@include align-items(center);
+		}
 
 		img {
 			height: $emblem-size;
