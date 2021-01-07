@@ -75,4 +75,4 @@ This contains some resources you may find useful in preparing for the course. I'
 ***
 
 #### I'd like to add something to the page {#suggestions}
-If you know of any other material your peers may find useful, [suggest an edit]({{site.github.repository_url}}/edit/{{page.relative_path}}) to the page!
+If you know of any other material your peers may find useful, [suggest an edit]({{site.github.repository_url}}/edit/main/{{page.relative_path}}) to the page!
