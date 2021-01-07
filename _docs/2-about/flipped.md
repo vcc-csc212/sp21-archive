@@ -10,7 +10,7 @@ In a flipped classroom, **students learn the material on their own** via videos 
 #### Why flip it?
 We don't get a lot of time together so why use that precious time to tell you things you can hear and read on your own? I rather use the little time we have together to answer your questions and help you get unstuck while working on assignments.
 
-#### How do I thrive in this setting?
+#### How do I thrive in this setting? {#mindset}
 
 ##### *At home:*
 You must **complete the material before class** and come in to class **with questions** if you have them (and you should have them). The more questions you have, the more help I can be! **Take good notes** as you read-- you'll thank yourself later!
