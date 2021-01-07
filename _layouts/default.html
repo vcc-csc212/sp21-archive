@@ -83,12 +83,11 @@
 
 			//to open external links in a new tab, from: https://harrymartland.co.uk/jekyll-open-links-in-new-tab/
 			const baseUrl = '{{ site.url + site.baseurl }}';
-			console.log(baseUrl);
 			document.addEventListener('click', function (event) {
 			    let anchor = event.target.closest("A");
 			    if(anchor){
 			        const href = anchor.href;
-			        if(!href.startsWith(baseUrl) && !href.startsWith('http://127.0.0.1')){
+			        if(!href.startsWith(baseUrl) && !href.startsWith('#')){
 			            window.open(href,'_blank');
 			            event.preventDefault()
 			        }
