@@ -1,5 +1,5 @@
 ---
-title: Outcomes and Skills
+title: Outcomes, Skills, and Non-Negotiables
 category: About
 order: 2
 permalink: /outcomes-skills/
