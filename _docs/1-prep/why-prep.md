@@ -11,7 +11,7 @@ Generally speaking, the data structures and algorithms course is one of the toug
 Because the topics we're going to cover are already challenging in it of themselves, it's important you come in as prepared as possible so you don't have to play catch up while learning new material.
 
 #### Okay fine, but do I **have** to?
-Reviewing the material below before the start of the semester is **strongly recommended** for *all* students *especially* if:
+Reviewing the material below before the start of the semester is **strongly recommended for all** students *especially* if:
 - You didn't do too hot on 211
 - This is your first C++ course 
 - Pointers aren't your strong suit
