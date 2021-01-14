@@ -31,6 +31,6 @@ Exams
 - The final will be taken at our **scheduled final exam time**
 
 Final Project
-: Final projects are a completely open-ended opportunity for you to demonstrate your deepest understanding of whatever topics you'd like. Final projects are **due Thursday, May 6th @ 3:30pm**
+: Final projects are a completely open-ended opportunity for you to demonstrate your deepest understanding of whatever topics you'd like. Final projects are **due Thursday, May 6th @ 3:30pm** (two weeks after classes end).
 - You may work individually or in groups of up to 4.
 - The more people in the group, the higher the expectations for the final product. 
