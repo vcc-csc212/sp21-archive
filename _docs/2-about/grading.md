@@ -1,6 +1,6 @@
 ---
 title: Grading
-category: About
+category: About / Syllabus
 order: 3
 permalink: /grading/
 ---

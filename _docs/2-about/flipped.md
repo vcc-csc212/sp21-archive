@@ -1,6 +1,6 @@
 ---
 title: Flipped Classroom
-category: About
+category: About / Syllabus
 order: 1
 permalink: /flipped/
 ---

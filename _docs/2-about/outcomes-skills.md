@@ -1,6 +1,6 @@
 ---
 title: Outcomes, Skills, & Non-Negotiables
-category: About
+category: About / Syllabus
 order: 2
 permalink: /outcomes-skills/
 ---
