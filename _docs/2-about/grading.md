@@ -25,7 +25,7 @@ While confusing at first, you'll see that this approach has several benefits (ou
 	> **TLDR**: You're allowed (and encouraged!) to [resubmit assignments](/resubmissions).
 
 #### What do grades look like?
-As has been previously mentioned, there are 20 umbrella topics we'll be covering, of which **13 are non-negotiable**. Your grade (A/B/C/D) for the course will be based on your demonstrated knowledge of the non-negotiable topics. If you'd like to receive a + designation (B+/C+/D+) you'll also have to demonstrate some knowledge on the other topics we'll be covering.
+As has been previously mentioned, there are 20 umbrella topics we'll be covering, of which **13 are non-negotiable**. Your grade for the course will be based on your demonstrated knowledge of the non-negotiable topics.
 
 ##### To receive a D you must:
 - Demonstrate `understanding` in ALL the non-negotiable topics
@@ -50,6 +50,8 @@ As has been previously mentioned, there are 20 umbrella topics we'll be covering
 	- Demonstrate `understanding` in ALL the non-negotiable topics
 	- Demonstrate `competence` in AT LEAST 9 of the non-negotiable topics 
 	- Demonstrate `mastery` in AT LEAST 5 of the non-negotiable topics
+
+If you'd like to receive a + designation (B+/C+/D+) you'll also have to demonstrate some knowledge on the other topics we'll be covering.
 
 #### To receive a + designation:
 - Option 1:
