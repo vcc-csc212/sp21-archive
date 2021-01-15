@@ -1,5 +1,5 @@
 ---
-title: Outcomes, Skills, & Non-Negotiables
+title: Outcomes & Non-Negotiables
 category: About / Syllabus
 order: 2
 permalink: /outcomes-skills/
@@ -13,7 +13,7 @@ Upon successful completion of the course, you should be able to:
 - Implement algorithmic solutions using the appropriate data structures and algorithms 
 - Compare different algorithms and data structures based on efficiency, using empirical and theoretical algorithm analysis techniques
 
-#### Can you elaborate?
+#### What're the non-negotiables?
 Each time we meet for lab or lecture, you'll be learning a new topic, for a grand total of about **40 topics** (that means **we move incredibly fast so don't fall behind**). Of those 40-ish topics, some of them will be review or preliminary knowledge required for understanding future topics. Taking that into account, the **new topics** we'll be covering can be categorized into **20 umbrella topics** (outlined below):
 
 1. Recurrence Relations
@@ -37,4 +37,4 @@ Each time we meet for lab or lecture, you'll be learning a new topic, for a gran
 19. `Space Complexity`
 20. Parsing	
 
-Of these 20, the `formatted` **13 are non-negotiable** which means that in order to pass the course, you **must** demonstrate at a minimum, a [level of understanding](/grading) about them.
+Of these 20, the `formatted` **13 are non-negotiable** which means that in order to pass the course, you **must** demonstrate at a minimum, a [level of understanding](/grading#grades) about them.
