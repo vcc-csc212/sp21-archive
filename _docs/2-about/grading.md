@@ -4,7 +4,13 @@ category: About / Syllabus
 order: 3
 permalink: /grading/
 ---
-#### How will I be graded?
+On this page:  
+✔️ [Grading Style](#style)  
+✔️ [Succeeding](#success)  
+✔️ [Grade Breakdowns](#grades)  
+✔️ [Relationship between Grades and Assignments](#knowledge-levels)
+
+#### How will I be graded? {#style} 
 Instead of the usual point-based or weighted grading system, we'll be using [mastery-based](https://hapara.com/blog/mastery-based-grading/) grading to assess your learning. Mastery-based grading means that:
 - As a student, you have **full autonomy** on *how well you do* in the course
 - As a student, you have **full autonomy** of *the type of work* you complete (how you demonstrate your knowledge)
@@ -12,7 +18,7 @@ Instead of the usual point-based or weighted grading system, we'll be using [mas
 
 Furthermore, we'll be using an **autograder** to assess a lot of your submissions for correctness, which means you can **submit multiple times and get immediate feedback** so you know whether something's not working.
 
-#### How do I take the most advantage of this grading scheme?
+#### How do I take the most advantage of this grading scheme? {#success}
 While confusing at first, you'll see that this approach has several benefits (outlined above). However, this grading scheme will only benefit you if you understand how to take advantage of all the opportunities it provides you. More specifically, that means:
 - **Start early and submit often**
 	- The autograder gives you immediate feedback to let you know whether functionality is incorrect in your code. Use this to find mistake early!
@@ -24,7 +30,7 @@ While confusing at first, you'll see that this approach has several benefits (ou
 	- While we cover several topics over the span of a week, it is not expected that you'll fully understand all of them by the end of that week. A lot of us need more time and practice with any given concept before it 'clicks' and we get it. That being said, it's only fair to actually give you the opportunity to revisit your work and show me you've learned more since we last talked about it in class. 
 	> **TLDR**: You're allowed (and encouraged!) to [resubmit assignments](/resubmissions).
 
-#### What do grades look like?
+#### What do grades look like? {#grades}
 As has been previously mentioned, there are 20 umbrella topics we'll be covering, of which **13 are non-negotiable**. Your grade for the course will be based on your demonstrated knowledge of the non-negotiable topics.
 
 ##### To receive a D you must:
