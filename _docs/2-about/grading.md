@@ -5,7 +5,7 @@ order: 3
 permalink: /grading/
 ---
 #### How will I be graded?
-Instead of the usual point-based or weighted grading system, we'll be using [mastery-based](https://hapara.com/blog/mastery-based-grading/) grading. Mastery-based grading means that:
+Instead of the usual point-based or weighted grading system, we'll be using [mastery-based](https://hapara.com/blog/mastery-based-grading/) grading to assess your learning. Mastery-based grading means that:
 - As a student, you have **full autonomy** on *how well you do* in the course
 - As a student, you have **full autonomy** of *the type of work* you complete (how you demonstrate your knowledge)
 - As a student, you get **multiple opportunities** to demonstrate your knowledge
