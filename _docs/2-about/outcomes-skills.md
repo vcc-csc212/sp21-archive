@@ -4,6 +4,9 @@ category: About / Syllabus
 order: 2
 permalink: /outcomes-skills/
 ---
+
+Data structures and algorithms is arguably **the most important course you'll take** in Computer Science. From [getting internships and job offers](https://github.com/cassidoo/getting-a-gig) to [preparing for advanced courses](https://www.synergisticit.com/how-data-structures-and-algorithms-are-important-for-computer-science-graduates/), understanding data structures and algorithms is what differentiates programmers and coders from computer scientists and engineers.
+
 #### What will I learn in this course?
 Upon successful completion of the course, you should be able to:
 - Implement and use basic algorithms and data structures
