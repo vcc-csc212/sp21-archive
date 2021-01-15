@@ -5,13 +5,13 @@ order: 2
 permalink: /prep/
 ---
 
-This contains some resources you may find useful in preparing for the course. I've set up the following categories:
-- Learning/refreshing [C++ Programming](#cpp) 
-- Learning/refreshing [C++ Pointers and Memory](#pointers) 
-- Learning/refreshing [OOP](#oop) 
-- Learning/refreshing [Math](#math)
-- Quick [Reference Sites & Cheat sheets](#quick)
-- [Add my own suggestion](#suggestions)
+This contains some resources you may find useful in preparing for the course. I've set up the following categories:  
+✔️ [Learning/refreshing C++ Programming](#cpp)  
+✔️ [Learning/refreshing C++ Pointers and Memory](#pointers)  
+✔️ [Learning/refreshing OOP](#oop)  
+✔️ [Learning/refreshing Math](#math)  
+✔️ [Quick Reference Sites & Cheat sheets](#quick)  
+✔️ [Add my own suggestion](#suggestions)  
 
 ***
 
