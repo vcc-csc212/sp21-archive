@@ -1,5 +1,5 @@
 ---
-title: Course Policies
+title: Policies
 category: About / Syllabus
 order: 4
 permalink: /policies/
