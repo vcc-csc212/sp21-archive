@@ -83,6 +83,6 @@ There are [6 types of assignments](/assignment-types) that will allow you to dem
 
 > Please note the following:
 - Demonstrating a higher level of knowledge on a topic automatically demonstrates the previous levels (i.e., if you demonstrate `understanding`, you also demonstrate `awareness`)
-- Technically, the final projet is optional
+- Technically, the final project is optional
 - However, doing a final project is the only way to get an A (or a B if you missed other assignments)
 - In theory, you *could* pass the course by only doing a massive final project that covers all 13 non-negotiables perfectly (not recommended)
