@@ -9,7 +9,10 @@ Data structures and algorithms is arguably **the most important course you'll ta
 
 #### What will I learn in this course?
 Upon successful completion of the course, you should be able to:
-- Implement and use basic algorithms and data structures
+- Implement code using pointers and dynamic memory allocation
+- Implement solutions that involve recursive functions
+- Implement sorting algorithms and understand their performance under different scenarios
+- Implement and use basic algorithms, data structures, and containers
 - Implement algorithmic solutions using the appropriate data structures and algorithms 
 - Compare different algorithms and data structures based on efficiency, using empirical and theoretical algorithm analysis techniques
 
