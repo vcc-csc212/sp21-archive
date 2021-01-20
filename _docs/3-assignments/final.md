@@ -1,7 +1,7 @@
 ---
 title: Final Project & Exam
 category: Assignments
-order: 4
+order: 3
 permalink: /final/
 ---
 It's never too early to start thinking about a final project! Final projects are a completely open-ended opportunity for you to demonstrate your deepest understanding of whatever topics you'd like. Final projects are **due Thursday, May 6th @ 3:30pm** (two weeks after classes end). 
