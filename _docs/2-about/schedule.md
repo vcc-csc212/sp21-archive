@@ -1,7 +1,7 @@
 ---
 title: Schedule
 category: About / Syllabus
-order: 5
+order: 6
 permalink: /schedule/
 ---
 Each time we meet for lab or lecture, you'll be learning a new topic. **We move incredibly fast so don't fall behind**. [Non-negotiable](/grading) topic items are `formatted as so`.

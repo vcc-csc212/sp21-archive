@@ -1,7 +1,7 @@
 ---
 title: Types of Assignments
-category: Assignments
-order: 1
+category: About / Syllabus
+order: 4
 permalink: /assignment-types/
 ---
 There are 6 types of assignments that will allow you to demonstrate your knowledge on the topics in the course. Each assignment will have clear grading guidelines to allow you to determine what constitutes achiveing a certain level of [knowledge demonstration](/grading#knowledge-levels) (awareness/understanding/competence/mastery):
