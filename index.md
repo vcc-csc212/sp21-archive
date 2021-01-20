@@ -5,7 +5,7 @@ title: Welcome!
 Data structures and algorithms is arguably **the most important course you'll take** in Computer Science. From [getting internships and job offers](https://github.com/cassidoo/getting-a-gig) to [preparing for advanced courses](https://www.synergisticit.com/how-data-structures-and-algorithms-are-important-for-computer-science-graduates/), understanding data structures and algorithms is what differentiates programmers and coders from computer scientists and engineers.
 
 #### Navigating ths site
-This site will be used to house all non-confidential course information such as [prep material](/prep), [syllabus](/staff), and [assignment descriptions](/assignment-types). Use the sidebar on the left to view the pages.
+This site will be used to house all non-confidential course information such as [prep material](/prep), [syllabus](/staff), and [assignment descriptions](/assignment-types). Use the sidebar on the left (right if on mobile view) to view the pages.
 
 #### Meeting Times and Format
 Lecture
