@@ -11,7 +11,8 @@ On this page:
 ✔️ [Accommodations](#accommodations)  
 ✔️ [Academic Support Services](#support)  
 ✔️ [Anti-Bias](#abt)  
-✔️ [Covid Safety](#covid)  
+✔️ [Covid Safety](#covid)
+✔️ [Religious Holidays](#rh)  
 
 #### Expectations {#expectations}
 > **TLDR:** Be a responsible adult and a good human being.
@@ -81,3 +82,5 @@ Following the University’s quarantine and isolation requirements
  
 If you are already on campus and start to feel ill, you need to remove yourself from the public and notify URI Health Services via phone immediately at 401-874-2246 and go home/back to your room and self-isolate while you await direction from Health Services.
 
+#### Religious Holidays {#rh}
+If you'll missing class or lab to observe a religious holiday, please email me in advance.
