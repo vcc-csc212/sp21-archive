@@ -21,13 +21,24 @@ My name is Victoria C. Chávez (they/she) and I’m excited to be your instructo
 ##### Contact Info
 
 Email
-: vcchavez [at] uri [dot] edu 
+: Please only email me (vcchavez [at] uri [dot] edu) with personal questions or requests. For all logistics or assignment questions contribute to our collective knowledgebase on [Piazza]( https://piazza.com/uri/spring2021/csc212/).
 
 Hours
 : Open availabilty before and after class on Tuesdays and Thursdays.
 
 #### About your TAs {#tas}
-> More info coming soon1!
+Christian
+: (info coming soon)
+
+Kayla
+: (info coming soon)
+
+Savannah
+: (info coming soon)
+
+Zach
+: (info coming soon)
+
 
 #### Hours {#hours}
 Student hours (also called help hours, office hours, or simply hours for short) are an opportunity for you to **engage with your professors and TAs outside of course meeting times**. They're a place where you can **receive support, resources, and chat about the course, department, or major**. 
@@ -68,8 +79,10 @@ Here are some things I personally enjoy talking about:
 ✔️ Dogs & Pets (show me your pets!)
 
 #### Hours Schedule {#sched}
-Prof. Chávez
-: Open availabilty before and after class on Tuesdays and Thursdays. Email me to set up a time.
+> More hours coming soon!
 
-TAs
-: Coming soon
+Thursdays
+: 1:00pm-3:00pm ET
+
+Schedule a time:
+: Prof Chávez has open availabilty before and after class on Tuesdays and Thursdays. Email them to set up a time.
