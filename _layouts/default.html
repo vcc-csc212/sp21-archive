@@ -36,18 +36,17 @@
 					</li>
 					{% assign grouped = site.docs | group_by: 'category' %}
 					{% for group in grouped %}
+					{% if group.name != "" %} <!--  hides assignment descs from nav -->
 						<li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
 							{% assign items = group.items | sort: 'order' %}
 							<a class = "collapsible" href="#" onclick="return false;">+ {{ group.name }}</a> 
-							<!-- <a href="{{ site.baseurl }}{{ items.first.url }}">{{ group.name }}</a> -->
 							<ul>
 								{% for item in items %}
-									{% unless item.asg %} <!-- hides assignment descs from nav-->
-										<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-									{% endunless %}
+									<li class="nav-item {% if item.url == page.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
 								{% endfor %}
 							</ul>
 						</li>
+						{% endif %}
 					{% endfor %}
 				</ul>
 			</nav>
