@@ -81,19 +81,22 @@ Here are some things I personally enjoy talking about:
 #### Hours Schedule {#sched}
 > More hours & Zoom links coming soon!
 
-Mondays
+Mondays:
 : 10:00am-11:00am ET (Zach)  
 12:00pm-2:00pm ET (Kayla)
 
-Wednesdays
+Wednesdays:
 : 2:00pm-4:00pm ET (Zach)
 
-Thursdays
+Thursdays:
 : 1:00pm-3:00pm ET (Savannah)
 
-Fridays
+Fridays:
 : 9:00am-11:00am ET (Zach)  
 12:00pm-2:00pm ET (Kayla)
+
+Async help:
+: Remember you can ask questions and contribute to our collective knowledgebase using [Piazza](https://piazza.com/uri/spring2021/csc212)!
 
 Schedule a time:
 : Prof Chávez has open availabilty before and after class on Tuesdays and Thursdays. Email them to set up a time.
