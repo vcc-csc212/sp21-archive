@@ -21,7 +21,7 @@ My name is Victoria C. Chávez (they/she) and I’m excited to be your instructo
 ##### Contact Info
 
 Email
-: Please only email me (vcchavez [at] uri [dot] edu) with personal questions or requests. For all logistics or assignment questions contribute to our collective knowledgebase on [Piazza]( https://piazza.com/uri/spring2021/csc212/).
+: Please only email me (vcchavez [at] uri [dot] edu) with personal questions or meeting requests. For all logistics or assignment questions contribute to our collective knowledgebase on [Piazza]( https://piazza.com/uri/spring2021/csc212/).
 
 Hours
 : Open availabilty before and after class on Tuesdays and Thursdays.
@@ -79,10 +79,21 @@ Here are some things I personally enjoy talking about:
 ✔️ Dogs & Pets (show me your pets!)
 
 #### Hours Schedule {#sched}
-> More hours coming soon!
+> More hours & Zoom links coming soon!
+
+Mondays
+: 10:00am-11:00am ET (Zach)  
+12:00pm-2:00pm ET (Kayla)
+
+Wednesdays
+: 2:00pm-4:00pm ET (Zach)
 
 Thursdays
-: 1:00pm-3:00pm ET
+: 1:00pm-3:00pm ET (Savannah)
+
+Fridays
+: 9:00am-11:00am ET (Zach)  
+12:00pm-2:00pm ET (Kayla)
 
 Schedule a time:
 : Prof Chávez has open availabilty before and after class on Tuesdays and Thursdays. Email them to set up a time.
