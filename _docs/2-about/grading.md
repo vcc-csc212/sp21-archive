@@ -75,6 +75,7 @@ There are [6 types of assignments](/assignment-types) that will allow you to dem
 	- Wet toes
 	- Labs
 	- Exams
+	- Deep dives
 - `Competence` can be demonstrated via: 
 	- Deep dives
 	- Labs
