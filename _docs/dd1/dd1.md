@@ -7,38 +7,41 @@ permalink: /dd1/
 On this page:  
 ✔️ [Motivation](#motivation)  
 ✔️ [Background Info](#bgi)  
-✔️ [Assignment Description](#desc)  
+✔️ [Your Task](#task)  
 ✔️ [Requirements](#reqs)  
 ✔️ [Handing in](#submit)  
+✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide a **review of basic tasks using** C++, such as:  
+The goal of this deep dive is to provide a **review of basic C++ tasks and OOP principles**, such as:  
 ✔️ processing command line arguments  
 ✔️ reading/writing files  
 ✔️ manipulating data with arrays and matrices  
 ✔️ using an object oriented design
 
+---
+
 #### Background Info {#bgi}
+For this deep dive, you'll be writing a program that can be used as a command line tool to perform image binarization. Your program will even give the user some options to customize their image binarization!
 
-##### Image Binarization - what is it?
+> **Slow down, what's a command line?** A command line interface (aka CLI) is a device for text input and output from programs. Portrayed in media as a black screen with green text that hackers use. It's not as daunting as it seems and you should get familiar with it, because it simplifies a lot of tasks. To learn more, check out: [MIT's Missing Semester Shell Unit](https://missing.csail.mit.edu/2020/course-shell/), [Intro to the Terminal (for Macs)](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line), or [Intro to PowerShell (for Windows)](https://programminghistorian.org/en/lessons/intro-to-powershell).
 
+##### What is image binarization?
 In computer vision, *image binarization*, a.k.a. *thresholding* is the process of taking a grayscale image and converting it into a black and white image.  In grayscale images, every pixel represents an intensity value ranging from 0 (black) to 255 (white).  In black and white images, every pixel is either 0 or 255.  Intensity refers to the brightness of a color, white is the brightest and therefore the most intense, black is the darkest and the least intense.  The figure below shows an example of image binarization:
 
-![Image Binarization Example](binarization.jpg)
+![Image Binarization Example](imgs/binarization.jpg)
 
-##### Image Binarization - where is it used? 
-A popular application of thresholding is recreating the effects from Andy Warhol's Pop Art or Obama's 2008 Hope poster by Shepard Fairey. While these posters were done by hand, using thresholding, we can create an algorithm that does the same. Nowadays, there are many online converters that will take an image and convert it to the likes of these iconic pieces. We'll be doing the black and white 
+##### Thresholding IRL
+A popular application of (color) thresholding is recreating the effects from Andy Warhol's Pop Art or Obama's 2008 Hope poster by Shepard Fairey. While these posters were done by hand, using color thresholding, we can create an algorithm that does the same. Nowadays, there are many online converters that will take an image and convert it to the likes of these iconic pieces. For simplicity's sake, we'll be doing the more simple black and white thresholding but you're welcome to [explore color thresholding](https://www.ecosia.org/search?q=color+thresholding) on your own!
 
-![Andy Warhol's Marilyn Monroe Pop Art Poster](warhol.jpg) 
+![Andy Warhol's Marilyn Monroe Pop Art Poster](imgs/warhol.jpg) 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-![Obama's 2008 Hope Poster](obama-hope.jpeg) 
+![Obama's 2008 Hope Poster](imgs/obama-hope.jpeg) 
 
-It's important to note that pixel values are stored in a matrix. While matrices don't have to be perfect squares (i.e., 2x2, 3x3, 10x10), for the purpose of this assignment, we'll only be working with perfect squares.
-
-> **Slow down, what's a matrix?** You can visualize a matrix as a grid. 2D matrices aka 2D arrays are composed of some number of arrays inside another array. To access the element stored at row 2 column 3, you’d say `myMatrix[2][3]`. Want more info on matrices before continuing? Check out this [Multidimensional Arrays Tutorial](https://www.learncpp.com/cpp-tutorial/multidimensional-arrays/).
-
-##### Image Binarization - how does it work?
 ##### Global Thresholding
+It's important to note that pixel values for an image are stored in a matrix. Matrices don't have to be perfect squares (i.e., 2x2, 3x3, 10x10), and while all most of our examples below are perfect squares, your program should work on images of any dimensions (perfect squares or not).
+
+> **Slow down, what's a matrix?** You can visualize a matrix as a grid. 2D matrices (aka 2D arrays) are composed of some number of arrays inside another array. To access the element stored at row 2 column 3, you’d say `myMatrix[2][3]`. Want more info on matrices before continuing? Check out this [Multidimensional Arrays Tutorial](https://www.learncpp.com/cpp-tutorial/multidimensional-arrays/).
 
 The process of image binarization can be done by comparing each pixel within the input image against a predefined threshold `T`, and deciding whether each individual pixel gets turned white or black.  Pixels whose intensity is less than `T` become black, all others become white.  
 
@@ -58,9 +61,7 @@ for each pixel A[i][j] in A do
 endfor
 ```
 
-The value of `T` can be automatically calculated by using a function.  For example, `T` can be the average intensity, or the median of all pixels.  There are hundreds of different ways for calculating `T`, often involving statistical measures.  As you can imagine, the choice of `T` has strong implications on the quality of the final image, which is also dependent on the complexity of the image.  Some methods will work well only with certain types of images.
-
-> For the purpose of this assignment, a global value of `T` must be calculated using the `median` value of all pixels in the input image
+The value of `T` can be automatically calculated by using a function.  For example, `T` can be the average intensity, or the median of all pixels.  There are hundreds of different ways for calculating `T`, often involving statistical measures.  
 
 ##### Local Thresholding
 
@@ -82,40 +83,70 @@ endfor
 
 As an illustration, the figure below shows an example of applying local thresholding.  The example uses the `median` as the metric for deciding the new value of a pixel.
 
-> Note that when calculating the neighborhood of pixels at the edges, where the neighborhood is not a perfect fit, we ignore all pixels that fall outside the boundaries of the image.  In the illustration below, this is the case of the pixel at position `[0,0]` highlighted in orange.
+![Image Binarization](imgs/local-thresholding.jpg)
 
-![Image Binarization](local-thresholding.jpg)
+> Note that when calculating the neighborhood of pixels at the edges, where the neighborhood is not a perfect fit, we ignore all pixels that fall outside the boundaries of the image.  In the illustration above, this is the case of the pixel at position `[0,0]` highlighted in orange.
 
-#### Assignment Description {#desc}
+#### Thresholding gone wrong
+If you're paying attention and understanding the concept of thresholding so far, you'll recognize that the choice of `T` has strong implications on the quality of the final image.  Not all methods of tresholding will work well with all images and understanding what methods work best for your image (or set of images) is crucial.
 
-Your goal in this assignment is to develop a command line tool that performs image binarization, given some options provided by the user. 
+Below is an example of thresholding gone wrong. Notice how in the last image, two of the objects and part of the third completely disappear:
 
-##### Command Line Arguments
+[![Example of thresholding removing objects from the image altogether](imgs/bad-thresholding.jpg)](https://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic3.htm)
 
-Your program must accept the following command line arguments:
+The implications of these types of miscalculations in computer science are far reaching and can lead to issues such as:
+- Infra-red light from a soap dispense not recognizing dark-skinned hands ([read more](https://www.mic.com/articles/124899/the-reason-this-racist-soap-dispenser-doesn-t-work-on-black-skin)).
+- Facial recognition software not recognizing dark-skinned faces ([quick video](https://www.youtube.com/watch?v=162VzSzzoPs)).
+- Self-driving cars being more likely to hit folks with dark skin ([read more](https://www.technologyreview.com/2019/03/01/136808/self-driving-cars-are-coming-but-accidents-may-not-be-evenly-distributed/)).
+
+The code that you write as computer scientists, (software) engineers, and programmers has real-life consequences that can unintentionally harm people. Keep this in mind as you code because code isn't objective or siloed.
+
+---
+
+#### Your Task {#task}
+
+Your goal in this assignment is to develop a command line tool that performs image binarization, given some options (described below) provided by the user. Your program will do both global and local thresholding, depending on the user's arguments.
+
+- For **global thresholding**, your program should use the `median` of all pixels for the value of `T`.
+- For **local thresholding**, your program should use `adib` for value of `T[i,j]`, as calculated by the following formula: `T[i,j] = m(i,j) * (1 + k * ((s(i,j)/r)-1))` where:
+    - `m` is the mean of the local neighborhood centered at pixel (i,j)
+    - `s` is the standard deviation of the local neighborhood centered at pixel (i,j)
+    - `k` is 0.2
+    - `R` is `0.5 * (pmax-pmin)`
+    - `pmax` is the maximum pixel value in the **entire** image
+    - `pmin` is the minimum pixel value in the **entire** image
+
+Below is an image of the formula with better formatting. This formula is from the paper [*Adaptive document image binarization*](https://doi.org/10.1016/S0031-3203(99)00055-2) by Sauvola and PietikaKinen, 2000.
+
+![Image Binarization](imgs/formula.png)
+
+---
+
+**The options for the user** will be provided via the following **command line arguments**:
+
 ```text
 <type>      either 'local' or 'global'
 <in_fname>  name of the input file
 <out_fname> name of the output file
 [<size>]    size of the neighborhood
 ```
-The last argument is optional, and must be provided **only** when `<type>` is `'local'`.  For example, see below a few examples of how to use your tool.  Note that the correct order of command line arguments is very important.
+The last argument is optional, and must be provided **only** when `<type>` is `'local'`.  For example, see below for a few examples of how to use your tool.  Note that the **correct order of command line arguments is very important**.
+
 ```text
-$ ./binarizer global cover.img cover_glo.img
-$ ./binarizer local cover.img cover_loc_5.img 5
-$ ./binarizer local cover.img cover_loc_7.img 7
-$ ./binarizer local cover.img cover_loc_15.img 15
+$ ./prog global cover.img cover_glo.img
+$ ./prog local cover.img cover_loc_5.img 5
+$ ./prog local cover.img cover_loc_7.img 7
+$ ./prog local cover.img cover_loc_15.img 15
 ```
+> If you haven't created C++ programs with command line arguments or need a refresher on how to do so, please read [this tutorial](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/) and/or watch [this video](https://www.youtube.com/watch?v=h2LGTzQXzJU).
 
->- The value of `T` for global thresholding must be the `median` of all pixels
->- The value of `T[i,j]` for local thresholding must be `adib`, given by the formula below.  This formula is from the paper *Adaptive document image binarization* by Sauvola and PietikaKinen, 2000.
+---
 
-![Image Binarization](formula.png)
+**The images users will give you and that you will generate** will be in the `img` format, using the `.img` extension and formatted as follows: Each image is encoded as a matrix of pixel values where each pixel value is a grayscale intensity, an integer ranging from 0 to 255.   
 
-##### Image file format
+When loading or saving images, each `img` file must be a **text file** where pixels values are separated by a single whitespace, and organized in `n` rows and `m` columns (the image dimensions).  For example, here is one file with 10 rows and 8 columns: 
 
-Each image is encoded as a matrix of pixel values where each pixel value is a grayscale intensity, basically an integer ranging from 0 to 255.  Lets call this format as the `img` format and use the extension `.img` for such files.  Within your program, you can represent an image either as a bidimensional array, or as an unidimensional array and design your algorithms properly.  When loading or saving images, each `img` file must be a `text file` where pixels values are separated by a single whitespace, and organized in `n` rows and `m` columns (the image dimensions).  For example, here is one file with 10 rows and 8 columns.  We prepared a few conversion scripts that can help you test your program with real-world examples, please refer to [this document](./examples).
-```
+```text
 121 24 149 1 173 251 10 38 
 97 137 153 92 40 93 9 149 
 138 136 128 18 66 109 16 138 
@@ -126,21 +157,62 @@ Each image is encoded as a matrix of pixel values where each pixel value is a gr
 43 85 167 158 28 207 17 165 
 14 150 49 205 79 86 216 8 
 88 78 159 41 66 227 84 80 
-```
-> Note that every pixel value is separated by a **single** whitespace.  There should not be any trailing whitespaces.
+``` 
+Note that every pixel value is separated by a **single** whitespace.  There should **no trailing whitespaces.**
 
-#### Submission and Grading
+> **Implementation Note:** Within your program, you can represent an image either as a bidimensional array, or as an unidimensional array and design your algorithms accordingly. 
 
-Your submission will be tested and graded by an autograder, for this reason it cannot be stressed enough that your program must *exactly* follow the specifications for input and output upon submission.  Please use `main.cpp` as the single name for your program.  We expect you to design your own **functions** and **classes** to model this problem, and all should be within the same file.  Your program will be compiled with the following line:
+We prepared a few conversion scripts that can help you test your program with real-world examples, please refer to [this repl.it](https://repl.it/@VictoriaChvez/212-ib-examples) and feel free to fork it or download it to test your own images.
 
-```bash
-$ g++ -std=c++11 -Wall main.cpp -o prog
-```
-
-> You are required to use `double` as the default datatype for the pixels and the terms in all formulas, this is necessary to obtain a final image consistent with the autograder.
-
-To submit your solution to Gradescope, simply select `main.cpp` and use the `drag and drop` option.
-
-> :heavy_exclamation_mark: You must be reminded that students caught cheating or plagiarizing will receive `no credit`. Additional actions, including a failing grade in the class or referring the case for disciplinary action, may also be taken.
 ---
-Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/)
+
+#### Requirements {#reqs}
+Your submission will be **tested and graded by an autograder**, for this reason it cannot be stressed enough that your program must **exactly** follow the assignment specifications:  
+
+1. Use `double` as the default datatype for the pixels and the terms in all formulas
+2. Use `main.cpp` as the single filename for your program.  
+3. You should receive **no warning or error messages** upon compilation with the **exact following command**
+    ```bash
+    $ g++ -std=c++11 -Wall main.cpp -o prog
+    ```
+4. Your command line program should use the following arguments, in this exact order:
+    ```text
+    <type>      either 'local' or 'global'
+    <in_fname>  name of the input file
+    <out_fname> name of the output file
+    [<size>]    size of the neighborhood
+    ```
+5. Use **functions and classes** to abstract your program, per OOP guidelines, but have everything in the same **file**. Name that file `main.cpp`
+6. For **local thresholding**, use `adib` formula for value of `T[i,j]`, as defined in the previous section
+7. For **global thresholding**, use the `median` of all pixels for the value of `T`.
+
+**BEFORE HANDING IN:** Test that your program works by compiling your program with the command in Requirement #3. Successful execution of this command should create an exectuable file named `prog`, which you should be able to execute using the arguments as outlined in Requirement #4 (example uses below).
+
+```text
+$ ./prog global cover.img cover_glo.img
+$ ./prog local cover.img cover_loc_5.img 5
+$ ./prog local cover.img cover_loc_7.img 7
+$ ./prog local cover.img cover_loc_15.img 15
+```
+
+---
+
+#### Handing in {#submit}
+To submit your solution to Gradescope, simply select `main.cpp` and use the *drag and drop* option.
+
+---
+
+#### Grade Breakdown {#grading}
+This assignment covers the **pre-requisite topics of C++ and OOP basics** and your level of knowledge on them will be assessed as follows: 
+- To demonstrate an `awareness` of these topics, you must:
+    - Successfully meet [requirements](#reqs) **1 thorugh 3**
+- To demonstrate an `understanding` of these topics, you must:
+    - Successfully meet [requirements](#reqs) **1 through 6**
+- To demonstrate `competence` of these topics, you must:
+    - Successfully meet [requirements](#reqs) **1 through 7**
+
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+
+---
+
+Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.
