@@ -10,8 +10,8 @@ Data structures and algorithms is arguably **the most important course you'll ta
 #### Navigating ths site
 This site will be used to house all non-confidential course information such as [prep material](/prep), [syllabus](/staff), and [assignments](/todo). Use the sidebar on the left (right if on mobile) to view the pages, scroll down for all **important links** (such as Zoom).
 - We will **not be using** Brightspace 
-- We will be using Piazza for announcements and Q&A
-- We will be using Zoom for all lecture, lab, and hours meetings (find links below)
+- We will be using **Piazza** for announcements and Q&A
+- We will be using **Zoom** for all lecture, lab, and hours meetings (find links below)
 	- You must be **logged in to Zoom using your URI address to access any Zoom meeting**.
 
 #### Important Links
