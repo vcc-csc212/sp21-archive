@@ -8,7 +8,7 @@ Each time we meet for lab or lecture, you'll be learning a new topic. **We move 
 
 As a reminder, we meet **virtually on Tuesdays and Thursdays 3:30pm - 4:45pm ET** and you have **lab on Wednesdays**, also virtually, at either **10:00am - 11:45am ET or 12:00pm - 1:45pm ET**.
 
-| Week | Tuesday (Lecture) | Wednesay (Lab) | Thursday (Lecture) |
+| Week | Tuesday (Lecture) | Wednesday (Lab) | Thursday (Lecture) |
 | ----------- | ----------- | ----------- | ----------- |
 | 1 | Intro & Setup | C++ Crash Course | Essential Math Overview |
 | 2 | ` Intro to Analysis of Algos ` | Recursion revisited | Recurrence Relations |
