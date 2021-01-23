@@ -7,13 +7,13 @@ permalink: /staff/
 On this page:  
 ✔️ [About your instructor](#vcc)  
 ✔️ [About your TAs](#tas)  
-✔️ [Hours](#hours)  
+✔️ [Help Hours](#hours)  
 ✔️ [Hours Schedule](#sched)
 
 #### About your instructor {#vcc}
 My name is Victoria C. Chávez (they/she) and I’m excited to be your instructor for this course! You may call me Victoria or Professor Chávez, whichever you prefer. I am excited to get to meet you all and I'm looking forward to this semester!
 
-![cropped headshot of Prof. Chávez](/2-about/vcc.jpg)
+![cropped headshot of Prof. Chávez](/2-about/imgs/vcc.jpg)
 : I was born and raised in Chicago, I’m Guatemalan, and I now call Rhode Island home. I have a Bachelor’s in Computer Science and a Master’s focusing on Computer Science Education. I’ve worked as a Software Engineer at Twitter and Microsoft, and I’ve taught middle, high school, and college level Computer Science courses. This is my fourth semester at URI and my second as a Lecturer (full-time faculty).
 
 **A note on pronounciation:** The correct way to say last name is with a **hard "ch"** (like in "chimichanga") and with **emphasis on the "a"** not "vez".
@@ -24,21 +24,28 @@ Email
 : Please only email me (vcchavez [at] uri [dot] edu) with personal questions or meeting requests. For all logistics or assignment questions contribute to our collective knowledgebase on [Piazza]( https://piazza.com/uri/spring2021/csc212/).
 
 Hours
-: Open availabilty before and after class on Tuesdays and Thursdays.
+: Open availabilty before and after class on Tuesdays and Thursdays. Email me to set up a time.
 
 #### About your TAs {#tas}
 Christian
 : (info coming soon)
 
+---
+
 Kayla
 : (info coming soon)
 
-Savannah
-: (info coming soon)
+---
+
+![cropped headshot of Savannah](/2-about/imgs/savannah.jpeg) 
+: **Savannah**: I am a sophomore here studying Computer Science. I’m currently an intern at the Wearable Biosensing Lab at URI. I love to be with my two dogs Bailey and Sophie. I can’t wait to meet you all!
+<br><br>
+**You'll see me:** In lab and at hours on Thursdays.
+
+---
 
 Zach
 : (info coming soon)
-
 
 #### Hours {#hours}
 Student hours (also called help hours, office hours, or simply hours for short) are an opportunity for you to **engage with your professors and TAs outside of course meeting times**. They're a place where you can **receive support, resources, and chat about the course, department, or major**. 
@@ -79,7 +86,7 @@ Here are some things I personally enjoy talking about:
 ✔️ Dogs & Pets (show me your pets!)
 
 #### Hours Schedule {#sched}
-> More hours & Zoom links coming soon!
+> To join an hours session, log on to your URI Zoom account and join [this meeting](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09)
 
 Mondays:
 : 10:00am-11:00am ET (Zach)  
