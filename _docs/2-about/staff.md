@@ -91,7 +91,8 @@ Here are some things I personally enjoy talking about:
 ✔️ Dogs & Pets (show me your pets!)
 
 #### Hours Schedule {#sched}
-> To join an hours session, log on to your URI Zoom account and join [this meeting](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09)
+> To join an hours session, log on to your URI Zoom account and join [this meeting](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09).  
+Trouble logging in? Watch [this 30 second video demo](https://youtu.be/XYM-nMXAiRY).
 
 Mondays:
 : 10:00am-11:00am ET (Zach)  

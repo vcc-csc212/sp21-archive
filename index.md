@@ -11,7 +11,9 @@ This site will be used to house all non-confidential course information such as 
 - We will **not be using** Brightspace 
 - We will be using **Piazza** for announcements and Q&A
 - We will be using **Zoom** for all lecture, lab, and hours meetings (find links below)
-	- You must be **logged in to Zoom using your URI address to access any Zoom meeting**.
+	- You must be **logged in to Zoom using your URI address to access any Zoom meeting**. 
+	- Use **SSO** (single sign-on) and when asked for a domain, use **uri-edu**.
+	- Trouble logging in? Watch [this 30 second video demo](https://youtu.be/XYM-nMXAiRY).
 
 ---
 
@@ -25,7 +27,8 @@ This site will be used to house all non-confidential course information such as 
 [Piazza](http://piazza.com/uri/spring2021/csc212)
 : Forum for **announcements and Q&A**.
 
-> You must be **logged in to Zoom using your URI address to access any Zoom meeting:**
+> You must be **logged in to Zoom using your URI address to access any Zoom meeting.**  
+Trouble logging in? Watch [this 30 second video demo](https://youtu.be/XYM-nMXAiRY).
 
 [Join Lecture Zoom](https://uri-edu.zoom.us/j/95414158050?pwd=TlhFS2h0OWVUaUJXN0xCVUg5RkR6Zz09)
 : For **class** meetings on Tuesdays and Thursdays.  
