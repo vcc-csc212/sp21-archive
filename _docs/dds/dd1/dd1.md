@@ -183,8 +183,8 @@ Your submission will be **tested and graded by an autograder**, for this reason 
     [<size>]    size of the neighborhood
     ```
 5. Use **functions and classes** to abstract your program, per OOP guidelines, but have everything in the same **file**. Name that file `main.cpp`
-6. For **local thresholding**, use `adib` formula for value of `T[i,j]`, as defined in the previous section
-7. For **global thresholding**, use the `median` of all pixels for the value of `T`.
+6. For **global thresholding**, use the `median` of all pixels for the value of `T`.
+7. For **local thresholding**, use `adib` formula for value of `T[i,j]`, as defined in the previous section.
 
 **BEFORE HANDING IN:** Test that your program works by compiling your program with the command in Requirement #3. Successful execution of this command should create an exectuable file named `prog`, which you should be able to execute using the arguments as outlined in Requirement #4 (example uses below).
 

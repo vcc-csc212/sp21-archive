@@ -34,6 +34,15 @@
 						{% assign home = site.html_pages | where: 'url', '/' | first %}
 						<a href="{{ site.baseurl }}/">{{ home.title }}</a>
 					</li>
+					<li class="nav-item top-level {% if page.url == '/todo' %}current{% endif %}">
+						{% assign todo = site.pages | where: 'name', 'todo.md' | first %}
+						<a href="{{ todo.url }}">{{ todo.title }}</a>
+					</li>
+					<li class="nav-item top-level {% if page.url == '/links' %}current{% endif %}">
+						{% assign links = site.pages | where: 'name', 'links.md' | first %}
+						<a href="{{ links.url }}">{{ links.title }}</a>
+					</li>
+
 					{% assign grouped = site.docs | group_by: 'category' %}
 					{% for group in grouped %}
 					{% if group.name != "" %} <!--  hides assignment descs from nav -->
