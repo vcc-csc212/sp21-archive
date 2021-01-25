@@ -15,6 +15,8 @@ We don't get a lot of time together so why use that precious time to tell you th
 ##### *At home:*
 You must **complete the material before class** and come in to class **with questions** if you have them (and you should have them). The more questions you have, the more help I can be! **Take good notes** as you read-- you'll thank yourself later!
 
+As a firm believer in [Universal Design for Learning](http://udlguidelines.cast.org/) (UDL), I will try my best for “reading” material to be varied across both readings and videos. That being said, a lot of the material will seem repetitive— while you are more than welcome to read and watch every single item, you won’t need to in order to be able to answer the essential questions for any given unit. The goal is for you to have the same information presented in different forms, so you are able to become comfortable with the key concepts and have a thorough grasp of the essential questions, in whatever medium best suits you.  Furthermore, if you are reading this, email me your favorite 2020 meme by the end of the second week of classes to receive a custom, limited edition, and soon to be highly-coveted certificate of recognition. 
+
 ##### *In class:*
 **Ask questions**! Learning happens when you engage with the material and that means asking clarifying questions, application questions, and extension questions. There's **no such thing as a dumb question**.
 
