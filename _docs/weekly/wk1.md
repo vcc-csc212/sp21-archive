@@ -7,7 +7,7 @@ permalink: /wk1/
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday 1/26](#tues)  
-✔️ [Pre-reading for Thursday 1/28](#thurs)
+✔️ [Pre-reading for Thursday 1/28](#thurs) (coming soon)
 
 ---
 
