@@ -37,15 +37,20 @@ Kayla
 
 ---
 
-![cropped headshot of Savannah](/2-about/imgs/savannah.jpeg) 
-: **Savannah**: I am a sophomore here studying Computer Science. I’m currently an intern at the Wearable Biosensing Lab at URI. I love to be with my two dogs Bailey and Sophie. I can’t wait to meet you all!
+![cropped headshot of Savannah](/2-about/imgs/savannah.jpg) 
+: **Savannah**: I am a sophomore here studying Computer Science. I’m currently an intern at the Wearable Biosensing Lab at URI. I love to be with my two dogs Bailey and Sophie. 
 <br><br>
-**You'll see me:** In lab and at hours on Thursdays.
+**You'll see me:** In lab and at hours on Thursdays. I can’t wait to meet you all!
+<br><br>
 
 ---
 
-Zach
-: (info coming soon)
+![cropped headshot of Zach](/2-about/imgs/zach.jpg) 
+: **Zach**: I am from Hershey, Pennsylvania. I am currently finishing my last semester of senior year majoring in Computer Science with a minor in Cyber Security. This year I am a captain of the URI Mens Club Lacrosse team and once I graduate in the spring I will be moving to North Carolina to work as a software engineer for Fidelity Investments. Besides school some of my interests include snowboarding, reading, and calligraphy. 
+<br><br>
+**You'll see me:** At hours. Feel free to utilize my student hours if you need anything or have questions. I'm always happy to help!
+
+---
 
 #### Hours {#hours}
 Student hours (also called help hours, office hours, or simply hours for short) are an opportunity for you to **engage with your professors and TAs outside of course meeting times**. They're a place where you can **receive support, resources, and chat about the course, department, or major**. 
