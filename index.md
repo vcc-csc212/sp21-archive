@@ -1,7 +1,7 @@
 ---
 title: Welcome!
 ---
-> **Scroll down for important information, links to Zoom, and meeting time info!**
+> **Scroll down for important information, links to Zoom, meeting time/exam info, and required materials!**
 
 #### Intro to the course
 Data structures and algorithms is arguably **the most important course you'll take** in Computer Science. From [getting internships and job offers](https://github.com/cassidoo/getting-a-gig) to [preparing for advanced courses](https://www.synergisticit.com/how-data-structures-and-algorithms-are-important-for-computer-science-graduates/), understanding data structures and algorithms is what differentiates programmers and coders from computer scientists and engineers.
@@ -12,6 +12,8 @@ This site will be used to house all non-confidential course information such as 
 - We will be using **Piazza** for announcements and Q&A
 - We will be using **Zoom** for all lecture, lab, and hours meetings (find links below)
 	- You must be **logged in to Zoom using your URI address to access any Zoom meeting**.
+
+---
 
 #### Important Links
 [Flipped Learning](/flipped)
@@ -37,6 +39,8 @@ This site will be used to house all non-confidential course information such as 
 [Join Hours Zoom](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09)
 : To join an **hours session**-- [check schedule first](/staff#sched).  
 
+---
+
 #### Meeting Times and Format
 > Add CSC 212 to your calendar (includes Zoom info): [CSC212.ics](/CSC212.ics)
 
@@ -57,3 +61,19 @@ Midterm
 
 Final
 : Thursday, May 6th, 2021, 3:00pm - 6:00pm ET
+
+---
+
+#### Required Materials
+- There is **no required textbook** for this course. 
+- You’ll need **a computer**.
+	- To complete the programming assignments. If you don’t own one, there are limited computer lab spaces available in Tyler Hall.
+	- We will be doing programming exercises in class so make sure to have access to your computer during this time
+- You’ll need **a computing device with reliable access to the Internet**. 
+	- To access pre-readings and assignments
+	- To join Zoom meetings for class, lecture, and hours 
+- To reduce background noise, I highly recommend using **headphones with a built-in microphone**
+- Please **download Zoom** beforehand and **set up your account**.
+	- To set up your Zoom account, log in using your **URI single sign on**, and set up your profile name and profile picture.
+	- For your profile picture, please **upload a picture of you or something that represents you**. 
+	- If you'd like to **list your pronouns**, you may add them to the "Last Name" field in parentheses.
