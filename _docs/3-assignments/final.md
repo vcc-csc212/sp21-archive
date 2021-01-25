@@ -20,6 +20,9 @@ It's never too early to start thinking about a final project! Final projects are
 
 #### Final Project Requirements
 
+Language
+: Must be written in standard C++. 
+
 Scope
 : Scope of project must be significantly broader than that of an assigned lab or deep dive.
 
