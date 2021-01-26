@@ -29,7 +29,7 @@ Before attending class, please complete the material below:
 - Read about [flipped classrooms](/flipped)
 
 ##### In Class
-In today's class we'll be doing introductions (including an intro survey), going over the course structure, helping you set up your IDE, and running some simple C++ programs to confirm your setup is all set. See class slides (link coming soon).
+In today's class we'll be doing introductions (including an intro survey), going over the course structure, helping you set up your IDE, and running some simple C++ programs to confirm your setup is all set. See [class slides](https://docs.google.com/presentation/d/1ceoCu9s6opk3Q-TCLYq1qMUOyptcG4EKfQNIhWnPlOs/edit?usp=sharing).
 
 ---
 
