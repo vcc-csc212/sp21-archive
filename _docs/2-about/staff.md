@@ -28,7 +28,10 @@ Hours
 
 #### About your TAs {#tas}
 Christian
-: (info coming soon)
+: I’m a Computer Science PhD candidate here at URI. From MA, I earned my BS & MS in Computer Science from UMASS Dartmouth. Most of my free time is spent playing video games, with the occasional adventures to places like Zion National Park, and Antelope Canyon.
+<br><br>
+**You'll see me:** In class, in lab and at hours on Thursdays
+<br><br>
 
 ---
 
@@ -97,6 +100,9 @@ Trouble logging in? Watch [this 30 second video demo](https://youtu.be/XYM-nMXAi
 Mondays:
 : 10:00am-11:00am ET (Zach)  
 12:00pm-2:00pm ET (Kayla)
+
+Tuesdays:
+: 12:00pm–2:00pm ET (Christian)
 
 Wednesdays:
 : 2:00pm-4:00pm ET (Zach)
