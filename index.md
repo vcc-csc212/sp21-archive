@@ -27,6 +27,9 @@ This site will be used to house all non-confidential course information such as 
 [Piazza](http://piazza.com/uri/spring2021/csc212)
 : Forum for **announcements and Q&A**.
 
+[Anon Feedback](https://docs.google.com/forms/d/e/1FAIpQLSeeC80Z4Pv0yBd7vhMfafAHAdl5I-_83qtTNKquztkvMEPKHA/viewform?usp=sf_link)
+: Google Form to **provide feedback anonymously**. Help me improve the course by sharing your **questions, thoughts, comments, and concerns**.
+
 > You must be **logged in to Zoom using your URI address to access any Zoom meeting.**  
 Trouble logging in? Watch [this 30 second video demo](https://youtu.be/XYM-nMXAiRY).
 

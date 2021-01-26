@@ -11,6 +11,9 @@ permalink: /links/
 [Piazza](http://piazza.com/uri/spring2021/csc212)
 : Forum for **announcements and Q&A**.
 
+[Anon Feedback](https://docs.google.com/forms/d/e/1FAIpQLSeeC80Z4Pv0yBd7vhMfafAHAdl5I-_83qtTNKquztkvMEPKHA/viewform?usp=sf_link)
+: Google Form to **provide feedback anonymously**. Help me improve the course by sharing your **questions, thoughts, comments, and concerns**.
+
 > You must be **logged in to Zoom using your URI address to access any Zoom meeting:**
 
 [Join Lecture Zoom](https://uri-edu.zoom.us/j/95414158050?pwd=TlhFS2h0OWVUaUJXN0xCVUg5RkR6Zz09)
