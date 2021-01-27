@@ -43,9 +43,11 @@ To really understand what you'll be doing for this section of the lab, having a 
 
 ##### Opening a New Terminal
 
-> @TODO Since CS50 isn't the default, I'd remove that line and perhaps add one about opening up a terminal on Mac or the Bash Shell on Windows you recommended.
+CS50: If you don't have a terminal already open in your environment, you can create one in the the CS50 IDE by clicking File > New Terminal. Please read [this section](https://cs50.readthedocs.io/ide/online/#working-with-terminals) before moving to the next step.
 
-If you don't have a terminal already open in your environment, you can create one in the the CS50 IDE by clicking File > New Terminal. Please read [this section](https://cs50.readthedocs.io/ide/online/#working-with-terminals) before moving to the next step.
+Mac OS: Run the 'Terminal' program
+
+Windows: If you followed the above steps to install the 'Windows Subsystem for Linux' then run the 'Ubuntu' program to open a terminal.
 
 ##### Making a file
 
@@ -117,9 +119,7 @@ To see where we are, the command `pwd` will print the current directory you are 
 $ pwd
 ```
 
-> @TODO: The result of this command will vary by IDE and folder structure
-
-Should print out `/home/ubuntu`, if at any point you changed directory with the following command your output will be different
+If you are running on 'Ubuntu', it should print out `/home/ubuntu`, if at any point you changed directory with the following command your output will be different. The output of this line will differ based on your environment.
 
 ##### Change Directory
 
@@ -129,9 +129,7 @@ Now that we have made a new directory named `projects` and moved our `hello.cpp`
 $ cd projects/
 ```
 
-> @TODO: The result of this command will vary by IDE and folder structure
-
-Now that we have changed directory, we can execute the earlier commands to validate our position within the file system. Executing `pwd` from this file should output `/home/ubuntu/projects` and executing `ls` should show that there is a file named `hello.cpp` present.
+Now that we have changed directory, we can execute the earlier commands to validate our position within the file system. Executing `pwd` from this file should output `/home/ubuntu/projects` (again, assuming you are running on 'Ubuntu') and executing `ls` should show that there is a file named `hello.cpp` present.
 
 Some useful cd commands:
 ```bash
@@ -161,9 +159,7 @@ The contents of that file would print out to our terminal by running:
 $ cat test.txt
 ```
 
-> @TODO Change/remove CS50 wording
-
-Spend some time with your group to create a text file with some content in it in your CS50 environment and use the `cat` command to report those contents to the console.
+Spend some time to create a text file with some content in it and use the `cat` command to report those contents to the console.
 
 #####  Shell Hints
 
@@ -197,7 +193,8 @@ int main(int argc, char*argv[]){
 }
 ```
 
-> @TODO some resources on c-strings might be useful. Some I found helpful: 
+Here are some resources on C++ Strings:
+
 - https://www.tutorialspoint.com/cplusplus/cpp_strings.htm
 - https://www.youtube.com/watch?v=h2LGTzQXzJU
 - https://eecs280staff.github.io/notes/05_Strings_Streams_IO.html#c-style-strings
@@ -420,7 +417,7 @@ Use what you learned in this lab to complete the following exercises:
 
 3. Add command line arguments to facilitate the following: number_of_animals, {constructor values for each animal to be created}
   - number_of_animals will control a loop that prompts the user for what type of animal they wish to be created (you should have 5 types).
-  - The values will be stored in argv and used when you create each Animal.
+  - The values will be stored in `argv` and used when you create each Animal.
 
   An example:
 
@@ -461,18 +458,21 @@ Use what you learned in this lab to complete the following exercises:
    - `Animal**` is how you will create the array to store the animals in step 3. i.e. `Animal** arr = new Animal*[5];` would create an array that stores 5 animal pointers. Use the `new` keyword to instantiate each animal during run-time!
 
 #### Requirements
-> @TODO Create conrete requirements that can be easily checked off by a TA based on the 4 parts of the exercise and wwrite them in increasing order of difficulty. For example, 1 could be Program compiles with `g++ -std=c++11 -Wall main.cpp -o prog` with no errors or warnings, 2 could be Bird, Hamster, and Snake defined correctly in code, 3 would be functional feature added and justified for all animals, 4 regarding the loop and 5 the CL args (or whatever order you deem for diffculty)
+
+1. 3 additional classes added & program compiles & runs.
+2. Feature added to the `Animal` class then properly propagated to child classes.
+3. Properly converted all command-line arguments to the appropriate type.
+4. Loop the correct # of times based on the given argument.
+5.  Correctly instantiate the user-requested objects.
 
 #### Grade Breakdown
-> @TODO base breakdown off reqs rather than exercises
-
 
    - To demonstrate an `awareness` of these topics, you must:
-     - Complete exercises 1 & 2
+     - Complete exercises 1 & 2.
    - To demonstrate an `understanding` of these topics, you must:
-     - Complete exercises 1 & 2, as well as be able to read/parse the command line arguments in step 3
+     - Complete exercises 1,2, and 3.
    - To demonstrate an `competence` of these topics, you must:
-     - Complete exercises 1, 2, and 3
+     - Complete exercises 1, 2, 3, 4, and 5.
 
 ---
 
