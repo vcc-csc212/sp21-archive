@@ -50,7 +50,7 @@ Before attending class, please complete the material below and use the following
 ##### Read/Watch/Review
 Before attending class, please complete the material below. If your math is rough around the edges, I recommend checking out the [Math Prep Work](/prep#math) posted over break **before** completing the material below.
 - Read [Rules of Exponents](https://www.chilimath.com/lessons/intermediate-algebra/rules-of-exponents/)
-	- Alternatively, for a one-stop shop of Exponents and Logaritmhms, read [Exponentials: Discrete, Real, and Imaginary](https://sites.google.com/site/butwhymath/algebra/eponentials-discrete-real-and-imaginary)
+	- Alternatively, for a one-stop shop of Exponents and Logarithms, read [Exponentials: Discrete, Real, and Imaginary](https://sites.google.com/site/butwhymath/algebra/eponentials-discrete-real-and-imaginary)
 - Read [Logarithms Explained](https://www.chilimath.com/lessons/advanced-algebra/logarithms-explained/)
 - Read [Rules or Laws of Logarithms](https://www.chilimath.com/lessons/advanced-algebra/logarithm-rules/)
 - Read/Watch [Permutations and Combinations](https://www.mathplanet.com/education/algebra-2/discrete-mathematics-and-probability/permutations-and-combinations)
