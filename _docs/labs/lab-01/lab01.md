@@ -1,15 +1,20 @@
-# Lab 01: C++ Crash Course
+---
+title: C++ Crash Course
+asg: Lab 01
+permalink: /lab01/
+---
 
 Welcome to the first CSC 212 lab. Your goal for this lab will be to set up your environment and familiarize yourself with some basic terminal commands. **Be sure to read and follow all instructions unless otherwise specified.**  You'll find the table of contents for this lab below.
 
-1. Introduction
-4. Command-Line Exploration 
-3. Command-Line Arguments
-4. Proper Programming Practices
-5. Object-Oriented Programming
-6. Debugging
+1. [Introduction](#intro)
+4. [Command-Line Exploration](#clexploration)
+3. [Command-Line Arguments](#clarguments)
+4. [Proper Programming Practices](#practices)
+5. [Object-Oriented Programming](#oop)
+6. [Debugging](#debugging)
+7. [Exercise](#exercise)
 
-# Part 1. Introduction
+#### Part 1. Introduction {#intro}
 
 Hopefully you have chosen your C++ IDE for use throughout the semester, have it setup, and are ready to program.
 
@@ -22,22 +27,27 @@ If not, here are some suggestions:
   - Geany
 - Mac OS
   - XCode
+  - VS Code
+- Online
+  - [CS50 IDE](https://ide.cs50.io/)
 
-In lieu of an IDE, feel free to simply use a text editor (I recommend Notepad++) & the terminal commands we'll be covering today.
+In lieu of an IDE, feel free to simply use a text editor (I recommend Notepad++ or Sublime) & the terminal commands we'll be covering today.
 
-The next section will deal with Unix commands, as Unix is a common environment for C++ development. For those of you in a Windows environment, you can install the [Windows Subsystem for Linux] (https://itsfoss.com/install-bash-on-windows/) and gain access to a Unix Shell.
+The next section will deal with Unix commands, as Unix is a common environment for C++ development. For those of you in a Windows environment, you can install the [Windows Subsystem for Linux](https://itsfoss.com/install-bash-on-windows/) and gain access to a Unix Shell.
 
-# Part 2. Basic Unix Command-Line Exploration
+#### Part 2. Basic Unix Command-Line Exploration {#clexploration}
 
 Now that you've set up your environment, we can start to learn some basic UNIX command line. Unix and [Unix-like operating systems](http://www.doc.ic.ac.uk/~wjk/unixintro/Lecture1.html), like Linux, can all use the following commands to interact with [file systems](http://homepages.uc.edu/~thomam/Intro_Unix_Text/File_System.html). Basic tasks like changing directories, creating or modifying files, or removing files all together are just a few examples of things we can do using a Shell terminal.
 
 To really understand what you'll be doing for this section of the lab, having a strong understanding of what a file system is and how we can navigate it will be critically important.
 
-### Opening a New Terminal
+##### Opening a New Terminal
+
+> @TODO Since CS50 isn't the default, I'd remove that line and perhaps add one about opening up a terminal on Mac or the Bash Shell on Windows you recommended.
 
 If you don't have a terminal already open in your environment, you can create one in the the CS50 IDE by clicking File > New Terminal. Please read [this section](https://cs50.readthedocs.io/ide/online/#working-with-terminals) before moving to the next step.
 
-### Making a file
+##### Making a file
 
 We can  make empty files on the fly with the `touch <filename>` command. Try the following below: 
 
@@ -47,7 +57,7 @@ $ touch test.cpp
 
 Now, you should see `test.cpp` in your file manager on the left-hand side.
 
-### Removing files
+##### Removing files
 
 Before your workspace gets too cluttered, let's remove that test file you just created with the `touch` command. You can do this by typing:
 
@@ -63,7 +73,7 @@ Ok, lets create another empty file with the following command:
 $ touch hello.cpp
 ```
 
-### Creating a new directory
+##### Creating a new directory
 
 Making and deleting files is great but we often need to organize them in a sensible way. We usually do this by making **directories**. You can think of directories as folders. They're named locations that can hold other files or directories.
 
@@ -75,7 +85,7 @@ $ mkdir projects
 
 Now you should see your `hello.cpp` and `projects` folder in your file manager.
 
-### Removing a directory
+##### Removing a directory
 
 Just like how we created and removed a file, we can do the same with directories. Lets make a test directory named `testd` with the following command:
 
@@ -89,7 +99,7 @@ To delete this directory (only if is empty), we can simply run:
 $ rmdir testd
 ```
 
-### Moving files
+##### Moving files
 
 Lets clean up our workspace by moving that `hello.cpp` file into our projects folder.  The syntax to move one file from one location to another location is `mv <source> <target>`. In this case, it would be:
 
@@ -99,7 +109,7 @@ $ mv hello.cpp projects
 
 Now, our `hello.cpp` file is in our `projects` directory.
 
-### Print Working Directory
+##### Print Working Directory
 
 To see where we are, the command `pwd` will print the current directory you are operating in to the command line. Currently, running the command
 
@@ -107,9 +117,11 @@ To see where we are, the command `pwd` will print the current directory you are 
 $ pwd
 ```
 
+> @TODO: The result of this command will vary by IDE and folder structure
+
 Should print out `/home/ubuntu`, if at any point you changed directory with the following command your output will be different
 
-### Change Directory
+##### Change Directory
 
 Now that we have made a new directory named `projects` and moved our `hello.cpp` file to it, we need to navigate our terminal to this directory in order to have easy access to our file for editing/compiling/file management. This is accomplished with the `cd` command with syntax as follows, `cd <directory_path>`, meaning we can move more than one file at a time. For now the following command should get you to where you need to be,
 
@@ -117,28 +129,30 @@ Now that we have made a new directory named `projects` and moved our `hello.cpp`
 $ cd projects/
 ```
 
+> @TODO: The result of this command will vary by IDE and folder structure
+
 Now that we have changed directory, we can execute the earlier commands to validate our position within the file system. Executing `pwd` from this file should output `/home/ubuntu/projects` and executing `ls` should show that there is a file named `hello.cpp` present.
 
 Some useful cd commands:
 ```bash
-# to change your working directory to its parent directory, i.e. one step back
+#### to change your working directory to its parent directory, i.e. one step back
 $ cd ..
-# to change back to your user directory, i.e. "/home/ubuntu" or "~/" in the case of CS50 IDE's file system
+#### to change back to your user directory, i.e. "/home/ubuntu" or "~/" in the case of CS50 IDE's file system
 $ cd
-# to change back to the file system root directory, i.e. "/" for short
+#### to change back to the file system root directory, i.e. "/" for short
 $ cd /
 ```
 
-> note that `cd` can accept full paths, so for example `cd ../..` will move your working directory two steps back in the file system, though don't do this now as this will put you behind your root directory which is out of the scope of this lab
+> Note that `cd` can accept full paths, so for example `cd ../..` will move your working directory two steps back in the file system, though **don't do this now** as this will put you behind your root directory which is out of the scope of this lab
 
-### Displaying File Contents
+##### Displaying File Contents
 
 Another (popular) command-line utility available to us is `cat`, which is short for concatenate. In its simplest form, `cat` can display the contents of a text file; it can also be used to concatenate together many text files.
 
 For example, if we had a text document named `test.txt` with the contents 
 
 ```text
-I love CSC 211
+I love CSC 212
 ```
 
 The contents of that file would print out to our terminal by running:
@@ -147,13 +161,15 @@ The contents of that file would print out to our terminal by running:
 $ cat test.txt
 ```
 
+> @TODO Change/remove CS50 wording
+
 Spend some time with your group to create a text file with some content in it in your CS50 environment and use the `cat` command to report those contents to the console.
 
-###  Shell Hints
+#####  Shell Hints
 
 Before we move on, there are a few things about the shell you should know. The up arrow goes to previous commands. And if you think the computer can guess what you are typing, you can hit TAB to have it completed for you. For example, if `cd pro` is typed in terminal, and the TAB key is hit, the rest of the file name will be filled in. You can find more information on terminal commands [here](http://mally.stanford.edu/~sr/computing/basic-unix.html).
 
-# Part 3. Command-Line Arguments
+#### Part 3. Command-Line Arguments {#clarguments}
 
 It is often helpful for us to specify how a program will run by providing arguments during the execution process. For example, normally compiling a program and running may look like this:
 
@@ -181,7 +197,13 @@ int main(int argc, char*argv[]){
 }
 ```
 
-Where `argc` stands for the # of arguments passed (including the command to run the program!) and `argv` holds those arguments. Note the type! They will all be treated as char arrays or C-Style strings. You will need to convert them if you want to use them as different types (int, float, etc.) Using the last argument example, this is how we would extract them:
+> @TODO some resources on c-strings might be useful. Some I found helpful: 
+- https://www.tutorialspoint.com/cplusplus/cpp_strings.htm
+- https://www.youtube.com/watch?v=h2LGTzQXzJU
+- https://eecs280staff.github.io/notes/05_Strings_Streams_IO.html#c-style-strings
+- https://www.cprogramming.com/tutorial/lesson9.html
+
+Where `argc` stands for the number of arguments passed (including the command to run the program!) and `argv` holds those arguments. Note the type! They will all be treated as char arrays or C-Style strings. You will need to convert them if you want to use them as different types (int, float, etc.) Using the last argument example, this is how we would extract them:
 
 ```c++
 #include <string> // string, stoi (string to integer)
@@ -193,27 +215,27 @@ int main(int argc, char*argv[]){
 }
 ```
 
-Additional reading can be found here: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
+Additional reading can be found in [this tutorial](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/)
 
-# Part 4. Proper Programming Practices
+#### Part 4. Proper Programming Practices {#practices}
 
 There are many ways to solve a problem. This too holds true for programming; there are multiple ways to code a solution to a problem. This section will go over a few tried-and-true rules to live by in order to create code that won't get you banished from polite society.
 
-### Plan before you code!
+##### Plan before you code!
 
 A common trap students fall into is programming as they solve a problem; this has a tendency to spiral out of control into an unsalvageable mess that ends in a waste of time. Take the time to plan your solution BEFORE you even touch code. What functions, and variables, you'll need, the flow of your program, etc. I **guarantee** that the time spent planning before hand will more than makeup for the time you'd waste backtracking & re-writing code otherwise.
 
-### K.I.S.S (Keep it Simple, Stupid!)
+##### K.I.S.S (Keep it Simple, Silly!)
 
 Your code will not be efficient if you do not first solve the underlying problem in a simple manner. Over-complication is common in these early programming courses; don't be afraid to reach out to staff and ask for feedback on your strategy!
 
-### Naming Conventions
+##### Naming Conventions
 
-This is a good reference page for writing "proper" C++ code. https://google.github.io/styleguide/cppguide.html
+This is a [good reference page](https://google.github.io/styleguide/cppguide.html) for writing "proper" C++ code. 
 
-On top of following the guidelines here, make sure to give your functions & variables **clear, proper** names! When you ask the staff for help its *incredibly* annoying  (and time consuming) to attempt and parse hundreds of lines of code that look like ` int a;`
+On top of following the guidelines here, make sure to give your functions & variables **clear, proper** names! When you ask the staff for help its *incredibly* unhelpful (and time consuming) to attempt and parse hundreds of lines of code that look like ` int a;`
 
-### Functions
+##### Functions
 
 - Follow the "Rule of Three"
   - If you have a piece of code that is replicated (read: copy & pasted) more than twice, this task should be a function.
@@ -222,11 +244,11 @@ On top of following the guidelines here, make sure to give your functions & vari
   - Writing to a file
   - Performing calculations on an array
 
-### Variables
+##### Variables
 
 Don't be afraid to create variables to improve code clarity! As mentioned before, name them appropriately!
 
-### Ninety-ninety rule
+##### Ninety-ninety rule
 
 This is a fantastic quote that really captures the main pitfalls many of you will fall into:
 
@@ -237,11 +259,11 @@ This is a fantastic quote that really captures the main pitfalls many of you wil
 
 To clarify, software has a tendency to take longer than anticipated to finish. **Start your assignments early!**
 
-### Chasing false efficiency
+##### Chasing false efficiency
 
 While I (Christian) am a huge proponent of writing efficient code, it is important to realize that not everything needs to be coded in the most efficient manner. Often times code clarity/development speed take a higher priority. As an example: if it takes 5 minutes to code a function that runs once in 0.005 seconds, is it really worth spending an hour to get that same function to run in 0.002 seconds? Probably not. A solid rule of thumb while you're learning is to get something that **works** first, **then** worry about efficiency to improve your skill afterwards.
 
-### Avoid Hard-coding!
+##### Avoid Hard-coding!
 
 You should **always** use variables to represent values in your code. This makes your code easier to modify later on if needed & adds clarity to your code.
 
@@ -262,9 +284,7 @@ for(int i = 0; i < num_rows; i++){
 }
 ```
 
-
-
-# Part 6. Object-Oriented Programming
+#### Part 6. Object-Oriented Programming {#oop}
 
 There are four primary principles of Object-Oriented Programming that are enumerated in any OOP introductory text, video, lecture, {insert medium of education here}. These are: Encapsulation, Abstraction, Inheritance, Polymorphism.
 
@@ -282,7 +302,7 @@ class Animal{
     	float hunger;
 
     public:
-        Animal(float initial_hunger);
+      Animal(float initial_hunger);
     	void Eat(float sustenance);
     	float GetHunger();
     	virtual void Speak() = 0;
@@ -354,9 +374,9 @@ int main(){
 }
 ```
 
-### Encapsulation
+##### Encapsulation
 
-Also known as "data hiding", this is the principle that each Object keeps its state (content of memory) private (no one else can read it.) Every field, method, and function in a class is given an encapsulation type of **Private, Protected, Public**.
+Also known as "data hiding", this is the principle that each Object keeps its state (content of memory) private (no one else can read it). Every field, method, and function in a class is given an encapsulation type of **Private, Protected, or Public**.
 
 - Private
   - Can **only** be accessed by that object.
@@ -365,21 +385,21 @@ Also known as "data hiding", this is the principle that each Object keeps its st
 - Public
   - Can be accessed by anything and everything in that program.
 
-### Abstraction
+##### Abstraction
 
 This is a tool in modeling higher-level mechanisms. In practice, this is used to code shared features that are implemented differently. 
 
-In the above code, `Animal` is an Abstract class (the 'pure virtual' designation of `virtual void Speak() = 0;` makes this so.) If we tried to instantiate it we would get an error. This makes sense model-wise, as there is no such thing as an "Animal". An animal is a higher-level classification for specific species. However, `Cat` and `Dog` are specific animals that we want to be able to create. Setting up our program like this allows us to only have to program changes we wish to make to multiple classes **once**. So if we wanted to start tracking age, placing it in Animal (then modifying the Cat/Dog constructors) is much more preferable than coding the same feature twice. While this seems overkill for this example, remember that this is **scalable**! I can now model any number of types of animals, that all have the same variables/functions, very quickly without copy/pasting a ton of times!
+In the above code, `Animal` is an Abstract class (the 'pure virtual' designation of `virtual void Speak() = 0;` makes this so.) If we tried to instantiate it, we would get an error. This makes sense model-wise, as there is no such thing as an "Animal". An animal is a higher-level classification for specific species. However, `Cat` and `Dog` are specific animals that we want to be able to create. Setting up our program like this allows us to only have to program changes we wish to make to multiple classes **once**. So if we wanted to start tracking age, placing it in Animal (then modifying the Cat/Dog constructors) is much more preferable than coding the same feature twice. While this seems overkill for this example, remember that this is **scalable**! I can now model any number of types of animals, that all have the same variables/functions, very quickly without copy/pasting a ton of times!
 
-### Inheritance
+##### Inheritance
 
 This principle allows us to "re-use" code by deriving multiple classes from a base class. In the example we just gave, `Animal` is the base class while `Dog` and `Cat` are the derived classes.
 
-### Polymorphism
+##### Polymorphism
 
 This principle allows an object to be treated as a different type so long as it falls within the correct inheritance hierarchy. As an example, in the code we just reviewed we have an "is-a" relationship between Animal and Dog (A Dog is-a Animal.) This allows any Dog object to be stored as a Dog (`Dog myDog(50);`) or as an Animal pointer (`Animal* animal_ptr = new Dog(50);`).
 
-# Part 7.  Debugging
+#### Part 7.  Debugging {#debugging}
 
 The hardest part of programming is figuring out where you went wrong. There are a few techniques we can use to narrow in on our mistakes:
 
@@ -390,20 +410,19 @@ The hardest part of programming is figuring out where you went wrong. There are 
 3. Use a real debugger
    - This is the proper way to perform technique #2. Set breakpoints accordingly, compile your code, run it through a debugger, and use the tools given to you to explore the values in all of the variables, check scope, trace the program control, etc. This process will differ based on the IDE you are using, lookup tutorials and reach out to staff for help.
 
-# Part 6. Exercise
+#### Part 7. Exercise {#exercise}
 
 Use what you learned in this lab to complete the following exercises:
 
-1. Add in three more types of Animals to the given sample code: Bird, Hamster, Snake. Ensure your code compiles & runs correctly with 1 object of each type, similar to how Cat and Dog are created (in main.)
+1. Add in three more types of Animals to the given sample code: Bird, Hamster, Snake. Ensure your code compiles & runs correctly with 1 object of each type, similar to how Cat and Dog are created (in main).
 
 2. Add a feature to Animal that makes sense. Justify your decision, and make sure all 5 classes still compile & run just fine.
 
 3. Add command line arguments to facilitate the following: number_of_animals, {constructor values for each animal to be created}
+  - number_of_animals will control a loop that prompts the user for what type of animal they wish to be created (you should have 5 types).
+  - The values will be stored in argv and used when you create each Animal.
 
-   1. number_of_animals will control a loop that prompts the user for what type of animal they wish to be created (you should have 5 types.)
-   2. The values will be stored in argv and used when you create each Animal.
-
-   An example:
+  An example:
 
    ```
    g++ main.cpp -o prog && ./prog 4 30 40 50 60
@@ -424,7 +443,7 @@ Use what you learned in this lab to complete the following exercises:
    | Dog: hunger = 30 | Cat: hunger = 40 | Bird: hunger = 50 | Snake: hunger = 60 |
    ```
 
-   Create a simple loop to output each animal speaking & its hunger value to show that it works properly. Ex:
+4. Create a simple loop to output each animal speaking & its hunger value to show that it works properly. Ex:
 
    ```
    Woof!
@@ -438,11 +457,15 @@ Use what you learned in this lab to complete the following exercises:
    ```
 
    Notes: 
-
    - In order to complete step 3, you will need to make `Animal` no longer be an abstract class. Do this by removing the `virtual ... = 0;` sections of speak.
    - `Animal**` is how you will create the array to store the animals in step 3. i.e. `Animal** arr = new Animal*[5];` would create an array that stores 5 animal pointers. Use the `new` keyword to instantiate each animal during run-time!
 
-   # Grade Breakdown
+#### Requirements
+> @TODO Create conrete requirements that can be easily checked off by a TA based on the 4 parts of the exercise and wwrite them in increasing order of difficulty. For example, 1 could be Program compiles with `g++ -std=c++11 -Wall main.cpp -o prog` with no errors or warnings, 2 could be Bird, Hamster, and Snake defined correctly in code, 3 would be functional feature added and justified for all animals, 4 regarding the loop and 5 the CL args (or whatever order you deem for diffculty)
+
+#### Grade Breakdown
+> @TODO base breakdown off reqs rather than exercises
+
 
    - To demonstrate an `awareness` of these topics, you must:
      - Complete exercises 1 & 2
@@ -450,4 +473,9 @@ Use what you learned in this lab to complete the following exercises:
      - Complete exercises 1 & 2, as well as be able to read/parse the command line arguments in step 3
    - To demonstrate an `competence` of these topics, you must:
      - Complete exercises 1, 2, and 3
+
+---
+
+> @TODO: Change if necessary:
+Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.
 
