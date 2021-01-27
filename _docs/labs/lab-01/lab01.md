@@ -477,4 +477,3 @@ Use what you learned in this lab to complete the following exercises:
 ---
 
 Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/) and [Michael Conti](https://web.uri.edu/cs/meet/michael-conti/), used and modified with permission.
-
