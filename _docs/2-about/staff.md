@@ -27,16 +27,17 @@ Hours
 : Open availabilty before and after class on Tuesdays and Thursdays. Email me to set up a time.
 
 #### About your TAs {#tas}
-Christian
+<br><br>Christian:
 : I’m a Computer Science PhD candidate here at URI. From MA, I earned my BS & MS in Computer Science from UMASS Dartmouth. Most of my free time is spent playing video games, with the occasional adventures to places like Zion National Park, and Antelope Canyon.
 <br><br>
 **You'll see me:** In class, in lab and at hours on Thursdays
-<br><br>
 
 ---
 
-Kayla
-: (info coming soon)
+<br><br>Kayla:
+: I am an undergrad Computer Science and Chinese double major and am from Rhode Island. Some of my interests include reading, writing, and traveling. I also quite enjoy spending time with my family and dogs, studying language, cooking/baking, and volunteering in my community.
+<br><br>
+**You'll see me:** In lab 2 and at hours on Mondays and Fridays. Feel free to stop by during hours to ask any questions you may have or just say "hi". I am looking forward to meeting everyone!
 
 ---
 
