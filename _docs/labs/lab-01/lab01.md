@@ -454,7 +454,6 @@ Use what you learned in this lab to complete the following exercises:
    ```
 
    Notes: 
-   - In order to complete step 3, you will need to make `Animal` no longer be an abstract class. Do this by removing the `virtual ... = 0;` sections of speak.
    - `Animal**` is how you will create the array to store the animals in step 3. i.e. `Animal** arr = new Animal*[5];` would create an array that stores 5 animal pointers. Use the `new` keyword to instantiate each animal during run-time!
 
 #### Requirements
