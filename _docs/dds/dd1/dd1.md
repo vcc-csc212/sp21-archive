@@ -61,7 +61,7 @@ for each pixel A[i][j] in A do
 endfor
 ```
 
-The value of `T` can be automatically calculated by using a function.  For example, `T` can be the average intensity, or the median of all pixels.  There are hundreds of different ways for calculating `T`, often involving statistical measures.  
+The value of `T` can be automatically calculated by using a function.  For example, `T` can be either 1) the average intensity or 2) the median of all pixels.  There are hundreds of different ways for calculating `T`, often involving statistical measures.  
 
 ##### Local Thresholding
 
@@ -81,7 +81,7 @@ for each pixel A[i][j] in A do
 endfor
 ```
 
-As an illustration, the figure below shows an example of applying local thresholding.  The example uses the `median` as the metric for deciding the new value of a pixel.
+As an illustration, the figure below shows an example of applying local thresholding.  In this specific example, the `median` is what's as the metric for deciding the new value of a pixel:
 
 ![Image Binarization](/dds/dd1/local-thresholding.jpg)
 
