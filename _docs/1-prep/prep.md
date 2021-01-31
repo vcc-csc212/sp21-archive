@@ -1,6 +1,6 @@
 ---
 title: Prep Work / Resources
-category: Planning Ahead / Resources
+category: Resources / Planning Ahead
 order: 2
 permalink: /prep/
 ---
@@ -12,9 +12,8 @@ This contains some resources you may find useful in preparing for the course. I'
 ✔️ [Learning/refreshing Math](#math)  
 ✔️ [Quick Reference Sites & Cheat sheets](#quick)  
 ✔️ [Misc Resources](#misc)  
+✔️ [Programming Practice/Challenges](#challenges) (good interview prep)  
 ✔️ [Add my own suggestion](#suggestions)  
-
-In addition, you can find additional resources for reviewing/brushing up on CSC 211 Material
 
 ***
 
@@ -34,6 +33,11 @@ In addition, you can find additional resources for reviewing/brushing up on CSC 
 	- Click on **resources** to access links to additional resources
 - [EdX Intro to C++](https://www.edx.org/course/introduction-c-microsoft-dev210x-4)
 - [EdX Intermediate C++](https://www.edx.org/course/intermediate-c-microsoft-dev210-2x)
+- The Cherno's [C++ Programming Playlist](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+- Bucky's [C++ Programming Tutorials Playlist](https://www.youtube.com/playlist?list=PLAE85DE8440AA6B83)
+- [Learn C++ in 10 hours](https://www.youtube.com/watch?v=GQp1zzTwrIg) (video)
+- CodeBeauty's [C++ for beginners playlist](https://www.youtube.com/playlist?list=PL43pGnjiVwgQHLPnuH9ch-LhZdwckM8Tq)
+- CodeBeauty's [C++ functions playlist](https://www.youtube.com/playlist?list=PL43pGnjiVwgRggnsJcz1cK0j7b2-kLML_)
 
 ***
 
@@ -41,6 +45,7 @@ In addition, you can find additional resources for reviewing/brushing up on CSC 
 - Material from CSC 200 [Unit 10](https://docs.google.com/document/d/1PAwLcrid2kn_WeFvFnX84jN9xvDpCf1q9QPkAJIVRYs/edit#heading=h.pqichnglv09t)
 	- Material for the unit on Pointers
 - Quick [C++ Pointer Tutorial](https://gist.github.com/ericandrewlewis/720c374c29bbafadedc9)
+- CodeBeauty's [C++ pointers playlist](https://www.youtube.com/playlist?list=PL43pGnjiVwgSSRlwfahAuIqoJ8TfDIlHq)
 
 ***
 
@@ -50,6 +55,7 @@ In addition, you can find additional resources for reviewing/brushing up on CSC 
 	- Click on **resources** to access links to additional resources
 - Material from CSC 200 [Unit 7](https://docs.google.com/document/d/1PAwLcrid2kn_WeFvFnX84jN9xvDpCf1q9QPkAJIVRYs/edit#heading=h.arnpl7fqyhx7) and [Unit 8](https://docs.google.com/document/d/1PAwLcrid2kn_WeFvFnX84jN9xvDpCf1q9QPkAJIVRYs/edit#heading=h.bgmu4sew2j5q)
 	- Material for the units on Classes and Objects
+- CodeBeauty's [C++ Object-Oriented Programming Playlist](https://www.youtube.com/playlist?list=PL43pGnjiVwgTJg7uz8KUGdXRdGKE0W_jN)
 
 ***
 
@@ -77,6 +83,7 @@ In addition, you can find additional resources for reviewing/brushing up on CSC 
 - [C++ Quick Reference Cheat Sheet](http://www.hoomanb.com/cs/QuickRef/CppQuickRef.pdf)
 - CodeAcademy's [Learn C++ Cheat Sheets](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/cheatsheet) (divided by topic)
 - [Essential Math Overview One-Pager](https://www.radford.edu/~nokie/classes/360/math.html)
+- [Bash Shell Reference](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html)
 
 ***
 
@@ -84,6 +91,15 @@ In addition, you can find additional resources for reviewing/brushing up on CSC 
 - [Unit on Recursion](https://bjc.edc.org/bjc-r/topic/topic.html?topic=nyc_bjc/7-recursion-trees-fractals.topic&course=bjc4nyc.html)
 - [Foundations of Computer Science](http://infolab.stanford.edu/~ullman/focs.html)
 - Stanford's [Introduction to Computing Principles](https://web.stanford.edu/class/cs101/)
+- [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
+- [C++ Code Visualization](http://pythontutor.com/cpp.html)
+
+***
+
+#### Programming Practice/Challenges {#challenges}
+- [HackerRank](https://www.hackerrank.com)
+- [Kattis](https://open.kattis.com)
+- [Edabit](https://edabit.com/challenges/cpp)
 
 ***
 

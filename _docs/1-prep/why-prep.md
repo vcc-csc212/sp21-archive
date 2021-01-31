@@ -1,6 +1,6 @@
 ---
 title: Why Prep?
-category: Planning Ahead / Resources
+category: Resources / Planning Ahead
 order: 1
 permalink: /why-prep/
 ---
