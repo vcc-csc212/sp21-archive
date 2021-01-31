@@ -1,5 +1,5 @@
 ---
-title: Final Project & Exam
+title: Final Project & Final Exam
 category: Assignments
 order: 3
 permalink: /final/
