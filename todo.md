@@ -2,7 +2,7 @@
 title: Student To Do
 permalink: /todo/
 ---
-#### This Week (2/1-2/4)
+#### This Week (2/1-2/5)
 
 ##### ✔️ [Class Pre-Readings](/wk2) (due before class)
 ##### ✔️ Lab 2 (link coming soon) (due during 1/27 lab session)
