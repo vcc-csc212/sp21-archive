@@ -23,7 +23,7 @@ Before attending class, please complete the material below:
 - Read
 
 ##### In Class
-In today's class we'll be... [See class slides]().
+In today's class we'll be....
 
 ---
 
@@ -39,4 +39,4 @@ Before attending class, please complete the material below:
 - Read
 
 ##### In Class
-In today's class we'll be... [See class slides]().
+In today's class we'll be....
