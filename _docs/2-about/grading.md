@@ -66,7 +66,7 @@ If you'd like to receive a + designation (B+/C+/D+) you'll also have to demonstr
 	- Demonstrate `mastery` in at least 5 topics (any)
 
 #### How do I demonstrate my knowledge? {#knowledge-levels}
-There are [6 types of assignments](/assignment-types) that will allow you to demonstrate your knowledge on all 20 umbrella topics. Here's an outline of the various ways to demonstrate your level of knowledge (awareness/understanding/competence/mastery):
+There are [6 types of assignments](/types-assignments) that will allow you to demonstrate your knowledge on all 20 umbrella topics. Here's an outline of the various ways to demonstrate your level of knowledge (awareness/understanding/competence/mastery):
 
 - `Awareness` can be demonstrated via: 
 	- SME Presentations

@@ -1,7 +1,7 @@
 ---
 title: Policies
 category: About / Syllabus
-order: 5
+order: 4
 permalink: /policies/
 ---
 On this page:  
