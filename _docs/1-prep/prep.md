@@ -11,7 +11,10 @@ This contains some resources you may find useful in preparing for the course. I'
 ✔️ [Learning/refreshing OOP](#oop)  
 ✔️ [Learning/refreshing Math](#math)  
 ✔️ [Quick Reference Sites & Cheat sheets](#quick)  
+✔️ [Misc Resources](#misc) 
 ✔️ [Add my own suggestion](#suggestions)  
+
+In addition, you can find additional resources for reviewing/brushing up on CSC 211 Material
 
 ***
 
@@ -29,6 +32,8 @@ This contains some resources you may find useful in preparing for the course. I'
 - Professor Alvarez's [CSC 211 site](https://homepage.cs.uri.edu/~malvarez/teaching/courses/csc-211) (from Fall 2019)
 	- Click on **calendar** to access lecture slides, assignments, and labs
 	- Click on **resources** to access links to additional resources
+- [EdX Intro to C++](https://www.edx.org/course/introduction-c-microsoft-dev210x-4)
+- [EdX Intermediate C++](https://www.edx.org/course/intermediate-c-microsoft-dev210-2x)
 
 ***
 
@@ -49,6 +54,7 @@ This contains some resources you may find useful in preparing for the course. I'
 ***
 
 #### Math {#math}
+- [Mathematics for Computer Science](http://courses.csail.mit.edu/6.042/spring17/mcs.pdf)(PDF Book)
 - Professor Venkatasubramanian's CSC 212 [Useful Math Overview Slides](https://calhobbes.github.io/csc212-f19/lectures/Week2a.pdf) (from Fall 2019)
 - Khan Academy's Pre-Calc [Lesson on Graphing Equations](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:polynomials#x9e81a4f98389efdf:eq-graph)
 - Khan Academy's Pre-Algebra [Unit on Logarithms](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs)
@@ -71,6 +77,13 @@ This contains some resources you may find useful in preparing for the course. I'
 - [C++ Quick Reference Cheat Sheet](http://www.hoomanb.com/cs/QuickRef/CppQuickRef.pdf)
 - CodeAcademy's [Learn C++ Cheat Sheets](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/cheatsheet) (divided by topic)
 - [Essential Math Overview One-Pager](https://www.radford.edu/~nokie/classes/360/math.html)
+
+***
+
+#### Misc Resources {#misc}
+- [Unit on Recursion](https://bjc.edc.org/bjc-r/topic/topic.html?topic=nyc_bjc/7-recursion-trees-fractals.topic&course=bjc4nyc.html)
+- [Foundations of Computer Science](http://infolab.stanford.edu/~ullman/focs.html)
+- Stanford's [Introduction to Computing Principles](https://web.stanford.edu/class/cs101/)
 
 ***
 
