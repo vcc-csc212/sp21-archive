@@ -11,18 +11,18 @@ As a reminder, we meet **virtually on Tuesdays and Thursdays 3:30pm - 4:45pm ET*
 | Week | Tuesday (Lecture) | Wednesday (Lab) | Thursday (Lecture) |
 | ----------- | ----------- | ----------- | ----------- |
 | 1 | Intro & Setup | C++ Crash Course | Essential Math Overview |
-| 2 | ` Intro to Analysis of Algos ` | Recursion revisited | Recurrence Relations |
-| 3 | ` Intro to Sorting Algos ` | Stable Sorting | ` Mergesort & Quicksort ` |
-| 4 | ` Dynamic Arrays & Amortized Analysis ` | Pointers revisited | ` Sets & Maps ` |
-| 5 | Hashing | Hashtables | Chaining |
-| 6 | ` Singly Linked Lists ` | ` DLL, CSLL, CDLL ` | ` Queues ` |
-| 7 | Heapsort | Priority Queues and Heaps | ` Stacks ` |
-| 8 | **Midterm Exam** | ` Introduction to Trees ` | ` Binary Search & BSTs ` |
-| 9 | ` BFS ` | ` AVL Trees & Red Black Trees ` | ` DFS ` |
-| 10 | ` Greedy Algos ` | Tries | ` Divide and Conquer ` |
-| 11 | Dynamic Programming | Matrices | Recursive Backtracking |
-| 12 | ` Graphs ` | ` Combinations and Permutations ` | ` Shortest Path ` |
-| 13 | ` Space Complexity ` | Parsing | Q&A |
+| 2 | ` Intro to Analysis of Algos ` | Recursion, revisited | Basic Sorting Algos (Implementation) |
+| 3 | Basic Sorting Algos (Analysis) | Dynamic Arrays (Intro & Analysis) | ` Dynamic Arrays (Implementation) ` |
+| 4 | ` Linked Lists (Intro & Analysis) ` | Pointers, revisited | ` Linked Lists (Implementation) ` |
+| 5 | ` Stacks ` | Problem-Solving | ` Queues ` |
+| 6 | ` Mergesort ` | Recursive Algorithms | Analyzing Recursive Functions (w/ recurrences) |
+| 7 | ` Quicksort ` | Recursive Backtracking | Review/Breather/Wiggle Room |
+| 8 | Midterm exam | ` Priority Queues and Heaps ` | Heapsort |
+| 9 | ` Binary Search ` | Intro to Trees | ` BSTs ` |
+| 10 | ` BSTs Analysis ` | ` BSTs Implementation ` | ` Balanced Trees ` |
+| 11 | ` Balanced Trees ` | ` Sets & Maps ` | Hashtables |
+| 12 | Chaining & Open-Addressing | Intro to Graphs | ` BFS ` |
+| 13 | ` DFS ` | Q&A | Technical Interview Prep |
 
 #### Exam Schedule
 Midterm
