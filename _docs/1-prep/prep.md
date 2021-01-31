@@ -11,7 +11,7 @@ This contains some resources you may find useful in preparing for the course. I'
 ✔️ [Learning/refreshing OOP](#oop)  
 ✔️ [Learning/refreshing Math](#math)  
 ✔️ [Quick Reference Sites & Cheat sheets](#quick)  
-✔️ [Misc Resources](#misc) 
+✔️ [Misc Resources](#misc)  
 ✔️ [Add my own suggestion](#suggestions)  
 
 In addition, you can find additional resources for reviewing/brushing up on CSC 211 Material
