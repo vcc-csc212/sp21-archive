@@ -11,7 +11,7 @@ permalink: /links/
 [Piazza](http://piazza.com/uri/spring2021/csc212)
 : Forum for **announcements and Q&A**.
 
-[Class Slides](https://docs.google.com/presentation/d/1ceoCu9s6opk3Q-TCLYq1qMUOyptcG4EKfQNIhWnPlOs/edit?usp=sharing)
+[Class Slides](/slides)
 : Slides used in class.
 
 [Anon Feedback](https://docs.google.com/forms/d/e/1FAIpQLSeeC80Z4Pv0yBd7vhMfafAHAdl5I-_83qtTNKquztkvMEPKHA/viewform?usp=sf_link)
