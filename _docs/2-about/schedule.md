@@ -11,8 +11,8 @@ As a reminder, we meet **virtually on Tuesdays and Thursdays 3:30pm - 4:45pm ET*
 | Week | Tuesday (Lecture) | Wednesday (Lab) | Thursday (Lecture) |
 | ----------- | ----------- | ----------- | ----------- |
 | 1 | Intro & Setup | C++ Crash Course | Essential Math Overview |
-| 2 | ` Intro to Analysis of Algos ` | Recursion, revisited | Basic Sorting Algos (Implementation) |
-| 3 | Basic Sorting Algos (Analysis) | Dynamic Arrays (Intro & Analysis) | ` Dynamic Arrays (Implementation) ` |
+| 2 | ` Intro to Analysis of Algos ` | Recursion, revisited | ` Basic Sorting Algos (Implementation) ` |
+| 3 | ` Basic Sorting Algos (Analysis) ` | Dynamic Arrays (Intro & Analysis) | ` Dynamic Arrays (Implementation) ` |
 | 4 | ` Linked Lists (Intro & Analysis) ` | Pointers, revisited | ` Linked Lists (Implementation) ` |
 | 5 | ` Stacks ` | Problem-Solving | ` Queues ` |
 | 6 | ` Mergesort ` | Recursive Algorithms | Analyzing Recursive Functions (w/ recurrences) |

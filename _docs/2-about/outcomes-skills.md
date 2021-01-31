@@ -20,14 +20,14 @@ Upon successful completion of the course, you should be able to:
 Each time we meet for lab or lecture, you'll be learning a new topic. **We move incredibly fast so don't fall behind**. Of all the topics we'll be covering, some of them will be review or preliminary knowledge required for understanding future topics. Taking that into account, the **new topics** we'll be covering can be categorized into **20 umbrella topics** (outlined below):
 
 1. ` Intro to Analysis of Algos ` 
-2. Basic Sorting Algos
-3. ` Dynamic Arrays ` 
-4. ` Linked Lists ` 
-5. ` Stacks ` 
-6. ` Queues ` 
-7. ` Mergesort ` 
-8. Analyzing Recursive Functions (w/ recurrences) 
-9. ` Quicksort ` 
+2. ` Sorting Algos (Implementation) `
+3. ` Sorting Algos (Analysis) `
+4. ` Dynamic Arrays ` 
+5. ` Linked Lists ` 
+6. ` Stacks ` 
+7. ` Queues ` 
+8. Recursive Algorithms
+9. Analyzing Recursive Functions (w/ recurrences) 
 10. Recursive Backtracking 
 11. ` Priority Queues and Heaps ` 
 12. Heapsort 
