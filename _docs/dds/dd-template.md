@@ -5,12 +5,19 @@ permalink: /ddx/
 ---
 
 On this page:  
+✔️ [Pre-Req Info](#pre)  
 ✔️ [Motivation](#motivation)  
 ✔️ [Background Info](#bgi)  
 ✔️ [Your Task](#task)  
 ✔️ [Requirements](#reqs)  
 ✔️ [Handing in](#submit)  
 ✔️ [Grade Breakdown](#grading)
+
+#### Pre-Req Info {#pre}
+Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/prep).  
+✔️ XXX  
+
+---
 
 #### Motivation (Why are we doing this?) {#motivation}
 The goal of this deep dive is to provide a **XXX**, such as:  
