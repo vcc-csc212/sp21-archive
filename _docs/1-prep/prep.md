@@ -1,6 +1,6 @@
 ---
-title: Prep Work
-category: Planning Ahead
+title: Prep Work / Resources
+category: Planning Ahead / Resources
 order: 2
 permalink: /prep/
 ---
