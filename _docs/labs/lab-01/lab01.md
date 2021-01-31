@@ -306,6 +306,12 @@ class Animal{
 };
 ```
 
+> `#pragma once` is a non-standard pragma that is supported by the vast majority of modern compilers. If it appears in a header file, it indicates that it is only to be parsed once, even if it is (directly or indirectly) included multiple times in the same source file ([read more](https://en.cppreference.com/w/cpp/preprocessor/impl)).
+<br><br>
+The `virtual` keyword, when applied to a function, denotes a function that will be overriden by a child/derived class. When a class has a `virtual` function, it cannot be instantiated as it merely serves as a template for what its derived classes should look like (it's the equivalent of an abstract class in Java) ([read more](https://www.geeksforgeeks.org/virtual-function-cpp/)). 
+<br><br>
+When a class derives another class, we say it has an **is-a** relationship. This relationship allows the derived class to behave as itself and as its parent (the base class)-- this is called **polymorphism**. In the classes below, for example, we have a `Cat` class that we say **is-a** `Animal` and therefore it has all the same functionality as an `Animal`. While we can create an instance of a `Cat`, we cannot create an instance of an `Animal`.
+
 ```c++
 // Animal.cpp
 #include "Animal.h"
@@ -324,6 +330,8 @@ void Animal::Eat(float sustenance){
 
 
 ```
+
+> While the dot operator (`.`) simply accesses a data member, using the arrow operator (`->`) access them via a pointer ([read more](https://www.tutorialspoint.com/cplusplus/cpp_member_operators.htm)).
 
 ```c++
 // Cat.h
