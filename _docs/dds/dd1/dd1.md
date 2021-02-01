@@ -17,7 +17,7 @@ On this page:
 Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/prep).  
 ✔️ Command line arguments ([tutorial](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/), [video](https://www.youtube.com/watch?v=h2LGTzQXzJU))  
 ✔️ Reading and writing to files ([tutorial](https://www.w3schools.com/cpp/cpp_files.asp), [reference page](https://www.cplusplus.com/doc/tutorial/files/))  
-✔️ [Classes](/prep#oop)  
+✔️ Classes ([OOP material](/prep#oop))  
 
 ---
 
