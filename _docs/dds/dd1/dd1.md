@@ -15,9 +15,9 @@ On this page:
 
 #### Pre-Req Info {#pre}
 Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/prep).  
-✔️ Command line arguments  
-✔️ Reading and writing to files  
-✔️ Classes  
+✔️ Command line arguments ([tutorial](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/), [video](https://www.youtube.com/watch?v=h2LGTzQXzJU))  
+✔️ Reading and writing to files ([tutorial](https://www.w3schools.com/cpp/cpp_files.asp), [reference page](https://www.cplusplus.com/doc/tutorial/files/))  
+✔️ Classes ()  
 
 ---
 
@@ -203,6 +203,8 @@ $ ./prog local cover.img cover_loc_5.img 5
 $ ./prog local cover.img cover_loc_7.img 7
 $ ./prog local cover.img cover_loc_15.img 15
 ```
+
+> Once you've read through the assignment, I encourage you to check out [the breakdown video](https://youtu.be/kvQj8BqF7yU) associated with it.
 
 ---
 
