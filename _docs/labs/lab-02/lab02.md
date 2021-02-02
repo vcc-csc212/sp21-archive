@@ -7,7 +7,7 @@ permalink: /lab02/
 On this page:  
 ✔️ [Motivation](#motivation)  
 ✔️ [Background Info](#bgi)  
-✔️ [An example](#example)
+✔️ [An example](#example)  
 ✔️ [Your Task](#task)  
 ✔️ [Requirements](#reqs)  
 ✔️ [Handing in](#submit)  
