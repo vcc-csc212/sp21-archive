@@ -37,7 +37,7 @@ At first, this may seem like an infinite loop of sorts, but if the function is i
 
 ##### How to think about recursive function calls
 
-![image](./recursive_example.png)
+![image](/labs/lab-02/recursive_example.png)
 
 In the above diagram, each box is a call to the recursive function `foo`. In the base case, simple, often times even trivial, steps are taken for some special case of the input. After returning from the base case, each call to `foo` may *use* the result returned to it and return to its caller.
 
