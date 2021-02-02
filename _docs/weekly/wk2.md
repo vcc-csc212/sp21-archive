@@ -41,10 +41,10 @@ In today's class we'll be analyzing and comparing the time complexity of simple 
 ##### Essential Questions
 Before attending class, please complete the material below and use the following questions to guide your note-taking:  
 <br>
-✔️ What's the difference between stable and unstable sorting and why does it matter?
-✔️ How does bubble sort work?
-✔️ How does selection sort work?
-✔️ How does insertion sort work?
+✔️ What's the difference between stable and unstable sorting and why does it matter?  
+✔️ How does bubble sort work?  
+✔️ How does selection sort work?  
+✔️ How does insertion sort work?  
 
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
