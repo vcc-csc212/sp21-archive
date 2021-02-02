@@ -25,6 +25,7 @@ This contains some resources you may find useful in preparing for the course. I'
 	- Click on **View --> Show Document Outline**
 	- Contains reading material (from book above), videos, and assignments
 	- CSC 200 is an intro C++ course for non-cs majors (mostly engineering majors)
+- [C++ Notes for Professionals book](https://goalkicker.com/CPlusPlusBook/)
 - Free online course: [Object-Oriented Data Structures in C++](https://www.coursera.org/learn/cs-fundamentals-1)
 	- Can enroll for free by choosing to **audit** course
 	- Title is misleading, helpful if you're new to C++ or want a refresher on its inner-workings
@@ -84,6 +85,7 @@ This contains some resources you may find useful in preparing for the course. I'
 - CodeAcademy's [Learn C++ Cheat Sheets](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/cheatsheet) (divided by topic)
 - [Essential Math Overview One-Pager](https://www.radford.edu/~nokie/classes/360/math.html)
 - [Bash Shell Reference](https://courses.cs.washington.edu/courses/cse390a/14au/bash.html)
+- [C++ Notes for Professionals book](https://goalkicker.com/CPlusPlusBook/)
 
 ***
 
