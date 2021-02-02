@@ -27,7 +27,7 @@ In today's class we'll be....
 
 ---
 
-#### Pre-Reading for TOPIC, Thuesday DATE2 {#thurs}
+#### Pre-Reading for TOPIC, Thursday DATE2 {#thurs}
 
 ##### Essential Questions
 
