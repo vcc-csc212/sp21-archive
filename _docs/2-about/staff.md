@@ -24,7 +24,7 @@ Email
 : Please only email me (vcchavez [at] uri [dot] edu) with personal questions or meeting requests. For all logistics or assignment questions contribute to our collective knowledgebase on [Piazza]( https://piazza.com/uri/spring2021/csc212/).
 
 Hours
-: Open availabilty before and after class on Tuesdays and Thursdays. Email me to set up a time.
+: After class on Tuesdays and Thursdays. Email me to set up a separate time.
 
 #### About your TAs {#tas}
 <br><br>Christian:
@@ -103,13 +103,15 @@ Mondays:
 12:00pm-2:00pm ET (Kayla)
 
 Tuesdays:
-: 12:00pm–2:00pm ET (Christian)
+: 12:00pm–2:00pm ET (Christian)  
+4:45-6:00pm ET (Prof. Chávez, stay on same Zoom after class)
 
 Wednesdays:
 : 2:00pm-4:00pm ET (Zach)
 
 Thursdays:
-: 1:00pm-3:00pm ET (Savannah)
+: 1:00pm-3:00pm ET (Savannah)  
+4:45-6:00pm ET (Prof. Chávez, stay on same Zoom after class)
 
 Fridays:
 : 9:00am-11:00am ET (Zach)  
