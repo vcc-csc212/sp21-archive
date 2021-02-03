@@ -41,14 +41,6 @@ Hours
 
 ---
 
-![cropped headshot of Savannah](/2-about/imgs/savannah.jpg) 
-: **Savannah**: I am a sophomore here studying Computer Science. I’m currently an intern at the Wearable Biosensing Lab at URI. I love to be with my two dogs Bailey and Sophie. 
-<br><br>
-**You'll see me:** In lab and at hours on Thursdays. I can’t wait to meet you all!
-<br><br>
-
----
-
 ![cropped headshot of Zach](/2-about/imgs/zach.jpg) 
 : **Zach**: I am from Hershey, Pennsylvania. I am currently finishing my last semester of senior year majoring in Computer Science with a minor in Cyber Security. This year I am a captain of the URI Mens Club Lacrosse team and once I graduate in the spring I will be moving to North Carolina to work as a software engineer for Fidelity Investments. Besides school some of my interests include snowboarding, reading, and calligraphy. 
 <br><br>
@@ -110,8 +102,7 @@ Wednesdays:
 : 2:00pm-4:00pm ET (Zach)
 
 Thursdays:
-: 1:00pm-3:00pm ET (Savannah)  
-4:45-6:00pm ET (Prof. Chávez, stay on same Zoom after class)
+: 4:45-6:00pm ET (Prof. Chávez, stay on same Zoom after class)
 
 Fridays:
 : 9:00am-11:00am ET (Zach)  
