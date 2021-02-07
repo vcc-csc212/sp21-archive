@@ -3,7 +3,7 @@ title: Week NUM
 permalink: /wkNUM/
 ---
 
-> Reminder that this is a [flipped classroom](/flipped) which means you **must complete the pre-reading before each class**.
+> Reminder that you **must complete the pre-reading before each class**.
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday DATE1](#tues)  
