@@ -5,7 +5,7 @@ permalink: /todo/
 #### This Week (2/8-2/12)
 ##### ✔️ [Class Pre-Readings](/wk3) (due before class)
 ##### ✔️ Lab 3 (link coming soon)  (due during 2/10 lab session)
-##### ✔️ Deep Dive 2 (link coming soon) (due 2/19 @ 3:30pm ET)
+##### ✔️ Deep Dive 2 (link coming soon)
 
 
 ---
