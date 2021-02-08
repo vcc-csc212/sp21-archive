@@ -48,6 +48,9 @@ Trouble logging in? Watch [this 30 second video demo](https://youtu.be/XYM-nMXAi
 [Join Hours Zoom](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09)
 : To join an **hours session**-- [check schedule first](/staff#sched).  
 
+[Join Lab Review](https://uri-edu.zoom.us/j/95414158050?pwd=TlhFS2h0OWVUaUJXN0xCVUg5RkR6Zz09)
+: For **lab review, Fridays at 5pm**.  
+
 ---
 
 #### Meeting Times and Format
@@ -60,7 +63,10 @@ Lab Section 1
 : Virtually on **Wednesdays 10:00am - 11:45am ET**
 
 Lab Section 2
-: Virtually on **12:00pm - 1:45pm ET**
+: Virtually on **Wednesdays 12:00pm - 1:45pm ET**
+
+Lab Review (optional but recommended)
+: Virtually on **Fridays at 5pm**
 
 #### Exam Schedule
 > Both exams will use the [same Zoom](https://uri-edu.zoom.us/j/95414158050?pwd=TlhFS2h0OWVUaUJXN0xCVUg5RkR6Zz09) as is used for class meetings/lectures.

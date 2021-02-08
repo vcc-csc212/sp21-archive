@@ -18,7 +18,7 @@ Before attending class, please complete the material below and use the following
 <br>
 ✔️ What is the time complexity of selection sort and why?  
 ✔️ What is the time complexity of bubble sort and why?  
-✔️ What is the time complexity of insertion sort? and why   
+✔️ What is the time complexity of insertion sort and why?  
 
 ##### Read/Watch/Review
 > Order is important for the material below-- especially the videos. Lalitha's videos show you how to analyze the algorithms in the way we're used to-- by explicitly counting primitive operations, whereas 

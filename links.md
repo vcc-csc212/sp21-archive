@@ -30,3 +30,6 @@ permalink: /links/
 
 [Join Hours Zoom](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09)
 : To join an **hours session**-- [check schedule first](/staff#sched).  
+
+[Join Lab Review](https://uri-edu.zoom.us/j/95414158050?pwd=TlhFS2h0OWVUaUJXN0xCVUg5RkR6Zz09)
+: For **lab review, Fridays at 5pm**.  
