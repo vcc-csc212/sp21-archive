@@ -136,14 +136,14 @@ Your submission will be **tested and graded by an autograder**, for this reason 
 ```bash
 	$ g++ -std=c++11 -Wall main.cpp maze.cpp -o generator
 ```
-3. Use the seed value correctly, as described in the section above.
-4. Your command line program should use the following arguments (CLAs), in this exact order:
+3. Your command line program should use the following arguments (CLAs), in this exact order:
 ```text
 	<seed>  the seed value for the random number generator
 	<N>     number of rows in the grid N > 0
 	<M>     number of cols in the grid M > 0
 	<fname> file name for the output
 ```
+4. Use the seed value correctly, as described in the section above.
 5. Generate maze correctly, per the algorithm described in the section above.
 
 **BEFORE HANDING IN:** Test that your program works by compiling your program with the command in Requirement #2. Successful execution of this command should create an exectuable file named `generator`, which you should be able to execute using the arguments as outlined in Requirement #4 (example usecase below).
