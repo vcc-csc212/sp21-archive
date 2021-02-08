@@ -23,7 +23,7 @@ Labs
 
 Deep dives
 : Medium and longer practice problems to be **completed outside of class** and submitted by the deadline.
-- Deep dive assignments are be released on Monday mornings and are be **due by the following Thursday at 3:30pm** (by the start of class the week after it was released).
+- Deep dive assignments are released on Monday mornings and are be **due by the following Thursday at 3:30pm** (by the start of class the week after it was released).
 
 Exams
 : There are two exams (a midterm and a final) for the course but unlike traditional exams, **they can only improve (not hurt) your course grade**.

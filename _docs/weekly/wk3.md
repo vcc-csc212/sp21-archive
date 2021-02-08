@@ -44,5 +44,5 @@ In today's class we'll be doing a brief review of the time complexity for the so
 
 ---
 
-#### Pre-Reading for  Dynamic Arrays (Implementation), Thursday 2/11 {#thurs}
+#### Pre-Reading for Dynamic Arrays (Implementation), Thursday 2/11 {#thurs}
 > Coming Soon

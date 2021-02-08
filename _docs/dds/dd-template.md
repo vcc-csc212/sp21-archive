@@ -48,7 +48,7 @@ To submit your solution to Gradescope, simply select `main.cpp` and use the *dra
 #### Grade Breakdown {#grading}
 This assignment covers the **topic/nonnegot XXX** and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 thorugh A**
+    - Successfully meet [requirements](#reqs) **1 through A**
 - To demonstrate an `understanding` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through B**
 - To demonstrate `competence` of these topics, you must:
