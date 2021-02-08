@@ -11,7 +11,7 @@ On this page:
 
 ---
 
-#### Pre-Reading for  Basic Sorting Algos (Analysis), Tuesday DATE1 {#tues}
+#### Pre-Reading for  Basic Sorting Algos (Analysis), Tuesday 2/9 {#tues}
 
 ##### Essential Questions
 Before attending class, please complete the material below and use the following questions to guide your note-taking:  
