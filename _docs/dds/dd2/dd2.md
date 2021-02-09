@@ -126,7 +126,9 @@ When saving the grid, the output file must be a `text file` in which cell values
 
 ![Two-dimensional maze](/dds/dd2/example.png)
 
-> If you want to visualize a maze, you can convert the raw text file into a PDF.  This will be useful to visualize what your program is doing.  We prepared a script that can help you do this, for more details please refer to [this repl.it](https://repl.it/@VictoriaChvez/maze-converter).
+> A maze visualization will be useful to visualize and understand what your program is doing. You can:
+- Copy and paste your program's output onto [this maze web visualizer](https://maze-viewer.isaacchen9.repl.co) (courtesy of [Isaac Chen](https://repl.it/@IsaacChen9/Maze-viewer)).
+- Convert the raw text file into a PDF using the script in [this repl.it](https://repl.it/@VictoriaChvez/maze-converter).
 
 ---
 
