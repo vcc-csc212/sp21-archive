@@ -75,7 +75,7 @@ Any time there is the (Overflow) label, that is saying the array must be resized
 
 In order to implement your own class, we are providing starter code (both files can be found inside the `gui/` folder). You will be given a *header file* (`DynamicArray.h`) and a partially-implemented *source file* (`DynamicArray.cpp`) for a class `DynamicArray`.
 
-```C++
+```c++
 #ifndef DYNAMIC_ARRAY_H
 #define DYNAMIC_ARRAY_H
 
