@@ -19,7 +19,7 @@ For Deep Dives
 
 #### What's the deadline for resubmitting?
 For Labs
-: You have **until Friday** of the week lab was held to get your lab checked off for a higher level of knowledge.
+: You have **until Friday, end of hours** of the week lab was held to get your lab checked off for a higher level of knowledge.
 
 For Deep Dives
 : You have until **Thursday, April 29th @ 3:30pm** (one week after classes end) to resubmit any deep dive.
