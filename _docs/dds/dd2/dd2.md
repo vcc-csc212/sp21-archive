@@ -83,7 +83,9 @@ Picking a random neighbor **must** follow this procedure:
 idx = std::rand() / ((RAND_MAX + 1u) / neighbors.size());
 ```
 
-> **Note:** The `u` following the `1` in the `1u` in the code above signifies that the 1 is `unsigned`. In C++, numbers are `signed` by default (meaning they can be either positive or negative) so by declaring it `unsigned`, we're saying it cannot be negative ([read more](https://stackoverflow.com/questions/621290/what-is-the-difference-between-signed-and-unsigned-variables)).
+> **Notes:** 
+- The `u` following the `1` in the `1u` in the code above signifies that the 1 is `unsigned`. In C++, numbers are `signed` by default (meaning they can be either positive or negative) so by declaring it `unsigned`, we're saying it cannot be negative ([read more](https://stackoverflow.com/questions/621290/what-is-the-difference-between-signed-and-unsigned-variables)).
+- `RAND_MAX` is a predefined macro ([read more](http://www.cplusplus.com/reference/cstdlib/RAND_MAX/)).
 
 ---
 
