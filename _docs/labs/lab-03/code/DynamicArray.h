@@ -45,28 +45,21 @@ class DynamicArray {
         std::string toString(); 
 
         // find the first occurrence of "value" in the array. Return false if the value is not found
-        // [10 points if correct]
         bool findFirstOf(int value, unsigned int* index);
         // find the last occurrence of "value" in the array. Return false if the value is not found
-        // [10 points if correct] 
         bool findLastOf(int value, unsigned int* index); 
 
         // add a value to the end of the array (resize if necessary)
-        // [10 points if correct] 
         void append(int value); 
         // add a value to the beginning of the array (resize if necessary)
-        // [10 points if correct] 
         void prepend(int value); 
         // remove the last value from the array
-        // [10 points if correct] 
         void removeLast(); 
         // remove the first value from the array 
-        // [10 points if correct] 
         void removeFirst(); 
         // remove all elements from the array 
         // allocated memory should be deleted and the array pointer should now point to NULL
         // capacity and length should be reset to zero
-        // [10 points if correct] 
         void clear(); 
 
         // overloading the [] operator for read/write access
