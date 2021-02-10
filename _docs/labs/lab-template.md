@@ -34,7 +34,7 @@ Your submission will be **tested and graded by an autograder**, for this reason 
 ---
 
 #### Handing in {#submit}
-Todo: Check points
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
 
 ---
 

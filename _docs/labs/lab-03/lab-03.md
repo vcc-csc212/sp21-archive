@@ -268,6 +268,11 @@ Some functions have already been implemented for you inside of the `DynamicArray
 
 ---
 
+#### Handing in {#submit}
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+
+---
+
 #### Grade Breakdown {#grading}
 This assignment covers `Dynamic Arrays` and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
