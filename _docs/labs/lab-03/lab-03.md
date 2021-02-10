@@ -261,12 +261,13 @@ Some functions have already been implemented for you inside of the `DynamicArray
 ---
 
 #### Requirements {#reqs}
-> We **strongly recommend** you comeplete `toString()` so it's easier to test and visualize your code.
+> We **strongly recommend** you complete `toString()` so it's easier to test and visualize your code.
 
 1. Complete `append()` and `prepend()`
 2. Complete `findFirstOf()` and `findLastOf()`
 3. Complete `removeLast()`, `removeFirst()`, and `clear()`
-4. Create test cases for each of your functions that prove they work. Note: The array should grow/shrink accordingly with the data!
+4. Create test cases for each of your functions that prove they work. Note: The array should **grow/shrink accordingly** with the data!
+    - Please **print or check your length and capacity** with each test so we can confirm correct functionality.
 
 ---
 
