@@ -13,15 +13,13 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide you with working knowledge of how Dynamic Arrays function, and their importance as a tool in your bag of programming tricks. We will also cover **Amortized analysis** and discuss why it is important.
+The goal of this deep dive is to provide you with working knowledge of how `Dynamic Arrays` function, and their importance as a tool in your bag of programming tricks. We will also cover **amortized analysis** and discuss why it is important.
 
 ---
 
 #### Background Info {#bgi}
 
 ##### Arrays
-
------
 
 Arrays are one of the most common and versatile data structures and are essential to almost any useful C or C++ program. They allow us to store hundreds, or even thousands, of elements inside of memory while providing random access in `O(1)` to all of them. While these helpful structures provide us with near-instant access to our data whenever we need it, they are not without weakness. When using regular C-style arrays, you must declare a fixed size for them at the time of their creation and, once this size is declared, it cannot be changed.
 
@@ -67,13 +65,11 @@ Any time there is the (Overflow) label, that is saying the array must be resized
 
 ![image](/labs/lab-03/AmortizedAnalysis.png)
 
-
-
 ---
 
 #### Your Task {#task}
 
-In order to implement your own class, we are providing starter code (both files can be found inside the `gui/` folder). You will be given a *header file* (`DynamicArray.h`) and a partially-implemented *source file* (`DynamicArray.cpp`) for a class `DynamicArray`.
+In order to implement your own class, we are providing starter code. You will be given a [*header file*](/labs/lab-03/code/DynamicArray.h) (`DynamicArray.h`) and a partially-implemented [*source file*](/labs/lab-03/code/DynamicArray.cpp) (`DynamicArray.cpp`) for a class `DynamicArray`.
 
 ```c++
 #ifndef DYNAMIC_ARRAY_H
@@ -265,25 +261,22 @@ DynamicArray& DynamicArray::operator=(const DynamicArray &other) {
 }
 ```
 
+Some functions have already been implemented for you inside of the `DynamicArray.cpp` file. The rest of the functions are up to you to implement, specifically where you see `// TODO` comments. You may add your own **private helper functions** should you wish.
 
-
-Some functions have already been implemented for you inside of the `DynamicArray.cpp` file. The rest of the functions are up to you to implement, specifically where you see `// TODO` comments. You may add your own _private_ helper functions should you wish.
-
->Note: You are _not_ allowed to alter any of the given private variables, public function signatures or implementations.
-
+> Note: You are **not** allowed to alter any of the given private variables, public function signatures or implementations.
 
 ---
 
 #### Requirements {#reqs}
-1. Complete 'append' and 'prepend'
-2. Complete 'findFirstOf' and 'findLastOf'
-3. Complete 'removeLast', 'removeFirst', and 'clear'
+1. Complete `append()` and `prepend()`
+2. Complete `findFirstOf()` and `findLastOf()`
+3. Complete `removeLast()`, `removeFirst()`, and `clear()`
 4. Create test cases for each of your functions that prove they work. Note: The array should grow/shrink accordingly with the data!
 
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers **Dynamic Arrays** and your level of knowledge on them will be assessed as follows: 
+This assignment covers `Dynamic Arrays` and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
     - Successfully meet [requirement](#reqs) **1**
 - To demonstrate an `understanding` of these topics, you must:
@@ -294,6 +287,5 @@ This assignment covers **Dynamic Arrays** and your level of knowledge on them wi
 > To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
-
 
 Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.
