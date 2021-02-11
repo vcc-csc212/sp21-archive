@@ -27,6 +27,13 @@ Hours
 : After class on Tuesdays and Thursdays. Email me to set up a separate time.
 
 #### About your TAs {#tas}
+<br><br>Alexander:
+: I'm a Computer Science undergrad and am minoring in both Digital Forensics and Cybersecurity here at URI. Outside of programming for my internship and class, one of my favorite pastimes is reading a good book.
+<br><br>
+**You'll see me:** At hours on Wednesdays and Fridays, and on Piazza!
+
+---
+
 <br><br>Christian:
 : I’m a Computer Science PhD candidate here at URI. From MA, I earned my BS & MS in Computer Science from UMASS Dartmouth. Most of my free time is spent playing video games, with the occasional adventures to places like Zion National Park, and Antelope Canyon.
 <br><br>
@@ -99,14 +106,16 @@ Tuesdays:
 4:45-6:00pm ET (Prof. Chávez, stay on same Zoom after class)
 
 Wednesdays:
-: 2:00pm-4:00pm ET (Zach)
+: 2:00pm-4:00pm ET (Zach)  
+4:00pm-6:00pm ET (Alexander)
 
 Thursdays:
 : 4:45-6:00pm ET (Prof. Chávez, stay on same Zoom after class)
 
 Fridays:
 : 9:00am-11:00am ET (Zach)  
-12:00pm-2:00pm ET (Kayla)
+12:00pm-2:00pm ET (Kayla)  
+3:00pm-5:00pm ET (Alexander)
 
 Async help:
 : Remember you can ask questions and contribute to our collective knowledgebase using [Piazza](https://piazza.com/uri/spring2021/csc212)!
