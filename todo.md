@@ -25,6 +25,6 @@ permalink: /todo/
 ✔️ [Deep Dive 1](/dd1) (due 2/4 @ 3:30pm ET)  
 
 #### Week 3 (2/8-2/12)
-✔️ [Class Pre-Readings](/wk3) (due before class)
-✔️ [Lab 3](/lab03)  (due during 2/10 lab session)
-✔️ [Deep Dive 2](/dd2) (due 2/18 @ 3:30pm ET)
+✔️ [Class Pre-Readings](/wk3) (due before class)  
+✔️ [Lab 3](/lab03)  (due during 2/10 lab session)  
+✔️ [Deep Dive 2](/dd2) (due 2/18 @ 3:30pm ET)  
