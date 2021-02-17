@@ -7,7 +7,7 @@ permalink: /wk4/
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday 2/16](#tues)  
-✔️ [Pre-reading for Thursday 2/18](#thurs) (coming soon)
+✔️ [Pre-reading for Thursday 2/18](#thurs)
 
 ---
 
@@ -37,4 +37,20 @@ In today's class we'll be reviewing the algorithms for a single linked list's op
 
 #### Pre-Reading for  Linked Lists (Implementation), Thursday 2/18 {#thurs}
 
-> Coming Soon
+##### Essential Questions
+
+<br>
+✔️ What're the steps necessary to **insert an element** (at beginning, end, and anywhere else) on a singly linked list?  
+✔️ What're the steps necessary to **delete an element** (at beginning, end, and anywhere else) on a singly linked list?  
+
+##### Read/Watch/Review
+Before attending class, please complete the material below:
+- Read the [Lab 4 Handout](/lab04)
+- Watch [Linked List Animation](https://www.youtube.com/watch?v=iNUS9iZwrVA) (3 min)
+	- Assumes **no tail pointer**
+- Explore the visualization sites below:[this visualization site](https://visualgo.net/en/list)
+	- [**Not** using a tail pointer](https://antoniosarosi.github.io/Linked-List-Visualization/)
+	- [Using a tail pointer](https://visualgo.net/en/list)
+
+##### In Class
+In today's class we'll be continuing to work on our lab's SLL implementation.
