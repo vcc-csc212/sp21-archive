@@ -7,7 +7,7 @@ permalink: /wk5/
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday 2/23](#tues)  
-✔️ [Pre-reading for Thursday 2/25](#thurs)
+✔️ [Pre-reading for Thursday 2/25](#thurs) (coming soon)
 
 ---
 
