@@ -5,12 +5,12 @@ permalink: /wk2/
 
 > You **must complete the pre-reading before each class**:  
 
-✔️ [Pre-reading for Tuesday 2/1](#tues)  
+✔️ [Pre-reading for Tuesday 2/2](#tues)  
 ✔️ [Pre-reading for Thursday 2/4](#thurs)
 
 ---
 
-#### Pre-Reading for Intro to Analysis of Algos, Tuesday 2/1 {#tues}
+#### Pre-Reading for Intro to Analysis of Algos, Tuesday 2/2 {#tues}
 
 ##### Essential Questions
 Before attending class, please complete the material below and use the following questions to guide your note-taking:  
@@ -36,7 +36,7 @@ In today's class we'll be analyzing and comparing the time complexity of simple 
 
 ---
 
-#### Pre-Reading for Basic Sorting Algos (Implementation), Thursday 2/1 {#thurs}
+#### Pre-Reading for Basic Sorting Algos (Implementation), Thursday 2/4 {#thurs}
 
 ##### Essential Questions
 Before attending class, please complete the material below and use the following questions to guide your note-taking:  
