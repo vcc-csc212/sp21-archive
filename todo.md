@@ -30,6 +30,6 @@ permalink: /todo/
 ✔️ [Deep Dive 2](/dd2) (due 2/18 @ 3:30pm ET)  
 
 #### Week 4 (2/15-2/19)
-##### ✔️ [Class Pre-Readings](/wk4) (due before class)
-##### ✔️ [Lab 4](/lab04)  (due during 2/17 lab session)
-##### ✔️ [Deep Dive 2](/dd2) (due 2/18 @ 3:30pm ET)
+✔️ [Class Pre-Readings](/wk4) (due before class)
+✔️ [Lab 4](/lab04)  (due during 2/17 lab session)
+✔️ [Deep Dive 2](/dd2) (due 2/18 @ 3:30pm ET)
