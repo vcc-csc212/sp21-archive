@@ -92,7 +92,7 @@ multiply 4 2
 ```
 The output of a working program given an input file containing the text above would look like:
 ```text
-1 + 1 = 1
+1 + 1 = 2
 1 * 1 = 1
 5 + 3 = 8
 3 + 5 = 8
