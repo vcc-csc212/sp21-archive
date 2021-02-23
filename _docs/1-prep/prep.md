@@ -102,6 +102,8 @@ This contains some resources you may find useful in preparing for the course. I'
 - [HackerRank](https://www.hackerrank.com)
 - [Kattis](https://open.kattis.com)
 - [Edabit](https://edabit.com/challenges/cpp)
+- [Interview Cake](https://www.interviewcake.com)
+- [Interview Bit](https://www.interviewbit.com)
 
 ***
 
