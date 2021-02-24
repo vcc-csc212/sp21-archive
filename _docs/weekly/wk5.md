@@ -7,7 +7,7 @@ permalink: /wk5/
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday 2/23](#tues)  
-✔️ [Pre-reading for Thursday 2/25](#thurs) (coming soon)
+✔️ [Pre-reading for Thursday 2/25](#thurs)
 
 ---
 
@@ -34,4 +34,19 @@ In today's class we'll be practicing solving problems utilizing linked lists and
 
 #### Pre-Reading for Queues, Thursday 2/25 {#thurs}
 
-> Coming Soon
+##### Essential Questions
+
+<br>
+✔️ What is a the purpose of a queue?  
+✔️ What is the behaviour of a queue?  
+✔️ How can a queue be implemented using a linked list?  
+
+##### Read/Watch/Review
+Before attending class, please complete the material below:
+- Read [Data Structure and Algorithms - Queue](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm)
+- Watch [Data Structures: Queue (Abstract Data Type)](https://www.youtube.com/watch?v=PjQdvpWfCmE) (7 min)
+- Read [How to implement a queue using a linked list](https://www.educative.io/edpresso/how-to-implement-a-queue-using-a-linked-list)
+- Watch [Data Structures: Linked List implementation of Queue](https://www.youtube.com/watch?v=A5_XdiK4J8A) (14 min)
+
+##### In Class
+In today's class we'll be practicing solving problems utilizing linked lists and queues.
