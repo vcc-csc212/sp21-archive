@@ -5,6 +5,8 @@ order: 2
 permalink: /prep/
 ---
 
+> New [memory](#pointers) & [programming practice](#challenges) resources added on 2/24!
+
 This contains some resources you may find useful in preparing for the course. I've set up the following categories:  
 ✔️ [Learning/refreshing C++ Programming](#cpp)  
 ✔️ [Learning/refreshing C++ Pointers and Memory](#pointers)  
@@ -47,6 +49,9 @@ This contains some resources you may find useful in preparing for the course. I'
 	- Material for the unit on Pointers
 - Quick [C++ Pointer Tutorial](https://gist.github.com/ericandrewlewis/720c374c29bbafadedc9)
 - CodeBeauty's [C++ pointers playlist](https://www.youtube.com/playlist?list=PL43pGnjiVwgSSRlwfahAuIqoJ8TfDIlHq)
+- Article: [Stack and Heap Memory](https://courses.engr.illinois.edu/cs225/fa2020/resources/stack-heap/)
+- Article: [Pointers and const](https://www.learncpp.com/cpp-tutorial/pointers-and-const/)
+- Article: [References and const](https://www.learncpp.com/cpp-tutorial/references-and-const/)
 
 ***
 
