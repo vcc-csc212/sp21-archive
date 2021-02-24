@@ -4,6 +4,8 @@ asg: Lab 05
 permalink: /lab05/
 ---
 
+> **Note**: This Lab differs from the others as it is **due at the end of this session!** You **cannot** get checked off for more credit at TA hours for this lab. What you get by the end of the session is what you get for the **problem-solving** topic.
+
 On this page:  
 ✔️ [Motivation](#motivation)  
 ✔️ [Background Info](#bgi)  
@@ -13,7 +15,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide a better understanding of debuggers and experience in problem solving.
+The goal of this deep dive is to provide a better understanding of debuggers and to give you experience with problem solving and translating that into code.
 
 ---
 
@@ -21,7 +23,7 @@ The goal of this deep dive is to provide a better understanding of debuggers and
 
 ##### 1. Debugging
 
-First, lets make a quick *hello world* program. With that file, we'll be able to explore some basic features of the CS50 IDE debugger.
+First, lets make a quick *hello world* program. With that file, we'll be able to explore some basic features of the CS50 IDE debugger (or whatever your IDE of choice is).
 
 Create and save a `hello.cpp` program with the following contents.
 
@@ -53,17 +55,19 @@ Now that you've set a breakpoint, we must run the program in debug mode. You can
 $ debug50 hello
 ```
 
+If you're using a different IDE, chances are there is a "Debug and Run" mode in the top menu.
+
 ##### 1.3 Debugging "Hello World"
 
 You should notice that your program stops executing at the breakpoint, and the line with the breakpoint is highlighted yellow. When debugging, the highlighted line is the next line of code to be executed. To the right you should see the debugging window, as shown below.   
 
 <center><img src="/labs/lab-05/images/debug-window.png" ></center>
 
-The top row of buttons allow you to navigate and execute your code. From Left to Right:
-- The play button, or the resume button, will stop debugging and run your program normally until it reaches another breakpoint, end of program, or a runtime error, and then starts debugging again;
-- The Step Over and Step Into buttons will both execute the next line of code. They perform differently when the next line of code includes a function. The Step Over button will execute the function call completely and finish executing the current line. The Step Into button will instead move the debugger to that function's code and continue debugging there;
-- The Step Out button can be pressed when you are inside a function call to finish the function call and return to the original line of code that called that function;
-- The Deactivate All Breakpoints button is self explanatory.  
+The top row of buttons allow you to navigate and execute your code. These icons are consistent across IDEs. From Left to Right:
+- The play button (sideways triangle), or the resume button, will stop debugging and run your program normally until it reaches another breakpoint, end of program, or a runtime error, and then starts debugging again;
+- The Step Over (curved arrow down) and Step Into (straight arrow down) buttons will both execute the next line of code. They perform differently when the next line of code includes a function. The Step Over button will execute the function call completely and finish executing the current line. The Step Into button will instead move the debugger to that function's code and continue debugging there;
+- The Step Out (arrow up) button can be pressed when you are inside a function call to finish the function call and return to the original line of code that called that function;
+- The Deactivate All Breakpoints (empty circle) button is self explanatory.  
 
 ##### 1.4 Debugging Another Program
 
@@ -101,7 +105,7 @@ Let's take a look at how you did. Now, use the CS50 debugging tool to trace the 
 
 ##### 2.1 Algorithms
 
-An `algorithm` is a method or a process followed to solve a problem. You might preform an algorithm every day without thinking about it. A problem can be solved by many different algorithms. A given algorithm solves only one problem.
+An `algorithm` is a method or a process followed to solve a problem. You might perform an algorithm every day without thinking about it. A problem can be solved by many different algorithms. A given algorithm solves only one problem.
 
 By definition, something can only be called an algorithm if it has all of the following properties.
 
@@ -115,40 +119,44 @@ By definition, something can only be called an algorithm if it has all of the fo
 
 Programmers commonly deal with problems, algorithms, and computer programs. These are three distinct concepts.
 
-As your intuition would suggest, a problem is a task to be performed. It is best thought of in terms of inputs and matching outputs. A problem definition should not include any constraints on how the problem is to be solved. The solution method should be developed only after the problem is precisely defined and thoroughly understood. 
+In this context, a problem is a task to be performed. It is best thought of in terms of inputs and matching outputs. A problem definition should not include any constraints on how the problem is to be solved. The solution method should be developed only after the problem is precisely defined and thoroughly understood. 
 
 
 <center><img src="/labs/lab-05/images/problem.png" width="450px"></center>
 
-*from: Problem Solving with C++, 10th Edition, Walter Savitch*
+*Image from: Problem Solving with C++, 10th Edition, Walter Savitch*
 
 As you can see, the problem solving and implementation phase are separated into different boxes. That's because these processes are somewhat independent and don't explicitly depend on each other.
 
-Take what we now know about algorithms and consider some problem design strategies that can be implemented without any consideration of code, programming, or computer science. Brainstorm and provide an example with your group in your lab-02 answer document.
+Take what we now know about algorithms and consider some problem design strategies that can be implemented without any consideration of code, programming, or computer science. Brainstorm and provide an example with your group as a comment in your lab code file.
 
 ---
 
 #### Your Task {#task}
 
-Solve each of the following practice programming interview problems. After you get a working solution for each problem, calculate its Big-Oh run time. Note: You **must** solve all of these problems manually! You cannot use code you find online, nor can you use a built-in library function that trivializes the problem!
+Solve each of the following practice programming interview problems. After you get a working solution for each problem, calculate its Big-Oh run time. 
+
+> Note: You **must** solve all of these problems manually! You cannot use code you find online, nor can you use a built-in library function that trivializes the problem!
 
 1. Find the missing number in a given integer array from 1 to n. Assume the array is of size n-1. Assume the array is shuffled. 
 2. Find the smallest & largest numbers in an integer array. Assume the array is shuffled.
-3. Find the first non repeated character of a given String.
+3. Find the first non repeated character of a given string.
 4. Find the middle element of a linked list.
 
 
 ---
 
 #### Requirements {#reqs}
-1. Solve one of the above problems.
-2. Solve two of the above problems.
-3. Solve three of the above problems.
+1. Solve any one of the above problems.
+2. Solve any two of the above problems.
+3. Solve any three of the above problems.
 
 ---
 
 #### Handing in {#submit}
 Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). This Lab differs from the others as it is **due at the end of this session!**
+
+> You **cannot** get checked off for more credit at TA hours for this lab. What you get by the end of the session is what you get for the **problem-solving** topic.
 
 ---
 
@@ -163,5 +171,6 @@ This assignment covers **problem solving** and your level of knowledge on them w
 
 > To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
+---
 
 Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.
