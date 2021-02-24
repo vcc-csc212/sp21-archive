@@ -43,7 +43,7 @@ Now you will run this program in debug mode; allowing you to run code line by li
 
 Before you start debugging you must set a breakpoint in your code. In debug mode, your program will run normally until it reaches the breakpoint. You are now in control of when your program executes its lines of code. To set a breakpoint, click  on the light gray space in your file window that is to the left of the numbers column, on the line that you wish to start debugging. A big red circle should appear after clicking once, with an example shown below:
 
-<center><img src="images/breakpoint.png" ></center>
+<center><img src="/labs/lab-05/images/breakpoint.png" ></center>
 
 ##### 1.2 Running in Debug Mode
 
@@ -57,8 +57,7 @@ $ debug50 hello
 
 You should notice that your program stops executing at the breakpoint, and the line with the breakpoint is highlighted yellow. When debugging, the highlighted line is the next line of code to be executed. To the right you should see the debugging window, as shown below.   
 
-
-<center><img src="images/debug-window.png" ></center>
+<center><img src="/labs/lab-05/images/debug-window.png" ></center>
 
 The top row of buttons allow you to navigate and execute your code. From Left to Right:
 - The play button, or the resume button, will stop debugging and run your program normally until it reaches another breakpoint, end of program, or a runtime error, and then starts debugging again;
@@ -119,7 +118,7 @@ Programmers commonly deal with problems, algorithms, and computer programs. Thes
 As your intuition would suggest, a problem is a task to be performed. It is best thought of in terms of inputs and matching outputs. A problem definition should not include any constraints on how the problem is to be solved. The solution method should be developed only after the problem is precisely defined and thoroughly understood. 
 
 
-<center><img src="images/problem.png" width="450px"></center>
+<center><img src="/labs/lab-05/images/problem.png" width="450px"></center>
 
 *from: Problem Solving with C++, 10th Edition, Walter Savitch*
 
@@ -131,15 +130,21 @@ Take what we now know about algorithms and consider some problem design strategi
 
 #### Your Task {#task}
 
-Solve each of the following practice programming interview problems. After you get a working solution for each problem, calculate its Big-Oh run time.
+Solve each of the following practice programming interview problems. After you get a working solution for each problem, calculate its Big-Oh run time. Note: You **must** solve all of these problems manually! You cannot use code you find online, nor can you use a built-in library function that trivializes the problem!
+
+1. Find the missing number in a given integer array from 1 to n. Assume the array is of size n-1. Assume the array is shuffled. 
+2. Find the smallest & largest numbers in an integer array. Assume the array is shuffled.
+3. Find the first non repeated character of a given String.
+4. Find the middle element of a linked list.
 
 
 ---
 
 #### Requirements {#reqs}
-1. Find the missing number in a given integer array from 1 to n.
-2. Find the smallest & largest numbers in an integer array.
-3. 
+1. Solve one of the above problems.
+2. Solve two of the above problems.
+3. Solve three of the above problems.
+
 ---
 
 #### Handing in {#submit}
@@ -148,17 +153,15 @@ Please call a TA over to get checked off before leaving your lab section (regard
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers the **topic/nonnegot XXX** and your level of knowledge on them will be assessed as follows: 
+This assignment covers **problem solving** and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 thorugh A**
+    - Successfully meet [requirement](#reqs) **1**
 - To demonstrate an `understanding` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 through B**
+    - Successfully meet [requirement](#reqs) **2**
 - To demonstrate `competence` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 through C**
+    - Successfully meet [requirement](#reqs) **3**
 
 > To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
----
 
-TODO: Change if necessary:
 Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.
