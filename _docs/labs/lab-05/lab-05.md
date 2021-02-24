@@ -4,7 +4,7 @@ asg: Lab 05
 permalink: /lab05/
 ---
 
-> **Note**: This Lab differs from the others as it is **due at the end of this session!** You **cannot** get checked off for more credit at TA hours for this lab. What you get by the end of the session is what you get for the **problem-solving** topic.
+> **Note**: This Lab differs from the others as it is **due at the end of this session!** You **cannot** get checked off for more credit at TA hours for this lab. What you get by the end of the session is what you get for the **problem-solving** topic. Also, this is an **individual** lab (no groups).
 
 On this page:  
 ✔️ [Motivation](#motivation)  
@@ -156,9 +156,9 @@ Solve each of the following practice programming interview problems. After you g
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). This Lab differs from the others as it is **due at the end of this session!**
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). This Lab differs from the others as it is **individual and due at the end of this session!**
 
-> You **cannot** get checked off for more credit at TA hours for this lab. What you get by the end of the session is what you get for the **problem-solving** topic.
+> You **cannot** get checked off for more credit at TA hours for this lab. What you get by the end of the session is what you get for the **problem-solving** topic.  Also, this is an **individual** lab (no groups).
 
 ---
 
