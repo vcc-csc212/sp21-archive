@@ -148,7 +148,7 @@ Solve each of the following practice programming interview problems. After you g
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). This Lab differs from the others as it is **due at the end of this session!**
 
 ---
 
