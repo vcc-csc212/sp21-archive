@@ -7,11 +7,11 @@ permalink: /wk6/
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday 3/1](#tues)  
-✔️ [Pre-reading for Thursday 3/3](#thurs)
+✔️ [Pre-reading for Thursday 3/3](#thurs) (coming soon)
 
 ---
 
-#### Pre-Reading for Mergesort, Tuesday DATE1 {#tues}
+#### Pre-Reading for Mergesort, Tuesday 3/1 {#tues}
 
 ##### Essential Questions
 Before attending class, please complete the material below and use the following questions to guide your note-taking:  
@@ -22,7 +22,7 @@ Before attending class, please complete the material below and use the following
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
 - Read [Merge Sort Algorithm](https://www.interviewbit.com/tutorial/merge-sort-algorithm/)
-- Watch [Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw) (2 min)
+- Watch [Merge Sort, GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw) (2 min)
 - Watch [Algorithms: Merge Sort](https://www.youtube.com/watch?v=KF2j-9iSf4Q) (10 min)
 	- Note that the implementation is in Java but the only differences for C++ would be using a pointer to an int array since we can't pass arrays in C++, and manually copying the array.
 - Read [Analysis of Merge Sort](https://www.educative.io/courses/visual-introduction-to-algorithms/mXZyR)
