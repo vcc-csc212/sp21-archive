@@ -2,9 +2,9 @@
 title: Student To Do
 permalink: /todo/
 ---
-#### This Week (2/22-2/26)
-##### ✔️ [Class Pre-Readings](/wk5) (due before class)
-##### ✔️ [Lab 5](/lab05)  (due during 2/24 lab session)
+#### This Week (3/1-2/4)
+##### ✔️ [Class Pre-Readings](/wk6) (due before class)
+##### ✔️ Lab 6 (coming soon)  (due during 2/24 lab session)
 ##### ✔️ [Deep Dive 3](/dd3) (due 3/4 @ 3:30pm ET)
 
 
@@ -33,3 +33,8 @@ permalink: /todo/
 ✔️ [Class Pre-Readings](/wk4) (due before class)  
 ✔️ [Lab 4](/lab04)  (due during 2/17 lab session)  
 ✔️ [Deep Dive 2](/dd2) (due 2/18 @ 3:30pm ET)  
+
+#### Week 5 (2/22-2/26)
+✔️ [Class Pre-Readings](/wk5) (due before class)  
+✔️ [Lab 5](/lab05)  (due during 2/24 lab session)  
+✔️ [Deep Dive 3](/dd3) (due 3/4 @ 3:30pm ET)  
