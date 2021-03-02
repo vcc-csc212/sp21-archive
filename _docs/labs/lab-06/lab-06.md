@@ -93,8 +93,9 @@ Here are some animations to help you in determining the rules for your strings:
 
 #### Requirements {#reqs}
 1. Outline an algorithm to create an L-System for the Koch Snowflake.
-2. Complete the function to produce a Koch Snowflake
-3. Complete the function to produce a Sierpinski Triangle
+2. Outline an algorithm to create an L-System for the Sierpinski Triangle
+3. Complete the function to produce a Koch Snowflake
+4. Complete the function to produce a Sierpinski Triangle
 
 ---
 
@@ -106,11 +107,11 @@ Please call a TA over to get checked off before leaving your lab section (regard
 #### Grade Breakdown {#grading}
 This assignment covers **advanced recursion** and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
-    - Successfully meet [requirement](#reqs) **1**
+    - Successfully meet [requirement](#reqs) **1 and 2**
 - To demonstrate an `understanding` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 and 2**
+    - Successfully meet [requirements](#reqs) **1, 2 and (3 or 4)**
 - To demonstrate `competence` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 through 3**
+    - Successfully meet [requirements](#reqs) **1 through 4**
 
 > To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
