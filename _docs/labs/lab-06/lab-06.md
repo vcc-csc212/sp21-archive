@@ -76,11 +76,15 @@ Here are some animations to help you in determining the rules for your strings:
 
 ##### Sierpinski Triangle
 
-![video](/labs/lab-06/images/sierpinski-triangle-3.mp4)
+<video width="960" height="540" controls>
+  <source src="/labs/lab-06/images/sierpinski-triangle-3.mp4" type="video/mp4">
+</video>
 
 ##### Koch Snowflake
 
-![image](/labs/lab-06/images/koch-snowflake-3.mp4)
+<video width="960" height="540" controls>
+  <source src="/labs/lab-06/images/koch-snowflake-3.mp4" type="video/mp4">
+</video>
 
 To understand how the Koch Snowflake is drawn, these images show the completion of the image at the 3 loop iterations in the ```koch_snowflake``` function.
 
