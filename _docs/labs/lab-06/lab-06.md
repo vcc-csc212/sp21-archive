@@ -76,17 +76,33 @@ Here are some animations to help you in determining the rules for your strings:
 
 ##### Sierpinski Triangle
 
-![image](/labs/lab-06/images/sierpinski_triangle_animation.gif)
+![video](/labs/lab-06/images/sierpinski-triangle-3.mp4)
 
 ##### Koch Snowflake
 
-![image](/labs/lab-06/images/koch_snowflake_animation.gif)
+![image](/labs/lab-06/images/koch-snowflake-3.mp4)
+
+To understand how the Koch Snowflake is drawn, these images show the completion of the image at the 3 loop iterations in the ```koch_snowflake``` function.
+
+After the first iteration:
+
+<center><img src="/labs/lab-06/images/koch-snowflake-3 (1-3 iterations).png"/></center>
+
+After the second iteration:
+
+<center><img src="/labs/lab-06/images/koch-snowflake-3 (2-3 iterations).png"/></center>
+
+After the third iteration:
+
+<center><img src="/labs/lab-06/images/koch-snowflake-3 (3-3 iterations).png"/></center>
 
 ##### Notes
 
 - To use the python file: `python3 l-system-plotter.py l-system.txt <output file name> <degree for turns>  `
   - degree should be 60 for both of these problems!
 - Get a feeling for the string you should be generating BEFORE you start coding.
+- Utilize [this website](https://trinket.io/python/ac4e46dc05) to see your L-System drawn slowly.
+- You may code your solutions on [this repl.it page](https://repl.it/@ChristianEsteve/CSC212-Lab-6).
 
 
 ---
