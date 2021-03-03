@@ -6,12 +6,12 @@ permalink: /wk6/
 > Reminder that you **must complete the pre-reading before each class**.
 <br><br>
 On this page:  
-✔️ [Pre-reading for Tuesday 3/1](#tues)  
-✔️ [Pre-reading for Thursday 3/3](#thurs) (coming soon)
+✔️ [Pre-reading for Tuesday 3/2](#tues)  
+✔️ [Pre-reading for Thursday 3/4](#thurs) (coming soon)
 
 ---
 
-#### Pre-Reading for Mergesort, Tuesday 3/1 {#tues}
+#### Pre-Reading for Mergesort, Tuesday 3/2 {#tues}
 
 ##### Essential Questions
 Before attending class, please complete the material below and use the following questions to guide your note-taking:  
@@ -33,6 +33,6 @@ In today's class we'll be debugging broken implementations of mergesort.
 
 ---
 
-#### Pre-Reading for Analyzing Recursive Algos, Thursday 3/3 {#thurs}
+#### Pre-Reading for Analyzing Recursive Algos, Thursday 3/4 {#thurs}
 
 > Coming Soon

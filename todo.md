@@ -2,9 +2,9 @@
 title: Student To Do
 permalink: /todo/
 ---
-#### This Week (3/1-2/4)
+#### This Week (3/1-3/5)
 ##### ✔️ [Class Pre-Readings](/wk6) (due before class)
-##### ✔️ [Lab 6](/lab06)  (due during 2/24 lab session)
+##### ✔️ [Lab 6](/lab06)  (due during 3/3 lab session)
 ##### ✔️ [Deep Dive 3](/dd3) (due 3/4 @ 3:30pm ET)
 
 
