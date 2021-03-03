@@ -102,12 +102,13 @@ After the third iteration:
 
 ##### Notes
 
-- To use the python file: `python3 l-system-plotter.py l-system.txt <output file name> <degree for turns>  `
-  - degree should be 60 for both of these problems!
 - Get a feeling for the string you should be generating BEFORE you start coding.
-- Utilize [this website](https://trinket.io/python/ac4e46dc05) to see your L-System drawn slowly.
 - You may code your solutions on [this repl.it page](https://repl.it/@ChristianEsteve/CSC212-Lab-6).
-
+	- When you run your code, the python script will be run automatically on your outputted string!
+- Utilize [this website](https://trinket.io/python/ac4e46dc05) to see your L-System drawn slowly.
+- To use the python file: `python3 l-system-plotter.py l-system.txt <output file name> <degree for turns>  `
+	- If you're not using the repl.it, you can download and use the python script locally.
+	- The degree argument should be 60 for both of these problems!
 
 ---
 
