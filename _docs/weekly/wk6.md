@@ -57,6 +57,8 @@ Before attending class, please complete the material below:
 - Read [Solving Recurrence Relations (Part I)](https://algorithmtutor.com/Analysis-of-Algorithm/Solving-Recurrence-Relations-Part-I/)
 - Read [Solving Recurrence Relations (Part III)](https://algorithmtutor.com/Analysis-of-Algorithm/Solving-Recurrence-Relations-Part-III/)
 	- Purposely skipping Part II
+- Watch [Recurrence Equations Overview](https://www.youtube.com/watch?v=l0iXqhqfDPo) (6 min)
+- Watch [Recurrence Relations Discrete Mathematics](https://www.youtube.com/watch?v=eAaP4XaB8hM) (15 min)
 
 ##### In Class
 In today's class we'll be practicing using recurrence relations to analyze recursive algorithms.
