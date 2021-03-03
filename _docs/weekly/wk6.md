@@ -59,4 +59,4 @@ Before attending class, please complete the material below:
 	- Purposely skipping Part II
 
 ##### In Class
-In today's class we'll be....
+In today's class we'll be practicing using recurrence relations to analyze recursive algorithms.
