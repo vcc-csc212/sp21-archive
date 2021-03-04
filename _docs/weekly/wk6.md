@@ -38,8 +38,8 @@ In today's class we'll be debugging broken implementations of mergesort.
 ##### Essential Questions
 
 <br>
-✔️ What is a recurence relation and why is it useful?  
-✔️ How do we derive a recurence relation from code?  
+✔️ What is a recurrence relation and why is it useful?  
+✔️ How do we derive a recurrence relation from code?  
 ✔️ How do we solve a recurrence relation to get the time complexity of a function?  
 
 ##### Read/Watch/Review
