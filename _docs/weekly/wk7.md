@@ -27,6 +27,7 @@ Before attending class, please complete the material below:
 	- Note that the implementation is in Java but the implementation in C++ would be very similar.
 - Read [Analysis of Quick Sort](https://www.educative.io/courses/visual-introduction-to-algorithms/mkM8E)
 - Watch [The Quicksort Sorting Algorithm: Pick A Pivot, Partition, & Recurse](https://www.youtube.com/watch?v=uXBnyYuwPe8) (26 min)
+	- Time complexity explanation starts @ 15 min mark
 
 ##### In Class
 In today's class we'll be debugging broken implementations of quicksort.
