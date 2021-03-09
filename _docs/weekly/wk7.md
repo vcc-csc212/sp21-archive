@@ -7,7 +7,7 @@ permalink: /wk7/
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday 3/9](#tues)  
-✔️ [Pre-reading for Thursday 3/11](#thurs) (coming soon)
+✔️ [Pre-reading for Thursday 3/11](#thurs)
 
 ---
 
@@ -34,6 +34,6 @@ In today's class we'll be debugging broken implementations of quicksort.
 
 ---
 
-#### Pre-Reading for TOPIC, Thursday 3/11 {#thurs}
+#### Pre-Reading for Review, Thursday 3/11 {#thurs}
 
-> Coming soon...
+> Study for the exam (Tues 3/16) with these practice problem sets ([PS1](/files/ps-01.pdf), [PS2](/files/ps-02.pdf)) and come to class with questions.
