@@ -10,7 +10,7 @@ It's never too early to start thinking about a final project! Final projects are
 
 #### Notes on Final Exam 
 - Unlike traditional exams, the final exam **can only improve (not hurt) your course grade**.
-- It'll be cumulative, with a stronger focus on material from week 8 and forward (since the idterm covers weeks 1-7).
+- It'll be cumulative, with a stronger focus on material from week 8 and forward (since the midterm covers weeks 1-7).
 
 #### Notes on Final Project 
 - You may work individually or in groups of up to 4.

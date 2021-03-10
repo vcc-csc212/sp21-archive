@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide a **experience with recursive backtracking**.
+The goal of this deep dive is to provide you some **experience with recursive backtracking**.
 
 ---
 
@@ -33,14 +33,12 @@ Backtracking is a systemic method to iterate over all possible configurations of
 2.) If we run out of moves, return 'False' to backback to a previous stage of the problem
 ```
 
-This strategy can be applied to many problems, and as such represents a 
-
 Let's take a look at an example; solving a game of Sujiko! 
 
 The purpose of this game is to place the numbers 1-9 on the board such that the sum of the four numbers around a circle equal the number in a circle. How would you solve this puzzle?
 
 <p align="center">
-  <img src="/labs/images/sujiko/sujiko.png" />
+  <img src="/labs/lab-07/images/sujiko/sujiko.png" />
 </p>
 
 
@@ -57,46 +55,45 @@ Lets take a look at an algorithm:
 
 Lets try applying this algorithm to our board:
 
-| First Pass                                   | Second Pass                                   | Seventh Pass                                   |
-| -------------------------------------------- | --------------------------------------------- | ---------------------------------------------- |
-| ![image](/labs/images/sujiko/first_pass.png) | ![image](/labs/images/sujiko/second_pass.png) | ![image](/labs/images/sujiko/seventh_pass.png) |
+| First Pass | Second Pass | Seventh Pass |
+| --- | --- | --- |
+| ![image](/labs/lab-07/images/sujiko/first_pass.png) | ![image](/labs/lab-07/images/sujiko/second_pass.png) | ![image](/labs/lab-07/images/sujiko/seventh_pass.png) |
 
 We've hit our first dead end, & there are no more missing values to place. This solution is not correct, so we backtrack to the previous version of the board, and change the number that was placed.
 
-| Sixth Pass Revisited                                   | Sixth Pass Modified                                   | Seventh Pass Revisited                             |
-| ------------------------------------------------------ | ----------------------------------------------------- | -------------------------------------------------- |
-| ![image](/labs/images/sujiko/sixth_pass_revisited.png) | ![image](/labs/images/sujiko/sixth_pass_modified.png) | ![image](/labs/images/sujiko/new_seventh_pass.png) |
+| Sixth Pass Revisited | Sixth Pass Modified | Seventh Pass Revisited |
+| --- | --- | --- |
+| ![image](/labs/lab-07/images/sujiko/sixth_pass_revisited.png) | ![image](/labs/lab-07/images/sujiko/sixth_pass_modified.png) | ![image](/labs/lab-07/images/sujiko/new_seventh_pass.png) |
 
 This yields another dead end, so we would backtrack back to the 5th empty spot, and change the value there.
 
-| Fifth Pass Revisited                                   | New Fifth Pass                                   | New Sixth Pass                                   |
-| ------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| ![image](/labs/images/sujiko/fifth_pass_revisited.png) | ![image](/labs/images/sujiko/new_fifth_pass.png) | ![image](/labs/images/sujiko/new_sixth_pass.png) |
+| Fifth Pass Revisited | New Fifth   | New Sixth Pass |
+| --- | --- | --- |
+| ![image](/labs/lab-07/images/sujiko/fifth_pass_revisited.png) | ![image](/labs/lab-07/images/sujiko/new_fifth_pass.png) | ![image](/labs/lab-07/images/sujiko/new_sixth_pass.png) |
 
 This process would repeat until we have a solution board:
 
 <p align="center">
-  <img src="/labs/images/sujiko/sujiko_solved.png" />
+  <img src="/labs/lab-07/images/sujiko/sujiko_solved.png" />
 </p>
-
-
 
 ---
 
 #### Your Task {#task}
 
-Review each of the following problems and fulfil the requirements for this lab
+Review each of the following problems and fulfill the requirements for this lab.
 
 ##### <center>N-Queens Problem</center>
 
 The N-Queens problem is the task of placing eight chess queens on an NxN chessboard such that no two queens can attack each other. Let's take a look at this empty 8x8 chess board:
 
+> In chess, the queen may move any number of squares in any single direction (horizontally, vertically, or diagonally).
+
 <p align="center">
-  <img src="/labs/images/chessboard.png" />
+  <img src="/labs/lab-07/images/chessboard.png" />
 </p>
 
-
-How would you solve the problem? Let's take a look at pseudocode for the strategy you would probably use.
+How would you solve the problem? Let's take a look at pseudocode for the strategy you could use.
 
 ```
 1) Start in the leftmost column
@@ -117,24 +114,30 @@ How would you solve the problem? Let's take a look at pseudocode for the strateg
    return false to trigger backtracking.
 ```
 
-> During lab we went over a step-by-step visualization for this problem. If you missed it (or need a refresher) you can view a simulation here: https://www.cs.usfca.edu/~galles/visualization/RecQueens.html
+> See this [online step-by-step visualization](https:/www.cs.usfca.edu/~galles/visualization/RecQueens.html) for this problem.
 
-The following is the result of the recursive call tree for solving a 4x4 puzzle.
+The following is the result of the recursive call tree for solving a 4x4 puzzle:
 
 <p align="center">
-  <img src="/labs/images/n-queens-4x4-solved.png" />
+  <img src="/labs/lab-07/images/n-queens-4x4-solved.png" />
 </p>
 
-The code to solve the N-Queens problem is given in this lab. Download the code & work to understand how the backtracking is working to solve the problem. After you can follow the code, move on to the next section.
+Download the code to solve the N-Queens problem and work to understand how the backtracking is working to solve the problem. After you can follow the code, move on to the next section.
+
+- [main.cpp](/labs/lab-07/N-Queens/main.cpp)
+- [n-queens.h](/labs/lab-07/N-Queens/n-queens.h)
+- [n-queens.cpp](/labs/lab-07/N-Queens/n-queens.cpp)
+
+---
 
 ##### <center>Sudoku!</center>
 
-If you are yet unaware of what a Sudoku puzzle is, you are given a partially filled 9x9 board with the objective of filling each cell such that each row, column, and 3x3 subgrid contains all of the digits 1-9. You can **not** change the given values. As an example, here is a puzzle:
+In Sudoku, you are given a partially filled 9x9 board with the objective of filling each cell such that each row, column, and 3x3 subgrid contains all of the digits 1-9. You can **not** change the given values. As an example, here is a puzzle:
 	
 
 |              Sudoku Puzzle               |              Sudoku Puzzle Solved               |
 | :--------------------------------------: | :---------------------------------------------: |
-| ![image](/labs/images/sudoku_puzzle.png) | ![image](/labs/images/sudoku_puzzle_solved.png) |
+| ![image](/labs/lab-07/images/sudoku_puzzle.png) | ![image](/labs/lab-07/images/sudoku_puzzle_solved.png) |
 
 Now that you know the rules, finish the given code for solving a Sudoku puzzle.
 
@@ -155,7 +158,7 @@ Your strategy will be *very* similar to the solution for N-Queens:
 
 Before starting the code for this problem, work through a few rounds on paper to ensure you have the correct methodology.
 
-##### <center>Re-N-Queens: A different perspective{#nqueens2}</center>
+##### <center>Re-N-Queens: A different perspective </center> {#nqueens2}
 
 In the given solution for N-Queens, the puzzle is solved by changing the row a Queen is placed on in a given column.
 
@@ -163,13 +166,14 @@ Write a function that instead solves the puzzle by changing the column a Queen i
 
 In other words, instead of solving the puzzle left to right, solve it top to bottom.
 
-
 ---
 
 #### Requirements {#reqs}  
+
 1. Comment the ```solve_rec()``` function in the solution to the N-Queens problem to show you fully understand the solution.
 2. Copy the ```solve_rec()``` function and modify it such that it solves the N-Queens problem as described in [Re-N-Queens: A different perspective](#nqueens2).
 3. Finish the Sudoku program using recursive backtracking.
+
 ---
 
 #### Handing in {#submit}
@@ -178,7 +182,7 @@ Please call a TA over to get checked off before leaving your lab section (regard
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers the **topic/nonnegot XXX** and your level of knowledge on them will be assessed as follows: 
+This assignment covers the topic of **recursive backtracking** and your level of knowledge on it will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
     - Successfully meet [requirement](#reqs) **1**
 - To demonstrate an `understanding` of these topics, you must:
@@ -190,4 +194,4 @@ This assignment covers the **topic/nonnegot XXX** and your level of knowledge on
 
 ---
 
-Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.
+Original assignment by [Dr. Marco Alvarez](https:/homepage.cs.uri.edu/~malvarez/), used and modified with permission.
