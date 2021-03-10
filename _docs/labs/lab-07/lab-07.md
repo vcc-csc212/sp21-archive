@@ -144,6 +144,9 @@ Now that you know the rules, finish the given code for solving a Sudoku puzzle.
 - [main.cpp](/labs/lab-07/Sudoku/main.cpp)
 - [sudoku.cpp](/labs/lab-07/Sudoku/sudoku.cpp)
 - [sudoku.h](/labs/lab-07/Sudoku/sudoku.h)
+- [Easy Puzzle](/labs/lab-07/Sudoku/puzzle_easy.txt)
+- [Medium Puzzle](/labs/lab-07/Sudoku/puzzle_medium.txt)
+- [Hard Puzzle](/labs/lab-07/Sudoku/puzzle_hard.txt)
 
 Your strategy will be *very* similar to the solution for N-Queens:
 
