@@ -114,7 +114,7 @@ How would you solve the problem? Let's take a look at pseudocode for the strateg
    return false to trigger backtracking.
 ```
 
-> See this [online step-by-step visualization](https:/www.cs.usfca.edu/~galles/visualization/RecQueens.html) for this problem.
+> See this [online step-by-step visualization](https://www.cs.usfca.edu/~galles/visualization/RecQueens.html) for this problem.
 
 The following is the result of the recursive call tree for solving a 4x4 puzzle:
 
