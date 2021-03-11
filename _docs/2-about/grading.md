@@ -70,11 +70,11 @@ There are [6 types of assignments](/types-assignments) that will allow you to de
 
 - `Awareness` can be demonstrated via: 
 	- SME Presentations
-	- Exams
+	- Exams (multiple choice and ranking questions)
 - `Understanding` can be demonstrated via: 
 	- Wet toes
 	- Labs
-	- Exams
+	- Exams (written responses)
 	- Deep dives
 - `Competence` can be demonstrated via: 
 	- Deep dives
