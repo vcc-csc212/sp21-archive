@@ -38,4 +38,4 @@ In today's class we'll be debugging broken implementations of quicksort.
 
 > Study for the exam (Tues 3/16) with these practice problem sets ([PS1](/files/ps-01.pdf), [PS2](/files/ps-02.pdf)) and come to class with questions.
 
-Once you've gone through the problem sets on your own, compare your answers with the solutions: ([PS1]((/files/ps-01-sol.pdf)) coming soon, [PS2](/files/ps-02-sol.pdf))
+Once you've gone through the problem sets on your own, compare your answers with the solutions: [PS1]((/files/ps-01-sol.pdf), [PS2](/files/ps-02-sol.pdf))
