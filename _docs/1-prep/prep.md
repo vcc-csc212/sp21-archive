@@ -1,13 +1,14 @@
 ---
 title: Prep Work / Resources
-category: Resources / Planning Ahead
-order: 2
+category: Resources
+order: 1
 permalink: /prep/
 ---
 
-> New [memory](#pointers) & [programming practice](#challenges) resources added on 2/24!
+> New resources for using [debuggers](#debuggers) added on 3/15!
 
 This contains some resources you may find useful in preparing for the course. I've set up the following categories:  
+✔️ [Using IDEs and Debuggers](#debuggers)  
 ✔️ [Learning/refreshing C++ Programming](#cpp)  
 ✔️ [Learning/refreshing C++ Pointers and Memory](#pointers)  
 ✔️ [Learning/refreshing OOP](#oop)  
@@ -18,6 +19,28 @@ This contains some resources you may find useful in preparing for the course. I'
 ✔️ [Add my own suggestion](#suggestions)  
 
 ***
+
+#### Using IDEs and Debuggers {#debuggers}  
+- Debuggers
+	- [CLion Debugger Fundamentals](https://www.youtube.com/watch?v=5wGsRdumueU) (7 min)
+	- [How to debug C++ in Visual Studio](https://www.youtube.com/watch?v=0ebzPwixrJA) (19 min)
+	- [Debugging C/C++ with VS Code](https://www.youtube.com/watch?v=X2tM21nmzfk) (9 min)
+- CS50 IDE
+	- [Introduction to CS50 IDE](https://www.youtube.com/watch?v=cJrma4ICmng) (8 min)
+	- [Getting Started - Introduction to the CS50 IDE](https://www.youtube.com/watch?v=01d4jxOsOSw) (20 min)
+- CLion
+	- [CLion Quick Tour](https://www.youtube.com/watch?v=Srnw1dI1iAA) (10 min)
+	- [How to Setup CLion for C and C++ Development](https://www.youtube.com/watch?v=HSf-GiJr1Bs) (13 min)
+	- [CLion 101 and Beyond](https://www.youtube.com/watch?v=rfdqzfsCmx0) (65 min)
+	- [CLion Debugger Fundamentals](https://www.youtube.com/watch?v=5wGsRdumueU) (7 min)
+- Visual Studio
+	- [How to Download and Install Visual Studio 2019, Step by Step](https://www.youtube.com/watch?v=IjDPFy4NPYE) (6 min)
+	- [Getting Started with Visual Studio 2019](https://www.youtube.com/watch?v=1CgsMtUmVgs) (6 min)
+	- [First program “Hello World” using Visual Studio 2019](https://www.youtube.com/watch?v=iBG0fN8lY8Y) (27 min)
+	- [How to debug C++ in Visual Studio](https://www.youtube.com/watch?v=0ebzPwixrJA) (19 min)
+- VS Code
+	- [Getting Started With VSCode](https://www.youtube.com/watch?v=ORrELERGIHs) (23 min)
+	- [Debugging C/C++ with VS Code](https://www.youtube.com/watch?v=X2tM21nmzfk) (9 min)
 
 #### C++ Programming {#cpp}
 - Free online textbook: [Starting Out with C++](http://instructor.sdu.edu.kz/~bakhyt/CPP/suggested%20books/Starting%20out%20with%20C++.pdf)
