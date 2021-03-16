@@ -3,7 +3,7 @@ title: Student To Do
 permalink: /todo/
 ---
 #### This Week (3/15-3/18)
-##### ✔️ No Pre-Readings this week
+##### ✔️ No Pre-Readings this week, rest up, catch up!
 ##### ✔️ Lab 8(coming soon)  (due during 3/17 lab session)
 ##### ✔️ [Deep Dive 4](/dd4) (due 3/25 @ 3:30pm ET -- extra week given due to midterm)
 
