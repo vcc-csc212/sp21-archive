@@ -17,7 +17,7 @@ As a reminder, we meet **virtually on Tuesdays and Thursdays 3:30pm - 4:45pm ET*
 | 5 | ` Stacks ` | Problem-Solving | ` Queues ` |
 | 6 | ` Mergesort ` | Recursive Algorithms | Analyzing Recursive Functions (w/ recurrences) |
 | 7 | ` Quicksort ` | Recursive Backtracking | Review/Breather/Wiggle Room |
-| 8 | Midterm exam | ` Priority Queues and Heaps ` | Heapsort |
+| 8 | Midterm exam | ` Priority Queues and Heaps ` | Review/Breather/Wiggle Room |
 | 9 | ` Binary Search ` | Intro to Trees | ` BSTs ` |
 | 10 | ` BSTs Analysis ` | ` BSTs Implementation ` | ` Balanced Trees ` |
 | 11 | ` Balanced Trees ` | ` Sets & Maps ` | Hashtables |
