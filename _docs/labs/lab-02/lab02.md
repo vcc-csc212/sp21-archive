@@ -14,7 +14,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to give you some prctice **solving problems in a recursive manner**. **Recursion** should be a somewhat familiar topic and udnerstanding it will be crucial for upcoming mode advanced topics.
+The goal of this lab is to give you some prctice **solving problems in a recursive manner**. **Recursion** should be a somewhat familiar topic and udnerstanding it will be crucial for upcoming mode advanced topics.
 
 ---
 

@@ -15,7 +15,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide a better understanding of debuggers and to give you experience with problem solving and translating that into code. 
+The goal of this lab is to provide a better understanding of debuggers and to give you experience with problem solving and translating that into code. 
 
 > This will **help you be able to start DDs on your own without feeling overwhelmed**. This type of **problem-solving takes practice** and that’s the whole point of this lab— to give you practice and help you **become a better problem-solver and computer scientist**.
 

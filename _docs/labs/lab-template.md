@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide a **XXX**, such as:  
+The goal of this lab is to provide a **XXX**, such as:  
 ✔️ XXX  
 
 ---

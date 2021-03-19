@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide some insight into **advanced recursive algorithms**. Being comfortable with reading, writing, and analyzing recursive algorithms is crucial for understanding all our upcoming topics.
+The goal of this lab is to provide some insight into **advanced recursive algorithms**. Being comfortable with reading, writing, and analyzing recursive algorithms is crucial for understanding all our upcoming topics.
 
 ---
 

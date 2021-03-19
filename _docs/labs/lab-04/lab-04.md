@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide a **review of pointers** while giving you an under-the-hood introduction to the `Linked List` data structure.
+The goal of this lab is to provide a **review of pointers** while giving you an under-the-hood introduction to the `Linked List` data structure.
 
 ---
 

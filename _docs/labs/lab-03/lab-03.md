@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide you with working knowledge of how `Dynamic Arrays` function, and their importance as a tool in your bag of programming tricks. We will also cover **amortized analysis** and discuss why it is important.
+The goal of this lab is to provide you with working knowledge of how `Dynamic Arrays` function, and their importance as a tool in your bag of programming tricks. We will also cover **amortized analysis** and discuss why it is important.
 
 ---
 
