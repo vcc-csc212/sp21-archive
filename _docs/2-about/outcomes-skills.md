@@ -32,7 +32,7 @@ Each time we meet for lab or lecture, you'll be learning a new topic. **We move 
 11. ` Heaps `
 12. Heapsort 
 13. ` Binary Search ` 
-14. ` BSTs ` 
+14. ` BSTs (Implementation & Analysis)` 
 15. ` Balanced Trees ` 
 16. ` Sets & Maps ` 
 17. Hashtables 

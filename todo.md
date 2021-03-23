@@ -12,7 +12,7 @@ permalink: /todo/
 
 #### Past Assignments
 
-#### Week 8 3/15-3/18)
+#### Week 8 (3/15-3/18)
 ✔️ No Pre-Readings this week, rest up, catch up!  
 ✔️ [Lab 8](/lab08)  (due during 3/17 lab session)  
 ✔️ [Deep Dive 4](/dd4) (due 3/25 @ 3:30pm ET -- extra week given due to midterm)  

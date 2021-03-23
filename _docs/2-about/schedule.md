@@ -11,18 +11,18 @@ As a reminder, we meet **virtually on Tuesdays and Thursdays 3:30pm - 4:45pm ET*
 | Week | Tuesday (Lecture) | Wednesday (Lab) | Thursday (Lecture) |
 | ----------- | ----------- | ----------- | ----------- |
 | 1 | Intro & Setup | C++ Crash Course | Essential Math Overview |
-| 2 | ` Intro to Analysis of Algos ` | Recursion, revisited | ` Basic Sorting Algos (Implementation) ` |
-| 3 | ` Basic Sorting Algos (Analysis) ` | Dynamic Arrays (Intro & Analysis) | ` Dynamic Arrays (Implementation) ` |
-| 4 | ` Linked Lists (Intro & Analysis) ` | Pointers, revisited | ` Linked Lists (Implementation) ` |
-| 5 | ` Stacks ` | Problem-Solving | ` Queues ` |
-| 6 | ` Mergesort ` | Recursive Algorithms | Analyzing Recursive Functions (w/ recurrences) |
-| 7 | ` Quicksort ` | Recursive Backtracking | Review/Breather/Wiggle Room |
-| 8 | Midterm exam | ` Priority Queues ` | Review/Breather/Wiggle Room |
-| 9 | ` Binary Search ` | Intro to Trees, `Heaps` | ` BSTs ` |
-| 10 | ` BSTs Analysis ` | ` BSTs Implementation ` | ` Balanced Trees ` |
-| 11 | ` Balanced Trees ` | ` Sets & Maps ` | Hashtables |
-| 12 | Chaining & Open-Addressing | Intro to Graphs | ` BFS ` |
-| 13 | ` DFS ` | Q&A | Technical Interview Prep |
+| 2 | `Intro to Analysis of Algos` | Recursion, revisited | `Basic Sorting Algos (Implementation)` |
+| 3 | `Basic Sorting Algos (Analysis)` | Dynamic Arrays (Intro & Analysis) | `Dynamic Arrays (Implementation)` |
+| 4 | `Linked Lists (Intro & Analysis)` | Pointers, revisited | `Linked Lists (Implementation)` |
+| 5 | `Stacks` | Problem-Solving | `Queues` |
+| 6 | `Mergesort` | Recursive Algorithms | Analyzing Recursive Functions (w/ recurrences) |
+| 7 | `Quicksort` | Recursive Backtracking | Review/Breather/Wiggle Room |
+| 8 | Midterm exam | `Priority Queues` | Review/Breather/Wiggle Room |
+| 9 | `Binary Search` | Intro to Trees, `Heaps` | `Intro BSTs` |
+| 10 | `BSTs Analysis` |  `BSTs Implementation` | `BSTs Implementation` cont'd |
+| 11 | More trees: `Balanced Trees` | `Sets & Maps` | `Sets & Maps` cont'd |
+| 12 | Intro to Graphs | `BFS` vs `DFS` | `BFS` vs `DFS` cont'd |
+| 13 | Hashtables | Chaining & Open-Addressing | Q&A / Technical Interview Prep |
 
 #### Exam Schedule
 Midterm
