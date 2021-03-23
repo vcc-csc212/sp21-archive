@@ -18,9 +18,9 @@ As a reminder, we meet **virtually on Tuesdays and Thursdays 3:30pm - 4:45pm ET*
 | 6 | `Mergesort` | Recursive Algorithms | Analyzing Recursive Functions (w/ recurrences) |
 | 7 | `Quicksort` | Recursive Backtracking | Review/Breather/Wiggle Room |
 | 8 | Midterm exam | `Priority Queues` | Review/Breather/Wiggle Room |
-| 9 | `Binary Search` | Intro to Trees, `Heaps` | `Intro BSTs` |
+| 9 | `Binary Search` | Intro to Trees | `Intro BSTs` |
 | 10 | `BSTs Analysis` |  `BSTs Implementation` | `BSTs Implementation` cont'd |
-| 11 | More trees: `Balanced Trees` | `Sets & Maps` | `Sets & Maps` cont'd |
+| 11 | More trees: `Balanced Trees` | `Heaps` | `Sets & Maps` |
 | 12 | Intro to Graphs | `BFS` vs `DFS` | `BFS` vs `DFS` cont'd |
 | 13 | Hashtables | Chaining & Open-Addressing | Q&A / Technical Interview Prep |
 
