@@ -48,7 +48,7 @@ Before attending class, please complete the material below:
 - Read the [Lab 4 Handout](/lab04)
 - Watch [Linked List Animation](https://www.youtube.com/watch?v=iNUS9iZwrVA) (3 min)
 	- Assumes **no tail pointer**
-- Explore the visualization sites below:[this visualization site](https://visualgo.net/en/list)
+- Explore the visualization sites below:
 	- [**Not** using a tail pointer](https://antoniosarosi.github.io/Linked-List-Visualization/)
 	- [Using a tail pointer](https://visualgo.net/en/list)
 

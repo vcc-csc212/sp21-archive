@@ -7,7 +7,7 @@ permalink: /wk9/
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday 3/23](#tues)  
-✔️ [Pre-reading for Thursday 3/25](#thurs) (coming soon)
+✔️ [Pre-reading for Thursday 3/25](#thurs)
 
 ---
 
@@ -33,4 +33,22 @@ In today's class we'll be reviewing binary search and applying it to various dat
 
 #### Pre-Reading for Binary Search Trees, Thursday 3/25 {#thurs}
 
-> Coming soon
+##### Essential Questions
+
+<br>
+✔️ What is a binary tree?  
+✔️ What is a binary search tree?  
+✔️ What makes a binary search tree special/unique?  
+✔️ What're the different ways to traverse a BST?  
+
+##### Read/Watch/Review
+
+> For now, focus on the questions above regarding BSTs. We'll look at implementation next week.
+
+Before attending class, please complete the material below:
+- Read [Binary Search Trees](https://sassafras13.github.io/BinaryTrees/)
+- Watch [Binary Search Tree](https://www.youtube.com/watch?v=ovWqEgYYAEQ) (6 min)
+- Watch [Binary Tree Bootcamp](https://www.youtube.com/watch?v=BHB0B1jFKQc) (20 min)
+
+##### In Class
+In today's class we'll be going over BSTs and BST traversal.
