@@ -91,20 +91,21 @@ int ttt_game::minimax_move() {
     for (int i = 0; i < BOARD_SIZE; i++) {
         if (_board[i] != P1_SYMBOL && _board[i] != P2_SYMBOL) {
             _board[i] = P2_SYMBOL;
+        
+
+            game_state status = {
+                _board, //_gs_board
+                _current_player, //_gs_player
+            };
+
+            int val = minimax_algo(&status, 0);
+
+            if (val < best) { //P2 is min
+                move = i; 
+            }
+
+            _board[i] = i + '1';
         }
-
-        game_state status = {
-            _board, //_gs_board
-            _current_player, //_gs_player
-        };
-
-        int val = minimax_algo(&status, 0);
-
-        if (val < best) { //P2 is min
-            move = i; 
-        }
-
-        _board[i] = i + '1';
     }
     return move;
 }
