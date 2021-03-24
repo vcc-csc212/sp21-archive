@@ -1,5 +1,5 @@
 ---
-title: Trees and Heaps
+title: Introduction to Trees
 asg: Lab 9
 permalink: /lab09/
 ---
@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this deep dive is to provide you exposure to **Trees and Heaps**.
+The goal of this lab is to provide you an **introduction to trees**, which we'll be seeing a lot of over the next few weeks.
 
 ---
 
@@ -21,7 +21,7 @@ The goal of this deep dive is to provide you exposure to **Trees and Heaps**.
 
 ##### Trees
 
-Trees are a Data Structure that models hierarchical data, as opposed to a LinkedList which stores linear data. Trees are a data structure similar to LinkedLists in that we use Nodes to store data and references to other Nodes containing more data. Except where a LinkedList grows left -> right and has at most two references (front and back in a Doubly-Linked List) a Tree grows top -> down and each Node can have any number of references. 
+Trees are a Data Structure that models hierarchical data, as opposed to a LinkedList which stores linear data. Trees are a data structure similar to LinkedLists in that we use Nodes to store data and references to other Nodes containing more data. Except where a **LinkedList grows left to right** and has at most two references (front and back in a Doubly-Linked List) a **Tree grows top to down** and each Node can have any number of references. 
 
 Lets dive into some terminology:
 
@@ -29,13 +29,27 @@ Lets dive into some terminology:
   <img src="/labs/lab-09/images/tree_terminology.png"/>
 </p>
 
-- Root: The first Node in the tree. Similar to the Head Node in a LinkedList.
-- Edge: The connection between Nodes. Typically a pointer.
-- Parent: Any Node that has a child.
-- Child: Any Node belonging to a Parent.
-- Siblings: Any Nodes that share the same parent.
-- Leaf: Any Node without any children
-- Subtree: By definition, every Subtree is its own Tree, and must follow the same rules as its Parent.
+
+Root
+: The first Node in the tree. Similar to the *Head Node* in a LinkedList.
+
+Edge
+: The connection between Nodes. Typically a pointer.
+
+Parent
+: Any Node that has a child.
+
+Child
+: Any Node belonging to a Parent.
+
+Siblings
+: Any Nodes that share the same parent.
+
+Leaf
+: Any Node without any children
+
+Subtree
+: By definition, every Subtree is its own Tree, and must follow the same rules as its Parent.
 
 Tree Data Structures are very flexible, and can be tweaked to fit a problem as needed. Without any bounding rules, a Tree can have any number of children at each Node. Observe:
 
@@ -43,7 +57,7 @@ Tree Data Structures are very flexible, and can be tweaked to fit a problem as n
   <img src="/labs/lab-09/images/tree.png"/>
 </p>
 
-These types of trees are typically known as "K-Ary Trees" and are implemented in slightly more advanced algorithms than we'll be covering today, so lets simplify things a bit. Behold, the Binary Tree!
+These types of trees are typically known as "K-Ary Trees" and are implemented in slightly more advanced algorithms than we'll be covering today, so lets simplify things a bit. Behold, the **Binary Tree**!
 
 <p align="center">
   <img src="/labs/lab-09/images/binary-tree.png"/>
@@ -53,7 +67,7 @@ Binary trees have a simple rule:
 
 - Each Node has at most 2 children.
 
-and are not to be confused with Ternary Trees:
+and are not to be confused with **Ternary Trees**:
 
 <p align="center">
   <img src="/labs/lab-09/images/ternary-tree.png"/>
@@ -67,7 +81,7 @@ For all of the above definitions, Trees can be further classified as Full, Compl
 
 ##### Full Trees
 
-A Tree is classified as "Full" if every Node other than the leaves have K children.
+A Tree is classified as "Full" if **every Node other than the leaves have K children**.
 
 <p align="center">
   <img src="/labs/lab-09/images/full-binary-tree.png"/>
@@ -75,7 +89,7 @@ A Tree is classified as "Full" if every Node other than the leaves have K childr
 
 ##### Complete Trees
 
-A Tree is classified as "Complete" if every Node other than the leaves have K children, with an exception for the last row. This last row must have all Leaf Nodes as far left as possible.
+A Tree is classified as "Complete" if every Node other than the leaves have K children, with an exception for the last row. This last row must have **all Leaf Nodes as far left as possible**.
 
 <p align="center">
   <img src="/labs/lab-09/images/complete-binary-tree.jpg"/>
@@ -135,19 +149,19 @@ This would yield the output: 4 6 2 6 7 3 1
 
 #### Your Task {#task}
 
-Create your own solution from scratch to complete the requirements listed below.
+Create your own solution, from scratch, to complete the requirements listed below.
 
 ---
 
 #### Requirements {#reqs}  
 
-1. Create the following Trees on paper/MS Paint/etc. (the values are yours to decide) and display their contents using all three Traversal methods:
+1. Create the following Trees on paper/MS Paint/etc. (the values are yours to decide) and display their contents using all three traversal methods:
 
    1. Full Binary Tree with 7 Nodes
    2. Complete Ternary Tree with 8 Nodes
    3. Balanced 4-ary Tree with 15 Nodes
 
-2. Implement a simple Binary Tree. Use the following function definitions to help you:
+2. Implement and test a simple Binary Tree. Use the following function definitions to help you:
 
    ```c++
    // Search the Tree for the Node containing 'parent_data' and append a new Node containing
@@ -162,10 +176,14 @@ Create your own solution from scratch to complete the requirements listed below.
    void display_post_order();
    void display_pre_order();
    
-   // Hint: For all functions, you'll need a helper function that also accepts a Node* as an argument to traverse the tree!
+   // HINT: For all functions, you'll need a helper function that also accepts a Node* as an argument to traverse the tree!
    ```
 
-3. Use your BinaryTree class you just created to store the Trees you created in Requirement #1 and prove it is correct with each of the three display methods.
+3. Do a quick search on different types of trees and choose one to answer the following questions on it:
+    1. What type of tree is it?
+    2. What are its properties and use cases?
+    3. What makes is special/unique from other trees (think: what makes it good at what it's used for)?
+    4. Briefly (3-5 sentences) describe how you think you'd modify your insert() function (from req #2) for this specific type of tree (it doesn't have to be 100% correct, we just want you put some good thought into it).
 
 ---
 

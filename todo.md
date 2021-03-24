@@ -4,7 +4,7 @@ permalink: /todo/
 ---
 #### This Week (3/22-3/26)
 ##### ✔️ [Class Pre-Readings](/wk9) (due before class)  
-##### ✔️ Lab 9(coming soon)  (due during 3/24 lab session)
+##### ✔️ [Lab 9](/lab09)  (due during 3/24 lab session)
 ##### ✔️ [Deep Dive 4](/dd4) (due 3/25 @ 3:30pm ET -- extra week given due to midterm)
 
 
