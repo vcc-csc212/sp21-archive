@@ -143,7 +143,7 @@ Traverse right
 Visit Root
 ```
 
-This would yield the output: 4 6 2 6 7 3 1
+This would yield the output: 4 5 2 6 7 3 1
 
 ---
 
