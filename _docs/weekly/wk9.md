@@ -50,5 +50,7 @@ Before attending class, please complete the material below:
 - Watch [Binary Search Tree](https://www.youtube.com/watch?v=ovWqEgYYAEQ) (6 min)
 - Watch [Binary Tree Bootcamp](https://www.youtube.com/watch?v=BHB0B1jFKQc) (20 min)
 
+> Check out this [BST Visualizer](https://visualgo.net/en/bst)
+
 ##### In Class
 In today's class we'll be going over BSTs and BST traversal.

@@ -2,15 +2,20 @@
 title: Student To Do
 permalink: /todo/
 ---
-#### This Week (3/22-3/26)
-##### ✔️ [Class Pre-Readings](/wk9) (due before class)  
-##### ✔️ [Lab 9](/lab09)  (due during 3/24 lab session)
-##### ✔️ [Deep Dive 4](/dd4) (due 3/25 @ 3:30pm ET -- extra week given due to midterm)
+#### This Week (3/29-4/2)
+##### ✔️ [Class Pre-Readings](/wk10) (due before class)  
+##### ✔️ Lab 10(coming soon)  (due during 3/31 lab session)
+##### ✔️ No deep dive! Catch up on any missing/incomplete DDs.
 
 
 ---
 
 #### Past Assignments
+
+#### Week 9 (3/22-3/26)
+✔️ [Class Pre-Readings](/wk9) (due before class)    
+✔️ [Lab 9](/lab09)  (due during 3/24 lab session)  
+✔️ [Deep Dive 4](/dd4) (due 3/25 @ 3:30pm ET -- extra week given due to midterm)  
 
 #### Week 8 (3/15-3/18)
 ✔️ No Pre-Readings this week, rest up, catch up!  
