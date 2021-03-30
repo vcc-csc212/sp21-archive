@@ -24,8 +24,9 @@ They rely on sortable "keys" which are used to store and look up a given node.
 These "keys" and the way they are stored means that during a lookup, at each step, up to half of the entire tree can be discarded from the search. 
 
 
-
-<img align="center" src="E:/Documents/Work/vcc-csc212.github.io/_docs/labs/lab-10/bst.gif">
+<p align="center">
+  <img src="/labs/lab-10/bst.gif">
+</p>
 
 
 
@@ -39,7 +40,7 @@ As you can see from the image above, a Binary Search Tree is ordered in the foll
 
 The resulting tree will have two subtrees stemming from the root node. The left-hand subtree will have key values which are all less than the root node's key. The right-hand subtree will have key values which are all greater than the root node's key.
 
-Check out this binary search tree visualization from USFCA: [Visualization](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+Check out this binary search tree [visualization from USFCA](https://www.cs.usfca.edu/~galles/visualization/BST.html).
 
 Aside from putting in the methods declarations, which will be explained in more detail below, you have the following to make your classes work properly:
 
@@ -57,7 +58,7 @@ In BSTNode:
 In BSTree:
 
 + A pointer to the root node (private)
-+ All of the methods specified in Section 4.2 below
++ All of the methods specified in the section below
 
 ##### Constructor and Destructor
 
@@ -70,9 +71,9 @@ The destructor should just call `destroy()`, passing in the root node pointer.
 
 > Note: A common theme in many of these methods is to have a public, non-recursive method which simply calls a private, recursive function on the root node. 
 > This is because a binary search tree can be traversed or searched easily by calling a recursive method on a node's left child, right child or both. 
-> In fact, due to a concept called *function overloading*, these methods can have the same name so long as they have different parameters.
+> In fact, due to a concept called [*function overloading*](https://docs.microsoft.com/en-us/cpp/cpp/function-overloading?view=msvc-160), these methods can have the same name so long as they have different parameters.
 
-It is recommended to work on these methods in order and test them using `make` before moving on to the next.
+It is recommended to work on these methods in order and test them using `make` before moving on to the next. Don't be alarmed-- more info on `make` is available further into the reading.
 
 ##### Insert
 
@@ -85,7 +86,7 @@ Again, create two methods named `height()`, one private and one public.
 The public method should take no parameters, call the private method on the root, and return the resulting integer representing the height of the tree. 
 The private method should take a `BSTNode *` parameter and return an integer representing the height of the subtree rooted at the node passed in.
 
-> Note: Calling the height method on an empty tree should return -1 as a tree with one node is of height 0. This is meant to distinguish between the two.
+> Note: Calling the height method on an empty tree should return -1 as a tree with one node is of height 0. The -1 is used to distinguish between the two.
 
 ##### Traversals
 
@@ -99,7 +100,7 @@ Each public method should take the line `std::ostream& os = std::cout` as a para
 
 Each private method should take a `BSTNode *` and a `std::ostream&` as parameters and return `void`, performing the traversal specified by its name.
 
-The `ostream` is needed solely for testing, but you can also think of it as a generalization of printing. 
+> The `ostream` is needed solely for testing, but you can also think of it as a generalization of printing. 
 Instead of writing data to STDOUT using `std::cout`, you will instead write to the `ostream` passed in as an argument. 
 Thus, when you visit each node, you should write its data to the `ostream` just as you would with `cout`, including the `std::endl`.
 
@@ -112,8 +113,7 @@ Essentially, calling the method as `traversal()` will default to using `std::cou
 You should create a destroy function which is private and takes a node and returns void. 
 It should destroy the entire subtree starting at node recursively.
 
-> Ensure that you only delete your current node after all subtrees have been freed.
-> Think about which type of traversal would be best to implement this method.
+> Ensure that you only delete your current node after all subtrees have been freed (otherwise you'll have a memory leak!). HINT: Think about which type of traversal would be best to implement this method.
 
 ##### Search
 
@@ -127,6 +127,13 @@ It should search the tree recursively and return true if and only if the value i
 This lab is a bit different compared to previous labs in that you will be exposed to some new concepts. 
 To be more specific, we give you a makefile, a unit test file, a doctest header file and a header file with class definitions for `BSTNode` and `BSTree` classes (plus a couple other things). 
 We have supplied ```bst.cpp``` to house your class definitions, and `test.cpp` will serve as your main file. 
+
+- [bst.h](/labs/lab-10/template-code/bst.h)
+- [bst.cpp](/labs/lab-10/template-code/bst.cpp)
+- [test.cpp](/labs/lab-10/template-code/test.cpp)
+- [doctest.h](/labs/lab-10/template-code/doctest.h)
+- [makefile](/labs/lab-10/template-code/makefile)
+
 Thus you will need to follow the specifications in the next section very closely in order to complete the lab correctly.
 
 ### The BST Header
@@ -171,7 +178,6 @@ Don't worry about `doctest.h`; for our purposes, it is magic.
 
 Hint: The unit tests for `insert()` and `height()` rely on one another, so they both need to be implemented correctly before you can pass either method's test cases.
 
-
 ---
 
 #### Requirements {#reqs}
@@ -181,14 +187,19 @@ Your goal for this lab is to complete the following tasks **in order**:
 2. Implement the following:
    1. The Constructors
    2. The Destructors
+   3. preorder()
+   4. postorder()
+   5. inorder()
 3. Implement the following:
    1. height()
    2. insert()
-4. Implement the following:
-   1. preorder()
-   2. postorder()
-   3. inorder()
-   4. search()
+   3. search()
+4. Implement **and test** the following:
+   1. isComplete() which tells us if the tree is complete
+   1. isFull() which tells us if the tree is full
+
+> **HINT 1:** Some of these will be very similar and some will be identical to your binary tree implementation from last week's lab! Others won't. Think about the differences between a BT and a BST and use that to guide your implementation. <br>
+**HINT 2:** Review [Lab 9](/lab09) to review the definitions of a complete and full tree for #4.
 
 ---
 
