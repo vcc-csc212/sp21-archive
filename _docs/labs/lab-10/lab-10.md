@@ -199,7 +199,7 @@ Your goal for this lab is to complete the following tasks **in order**:
    1. isFull() which tells us if the tree is full
 
 > **HINT 1:** Some of these will be very similar and some will be identical to your binary tree implementation from last week's lab! Others won't. Think about the differences between a BT and a BST and use that to guide your implementation. <br>
-**HINT 2:** Review [Lab 9](/lab09) to review the definitions of a complete and full tree for #4.
+**HINT 2:** Review [Lab 9](/lab09) to review the definitions of a complete and full tree for #4. <br>**HINT 3:** For #4, there is a relationship between how far down the tree you are and the # of total nodes in the tree to determine completeness. <br>**HINT 4:** For #4, you'll need to create new test cases in test.cpp. Insert -> Perfect should return True for isFull(), and you can easily modify that case to test for isComplete().
 
 ---
 
