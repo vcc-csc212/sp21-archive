@@ -18,6 +18,18 @@ It's never too early to start thinking about a final project! Final projects are
 - Technically, the final project is optional
 - Doing a final project is **the only way to get an A (or a B** if you missed other assignments)
 
+#### Proposing a Final Project
+While submitting a proposal is not required, it is **strongly recommended** as it will allow you to confirm the scope of your project, ensure you're on track to meeting all final project requirements (outlined below), will allow you to received feedback and ideas, and will force you to start thinking about the project early rather than the week it's due (while you're taking and studying for finals!).
+
+To submit a proposal, please **make a post on Piazza** with answers to the following questions:
+1. Who are you working with, if anyone (or are you looking for groupmates)?
+2. Brief description of your project (elevator pitch for what it is and how it works)
+3. What topics will you be demonstrating and how (be specific with how you will use and/or demonstrate your chosen topics)
+4. Milestones & Timeline (what major tasks will you accomplish by when)
+
+Your post can be private if you'd like or public if you’re looking for potential groupmates or don’t mind sharing ideas.
+
+
 #### Final Project Requirements
 
 Language
