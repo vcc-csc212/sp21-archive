@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this lab is to provide you exposure to **Priority Queues**.
+The goal of this lab is to provide you exposure to `Priority Queues`.
 
 ---
 
@@ -104,7 +104,7 @@ Please call a TA over to get checked off before leaving your lab section (regard
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers the topic of **priority queues and heaps** and your level of knowledge on it will be assessed as follows: 
+This assignment covers the topic of `priority queues` and your level of knowledge on it will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
     - Successfully meet [requirement](#reqs) **1**
 - To demonstrate an `understanding` of these topics, you must:
