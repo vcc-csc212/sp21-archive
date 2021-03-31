@@ -4,7 +4,7 @@ permalink: /todo/
 ---
 #### This Week (3/29-4/2)
 ##### ✔️ [Class Pre-Readings](/wk10) (due before class)  
-##### ✔️ Lab 10(coming soon)  (due during 3/31 lab session)
+##### ✔️ [Lab 10](/lab10)  (due during 3/31 lab session)
 ##### ✔️ No deep dive! Catch up on any missing/incomplete DDs.
 
 
