@@ -211,7 +211,7 @@ Please call a TA over to get checked off before leaving your lab section (regard
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers `Binary Search Trees (Implementation)` and your level of knowledge on them will be assessed as follows: 
+This assignment covers `Binary Search Trees (Implementation)` and `Binary Search` and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 and 2**
 - To demonstrate an `understanding` of these topics, you must:
