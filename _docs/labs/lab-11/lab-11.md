@@ -24,9 +24,10 @@ The goal of this lab is to provide background on `Heaps`.
 Heaps are special implementations of Complete Binary Treess and come in two flavors: Min-Heap and Max-Heap.
 
 <p align="center">
-  <img src="images/min-max-heap.svg" />
+  <img src="/labs/lab-11/images/min-max-heap.svg" />
     <figcaption><center>Min-Heap (left) and Max-Heap (right)</center></figcaption>
 </p>
+
 
 
 
@@ -46,7 +47,7 @@ The key at the root node must be the **maximum** among the keys present in its c
 For most operations in a Heap, we need to envision each Node in a heap as being "indexed" (not literally indexed as an array is!) as so:
 
 <p align="center">
-  <img src="images/heap-notations.png" />
+  <img src="/labs/lab-11/images/heap-notations.png" />
     <figcaption><center>Heap Notations</center></figcaption>
 </p>
 
