@@ -19,25 +19,25 @@ Upon successful completion of the course, you should be able to:
 #### What're the non-negotiables?
 Each time we meet for lab or lecture, you'll be learning a new topic. **We move incredibly fast so don't fall behind**. Of all the topics we'll be covering, some of them will be review or preliminary knowledge required for understanding future topics. Taking that into account, the **new topics** we'll be covering can be categorized into **20 umbrella topics** (outlined below):
 
-1. ` Intro to Analysis of Algos ` 
-2. ` Sorting Algos (Implementation & Analysis) `
-3. ` Dynamic Arrays ` 
-4. ` Linked Lists ` 
-5. ` Stacks ` 
-6. ` Queues ` 
-7. Recursive Algorithms
+1. `Intro to Analysis of Algos`
+2. `Sorting Algos (Implementation & Analysis)`
+3. `Dynamic Arrays`
+4. `Linked Lists`
+5. `Stacks`
+6. `Queues`
+7.  Recursive Algorithms
 8. Analyzing Recursive Functions (w/ recurrences) 
 9. Recursive Backtracking 
-10. ` Priority Queues ` 
-11. ` Heaps `
+10. `Priority Queues`
+11. `Heaps`
 12. Heapsort 
-13. ` Binary Search ` 
-14. ` BSTs (Implementation & Analysis)` 
-15. ` Balanced Trees ` 
-16. ` Sets & Maps ` 
+13. `Binary Search`
+14. `BSTs (Implementation & Analysis)`
+15. `Balanced Trees`
+16. `Sets & Maps`
 17. Hashtables 
 18. Chaining & Open-Addressing 
 19. Intro to Graphs 
-20. ` BFS & DFS ` 
+20. `BFS & DFS`
 
-Of these 20, the `formatted` **13 are non-negotiable** which means that in order to pass the course, you **must** demonstrate at a minimum, a [level of understanding](/grading#grades) about them.
+Of these 20, the`formatted`**13 are non-negotiable** which means that in order to pass the course, you **must** demonstrate at a minimum, a [level of understanding](/grading#grades) about them.

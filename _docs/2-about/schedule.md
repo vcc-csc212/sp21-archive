@@ -21,7 +21,7 @@ As a reminder, we meet **virtually on Tuesdays and Thursdays 3:30pm - 4:45pm ET*
 | 9 | `Binary Search` | Intro to Trees | `Intro BSTs` |
 | 10 | `BSTs Analysis` |  `BSTs Implementation` | `BSTs Implementation` cont'd |
 | 11 | More trees: `Balanced Trees` | `Heaps` | `Sets & Maps` |
-| 12 | Intro to Graphs | `BFS` vs `DFS` | `BFS` vs `DFS` cont'd |
+| 12 | Heapsort & Intro to Graphs | `BFS` vs `DFS` | `BFS` vs `DFS` cont'd |
 | 13 | Hashtables | Chaining & Open-Addressing | Q&A / Technical Interview Prep |
 
 #### Exam Schedule
