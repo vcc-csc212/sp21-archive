@@ -91,7 +91,7 @@ For Insert, we need to ensure that the value being inserted goes into the correc
 1. If we arrive at `nullptr`, return a new Node object
 2. Compare the data being inserted to the data at the current Node
    - Swap the value being inserted with the value at the current Node if needed.
-3. If this subtree is a Full Tree with equal sized subtrees, or is not a Full Tree
+3. If this subtree is a Full Tree with equal sized subtrees, or its left subtree is not a Full Tree
    - Insert to the left
 4. Else
    - Insert to the right
