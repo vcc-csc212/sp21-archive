@@ -175,7 +175,7 @@ Don't worry about `doctest.h`; for our purposes, it is magic.
 #### Requirements {#reqs}
 Your goal for this lab is to complete the following tasks **in order**:
 
-1. Diagram the following operations:
+1. Diagram the following operations for a min heap:
    - insert: 5, 3, 7, 2 , 4, 6, 8
    - remove_min
    - delete: 4
