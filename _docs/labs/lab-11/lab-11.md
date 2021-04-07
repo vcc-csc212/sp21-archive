@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this lab is to provide background to `Heaps`. 
+The goal of this lab is to provide background on `Heaps`. 
 
 ---
 
@@ -54,7 +54,7 @@ The root Node is index 0. We then we proceed left-right, top-down to "index" the
 
 ##### Heapify
 
-Do to the way most Heap operations work, it requires having a "fixer" function that ensures the properties of the Heap are maintained after each operation that could jeopardize them. As usual for Trees, we will be doing so recursively. The basic exercise is:
+Due to the way most Heap operations work, it requires having a "fixer" function that ensures the properties of the Heap are maintained after each operation that could jeopardize them. As usual for Trees, we will be doing so recursively. The basic exercise is:
 
 1. Check if there is a left child
 
@@ -72,7 +72,7 @@ The end result of the Heapify function is a Tree in which the Min-Heap or Max-He
 
 ##### Find Last Element
 
-A common operation is locating the last element in the Heap. Referencing (once again) the "indexing" strategy above, we need an algorithm to location the right-most element in the bottom-most row of the tree. For our purposes, whenever we find that Node we also want to remove it from the Tree. We can use this algorithm:
+A common operation is locating the last element in the Heap. Referencing (once again) the "indexing" strategy above, we need an algorithm to locate the right-most element in the bottom-most row of the tree. For our purposes, whenever we find that Node we also want to remove it from the Tree. We can use this algorithm:
 
 1. If we reach `nullptr` or calculate an index >= the # of Nodes we have in the tree
    - Return `nullptr`
@@ -121,11 +121,11 @@ Another common operation, and its very similar to Remove Min/max!
 Similar to last week's lab, we give you a makefile, a unit test file, a doctest header file and a header file with class definitions for `HeapNode` and `HeapTree` classes (plus a couple other things). 
 We have supplied ```heap.cpp``` to house your class definitions, and `test.cpp` will serve as your main file. 
 
-- [heap.h](/labs/lab-11/template-code/bst.h)
-- [heap.cpp](/labs/lab-10/template-code/bst.cpp)
-- [test.cpp](/labs/lab-10/template-code/test.cpp)
-- [doctest.h](/labs/lab-10/template-code/doctest.h)
-- [makefile](/labs/lab-10/template-code/makefile)
+- [heap.h](/labs/lab-11/template-code/heap.h)
+- [heap.cpp](/labs/lab-11/template-code/heap.cpp)
+- [test.cpp](/labs/lab-11/template-code/test.cpp)
+- [doctest.h](/labs/lab-11/template-code/doctest.h)
+- [makefile](/labs/lab-11/template-code/makefile)
 
 Thus you will need to follow the specifications in the next section very closely in order to complete the lab correctly.
 
@@ -178,7 +178,6 @@ Your goal for this lab is to complete the following tasks **in order**:
    - insert: 5, 3, 7, 2 , 4, 6, 8
    - remove_min
    - delete: 4
-   - remove_min
 2. Implement 'min_heapify()', 'find_last()', 'remove_min()', and 'delete_element()'
 3. Copy your entire solution to a new Directory, and modify everything to create a max_heap
    - You will need to re-do the test cases in `test.cpp`!
@@ -191,19 +190,15 @@ Please call a TA over to get checked off before leaving your lab section (regard
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers `Binary Search Trees (Implementation)` and `Binary Search` and your level of knowledge on them will be assessed as follows: 
+This assignment covers `heaps` and `balanced trees` and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
-    - Successfully meet [requirements](#reqs) **1 **
+    - Successfully meet [requirements](#reqs) **1**
 - To demonstrate an `understanding` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 and 2**
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 3**
 
-> We’re not asking for delete() but if you want to challenge yourself, you’re welcome to implement it as well!
-
 
 > To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
-
-Original assignment by [Dr. Marco Alvarez](https://homepage.cs.uri.edu/~malvarez/), used and modified with permission.

@@ -131,7 +131,7 @@ bool HeapTree::isFull(HeapNode* root){
 // If any node's index is >= the # of nodes we have, the tree is incomplete.
 /*
          0
-    1       2
+    1        2
 3       4 5     6
 */
 bool HeapTree::isComplete(HeapNode* root, int index, int node_count){
