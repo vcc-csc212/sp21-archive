@@ -10,7 +10,7 @@ bool inSet(std::set<TYPE> a_set, TYPE to_find){
     //return true if to_find is in the set, false otherwise
 }
 
-bool inMap(std::map<KEY_TYPE, VALUE_TYPE> cases, KEY_TYPE check){
+bool inMap(std::map<KEY_TYPE, VALUE_TYPE> a_map, KEY_TYPE to_find){
     // TODO: implement and change KEY_TYPE and VALUE_TYPE to the type you're using. 
     // this function takes in a map and a something to find in the map
     // return true if to_find is in the map, false otherwise
