@@ -5,6 +5,7 @@ permalink: /todo/
 #### This Week (4/5-4/9)
 ##### ✔️ [Class Pre-Readings](/wk11) (due before class)  
 ##### ✔️ [Lab 11](/lab11)  (due during 4/7 lab session)
+##### ✔️ [Wet Toe 13](/wt13) (due by Weds 4/14 @ 10am)
 ##### ✔️ No deep dive! Catch up on any missing/incomplete DDs. Work on [final project](/final).
 
 
