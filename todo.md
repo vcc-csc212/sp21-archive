@@ -6,7 +6,7 @@ permalink: /todo/
 ##### ✔️ [Class Pre-Readings](/wk12) (due before class)  
 ##### ✔️ [Wet Toe 13](/wt13) (due by Weds 4/14 @ 10am)
 ##### ✔️ Lab 12(coming soon)  (due during 4/14 lab session)
-##### ✔️ [Optional Sorting Lab](/sort-lab) (due by Thurs 4/29 @ 3:30pm)
+##### ✔️ Optional Sorting Lab(link coming soon) (due by Thurs 4/29 @ 3:30pm)
 
 > Remember: Last day to [resubmit a DD](/resubmissions) is 4/29, [Final Proj and Exam](/final) on 5/6.
 
