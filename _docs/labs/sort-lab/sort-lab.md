@@ -65,3 +65,7 @@ This assignment covers the **non-negotiable topic** of `Sorting Algos (Implement
     - Successfully meet [requirements](#reqs) **1 through 2**
 
 > To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+
+---
+
+Assignment hints and template code brought to you by Evan Russell.
