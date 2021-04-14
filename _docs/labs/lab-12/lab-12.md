@@ -261,7 +261,7 @@ Don't worry about `doctest.h`; for our purposes, it is magic.
 #### Requirements {#reqs}
 Your goal for this lab is to complete the following tasks **in order**:
 
-1. Why would we implement the Graph as an Adjacency List instead of as a Matrix? Argue your case.
+1. Why would we implement the Graph as an Adjacency List instead of as an Adjacency Matrix? Argue your case.
 2. Implement the adjacency list (`ensureValidgraph()` and `addEdge()`)
 3. Implement BFS and DFS.
 
