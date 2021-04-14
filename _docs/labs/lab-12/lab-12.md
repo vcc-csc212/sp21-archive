@@ -265,6 +265,8 @@ Your goal for this lab is to complete the following tasks **in order**:
 2. Implement the adjacency list (`ensureValidgraph()` and `addEdge()`)
 3. Implement BFS and DFS.
 
+> Stuck on #2? Check out [this video](https://youtu.be/c8TGGuXL0no)
+
 ---
 
 #### Handing in {#submit}
