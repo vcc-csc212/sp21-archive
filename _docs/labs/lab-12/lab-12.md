@@ -178,8 +178,8 @@ This function is in place to make adding new Vertices easy. It ensures that ```a
 ```c++
 'l' = max(source, destination)
     
-while 'adj_list' is smaller than 'l':
-	push a list of Pairs onto 'adj_list'
+while 'adj_list' is smaller than the # of vertices we need:
+	push an empty Vector of Pairs onto 'adj_list'
 ```
 
 
