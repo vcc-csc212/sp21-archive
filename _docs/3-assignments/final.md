@@ -29,6 +29,30 @@ To submit a proposal, please **make a post on Piazza** with answers to the follo
 
 Your post can be private if you'd like or public if you’re looking for potential groupmates or don’t mind sharing ideas.
 
+#### Demonstrating Knowledge
+Final projects are an opportunity for you to demonstrate how much you know about a topic. Below are the requirements for achieving certain knowledge levels:
+
+##### For data structures and algorithms
+
+Understanding
+: Uses appropriate data structures and/or algorithms to complete a task. 
+
+Competence
+: Uses the most appropriate data structures and/or algorithms to complete a task and can explain why said data structure or algorithm is the most appropriate. 
+
+Mastery
+: Uses the most appropriate data structures and/or algorithms to complete a task based on a real-world problem/context/scenario and can explain why said data structure or algorithm is the most appropriate for the task and for the given context/scenario/application. 
+
+##### For analysis
+
+Understanding
+: Can correctly determine and **briefly explain** the time complexity of **at least two** functions.
+
+Competence
+: Can correctly determine and **explain** the time complexity of **at least three** functions.
+
+Mastery
+: Can correctly determine and **thoroughly explain or prove** the time complexity of **at least three** functions.
 
 #### Final Project Requirements
 
