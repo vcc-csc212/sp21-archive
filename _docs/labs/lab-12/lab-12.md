@@ -69,8 +69,8 @@ Graph have 3 main methods of being represented: Adjacency List, Adjacency Matrix
 
 In an Adjacency List, we use a collection of lists to represent the graph. Each list represents a vertex, while the contents of those lists represent connections to other vertices. In the case of a weighted graph, the weights are also stored. This is the main focus of today's lab. The Undirected Weighted Graph from above would be represented as such:
 
-- [[0] -> [{1, 7}, {2, 9}, {5, 2}]
-- [1] -> [{0, 7}, {2, 10}, {3, 11}]
+- [[0] -> [{1, 7}, {2, 9}, {5, 14}]
+- [1] -> [{0, 7}, {2, 10}, {3, 15}]
 - [2] -> [{0, 9}, {1, 10}, {3, 11}, {5, 2}]
 - [3] -> [{1, 15}, {2, 11}, {4, 6}]
 - [4] -> [{3, 6}, {5, 9}]
@@ -212,7 +212,7 @@ output 'vertex'
 for each Pair 'p' in this Vertex:
 	if 'p' has not been discovered:
 		mark 'p' discovered
-         push 'p' into 'vertex_queue'
+         	push 'p' into 'vertex_queue'
             
 BFS('vertex_queue', 'discovered', 'os')
 ```
@@ -229,7 +229,7 @@ output 'vertex'
 
 for each Pair 'p' in this Vertex:
 	if 'p' has not been visited
-        DFS('p', 'visited', os)
+        	DFS('p', 'visited', os)
 ```
 
 
