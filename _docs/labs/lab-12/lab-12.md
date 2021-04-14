@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this lab is to provide background on `Graphs, Breadth-First Search (DFS), and Depth-First Search (DFS`. 
+The goal of this lab is to provide background on Graphs, `Breadth-First Search (DFS), and Depth-First Search (DFS`. 
 
 ---
 
@@ -78,31 +78,31 @@ In an Adjacency List, we use a collection of lists to represent the graph. Each 
 
 ###### Adjacency Matrix
 
-In an Adjacency Matrix, we use a matrix of integers to represent the graph. The X co-ordinate represents the source, while the Y co-ordinate represents the destination. The value at that cell is the weight of that edge. The Undirected Weighted Graph from above would be represented as such:
+In an Adjacency Matrix, we use a matrix of integers to represent the graph. The X coordinate represents the source, while the Y coordinate represents the destination. The value at that cell is the weight of that edge. The Undirected Weighted Graph from above would be represented as such:
 
 |      |  0   |  1   |  2   |  3   |  4   |  5   |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-|  0   |  0   |  7   |  9   |  0   |  0   |  14  |
-|  1   |  7   |  0   |  10  |  15  |  0   |  0   |
-|  2   |  9   |  10  |  0   |  11  |  0   |  2   |
-|  3   |  0   |  15  |  11  |  0   |  6   |  0   |
-|  4   |  0   |  0   |  0   |  6   |  0   |  9   |
-|  5   |  14  |  0   |  2   |  0   |  9   |  0   |
+|  **0**   |  0   |  7   |  9   |  0   |  0   |  14  |
+|  **1**   |  7   |  0   |  10  |  15  |  0   |  0   |
+|  **2**   |  9   |  10  |  0   |  11  |  0   |  2   |
+|  **3**   |  0   |  15  |  11  |  0   |  6   |  0   |
+|  **4**   |  0   |  0   |  0   |  6   |  0   |  9   |
+|  **5**   |  14  |  0   |  2   |  0   |  9   |  0   |
 
 
 
 ###### Incidence Matrix
 
-In an Incidence Matrix, we use a matrix of Booleans to represent the graph. The X co-ordinate represents the source, while the Y co-ordinate represents the destination. A the value at that cell is the incidence relation represents whether those two Vertices are incident (connected, in this context.) The Undirected Weighted Graph from above would be represented as such:
+In an Incidence Matrix, we use a matrix of Booleans to represent the graph. The X coordinate represents the source, while the Y coordinate represents the destination. A the value at that cell is the incidence relation represents whether those two Vertices are incident (connected, in this context.) The Undirected Weighted Graph from above would be represented as such:
 
 |      |  0   |  1   |  2   |  3   |  4   |  5   |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-|  0   |  0   |  1   |  1   |  0   |  0   |  1   |
-|  1   |  1   |  0   |  1   |  1   |  0   |  0   |
-|  2   |  1   |  1   |  0   |  1   |  0   |  1   |
-|  3   |  0   |  1   |  1   |  0   |  1   |  0   |
-|  4   |  0   |  0   |  0   |  1   |  0   |  1   |
-|  5   |  1   |  0   |  1   |  0   |  1   |  0   |
+|  **0**   |  0   |  1   |  1   |  0   |  0   |  1   |
+|  **1**   |  1   |  0   |  1   |  1   |  0   |  0   |
+|  **2**   |  1   |  1   |  0   |  1   |  0   |  1   |
+|  **3**   |  0   |  1   |  1   |  0   |  1   |  0   |
+|  **4**   |  0   |  0   |  0   |  1   |  0   |  1   |
+|  **5**   |  1   |  0   |  1   |  0   |  1   |  0   |
 
 ---
 
@@ -157,15 +157,15 @@ The rest of our Class consists of functions. Let's go over them.
 
 ###### displayGraph()
 
-Pretty self explanatory. It displays the graph. This function is complete and you do not need to touch it.
+Pretty self explanatory. It displays the graph. This function is complete and **you do not need to touch it.**
 
 ###### BFS(int vertex, std::ostream& os)
 
-BFS helper function. Sets up what is needed to call the worker BFS that you will implement. This function is complete and you do not need to touch it.
+BFS helper function. Sets up what is needed to call the worker BFS that you will implement. This function is complete and **you do not need to touch it.**
 
 ###### DFS(int vertex, std::ostream& os)
 
-DFS helper function. Sets up what is needed to call the worker DFS that you will implement. This function is complete and you do not need to touch it.
+DFS helper function. Sets up what is needed to call the worker DFS that you will implement. This function is complete and **you do not need to touch it.**
 
 ###### ensureValidGraph(int source, int destination)
 
@@ -269,7 +269,7 @@ Please call a TA over to get checked off before leaving your lab section (regard
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers `heaps` and `balanced trees` and your level of knowledge on them will be assessed as follows: 
+This assignment covers graphs and `BFS & DFS` and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1**
 - To demonstrate an `understanding` of these topics, you must:
