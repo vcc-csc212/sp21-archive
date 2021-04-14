@@ -69,8 +69,8 @@ Graph have 3 main methods of being represented: Adjacency List, Adjacency Matrix
 
 In an Adjacency List, we use a collection of lists to represent the graph. Each list represents a vertex, while the contents of those lists represent connections to other vertices. In the case of a weighted graph, the weights are also stored. This is the main focus of today's lab. The Undirected Weighted Graph from above would be represented as such:
 
-- [[0] -> [{1, 7}, {2, 9}, {5, 2}]
-- [1] -> [{0, 7}, {2, 10}, {3, 11}]
+- [[0] -> [{1, 7}, {2, 9}, {5, 14}]
+- [1] -> [{0, 7}, {2, 10}, {3, 15}]
 - [2] -> [{0, 9}, {1, 10}, {3, 11}, {5, 2}]
 - [3] -> [{1, 15}, {2, 11}, {4, 6}]
 - [4] -> [{3, 6}, {5, 9}]
@@ -178,8 +178,8 @@ This function is in place to make adding new Vertices easy. It ensures that ```a
 ```c++
 'l' = max(source, destination)
     
-while 'adj_list' is smaller than 'l':
-	push a list of Pairs onto 'adj_list'
+while 'adj_list' is smaller than the # of vertices we need:
+	push an empty Vector of Pairs onto 'adj_list'
 ```
 
 
@@ -212,7 +212,7 @@ output 'vertex'
 for each Pair 'p' in this Vertex:
 	if 'p' has not been discovered:
 		mark 'p' discovered
-         push 'p' into 'vertex_queue'
+         	push 'p' into 'vertex_queue'
             
 BFS('vertex_queue', 'discovered', 'os')
 ```
@@ -229,7 +229,7 @@ output 'vertex'
 
 for each Pair 'p' in this Vertex:
 	if 'p' has not been visited
-        DFS('p', 'visited', os)
+        	DFS('p', 'visited', os)
 ```
 
 
@@ -261,7 +261,7 @@ Don't worry about `doctest.h`; for our purposes, it is magic.
 #### Requirements {#reqs}
 Your goal for this lab is to complete the following tasks **in order**:
 
-1. Why would we implement the Graph as an Adjacency List instead of as a Matrix? Argue your case.
+1. Why would we implement the Graph as an Adjacency List instead of as an Adjacency Matrix? Argue your case.
 2. Implement the adjacency list (`ensureValidgraph()` and `addEdge()`)
 3. Implement BFS and DFS.
 
