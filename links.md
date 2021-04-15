@@ -2,6 +2,7 @@
 title: Important Links
 permalink: /links/
 ---
+
 [Flipped Learning](/flipped)
 : Learn how to **thrive in a flipped environment** you're probably not used to.
 
@@ -16,6 +17,15 @@ permalink: /links/
 
 [Anon Feedback](https://docs.google.com/forms/d/e/1FAIpQLSeeC80Z4Pv0yBd7vhMfafAHAdl5I-_83qtTNKquztkvMEPKHA/viewform?usp=sf_link)
 : Google Form to **provide feedback anonymously**. Help me improve the course by sharing your **questions, thoughts, comments, and concerns**.
+
+[Lab Grade Checker](http://vcc-csc212.herokuapp.com)
+: Find your lab (and some wet toe) grades.
+
+[Grade Spreadsheet](https://docs.google.com/spreadsheets/d/1s3rB1jV1AKmnUaVdrJY5FiBnZjcl-9orATLgRVLb3xQ/edit?usp=sharing)
+: Determine which assignments covered whic topics and determine your course grade.
+
+[Evan's Tree Guide](http://bit.ly/trees-guide)
+: Summary of various types of trees as well as BFS and DFS.
 
 > You must be **logged in to Zoom using your URI address to access any Zoom meeting:**
 
