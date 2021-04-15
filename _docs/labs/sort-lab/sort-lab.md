@@ -4,6 +4,8 @@ asg: Optional Lab (to get competence on topic #2)
 permalink: /sort-lab/
 ---
 
+> **IMPORTANT:** You may work individually or in pairs (no more than 2 people total)
+
 On this page:  
 ✔️ [Motivation](#motivation)  
 ✔️ [Background Info](#bgi)  
