@@ -305,7 +305,7 @@ TEST_CASE("merge sort sub") {
         sorts t;
         const int size = 1;
         int arr[size] = {1};
-        t.mergesort(arr, 0, 1);
+        t.mergesort(arr, 0, 0);
         std::ostringstream oss;
         t.print(arr, size, oss);
         REQUIRE(oss.str() == "1 ");
@@ -377,7 +377,7 @@ TEST_CASE("quick sort sub") {
         sorts t;
         const int size = 1;
         int arr[size] = {1};
-        t.quicksort(arr, 0, 1);
+        t.quicksort(arr, 0, 0);
         std::ostringstream oss;
         t.print(arr, size, oss);
         REQUIRE(oss.str() == "1 ");
@@ -450,7 +450,7 @@ TEST_CASE("merge") {
         const int size = 1;
         int arr[size] = {1};
         int temp[size];
-        t.merge(arr, temp, 0, 0, 1);
+        t.merge(arr, temp, 0, 0, 0);
         std::ostringstream oss;
         t.print(arr, size, oss);
         REQUIRE(oss.str() == "1 ");
@@ -528,7 +528,7 @@ TEST_CASE("partition") {
         sorts t;
         const int size = 1;
         int arr[size] = {1};
-        t.partition(arr, 0, 1);
+        t.partition(arr, 0, 0);
         std::ostringstream oss;
         t.print(arr, size, oss);
         REQUIRE(oss.str() == "1 ");
