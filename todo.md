@@ -2,10 +2,9 @@
 title: Student To Do
 permalink: /todo/
 ---
-#### This Week (4/12-4/16)
-##### ✔️ [Class Pre-Readings](/wk12) (due before class)  
-##### ✔️ [Wet Toe 13](/wt13) (due by Weds 4/14 @ 10am)
-##### ✔️ [Lab 12](/lab12)  (due during 4/14 lab session)
+#### This Week (4/19-4/23)
+##### ✔️ [Class Pre-Readings](/wk13) (due before class)  
+##### ✔️ Lab 13(coming soon)  (due during 4/21 lab session)
 ##### ✔️ [Optional Sorting Lab](/sort-lab) (due by Thurs 4/29 @ 3:30pm)
 
 > Remember: Last day to [resubmit a DD](/resubmissions) is 4/29, [Final Proj and Exam](/final) on 5/6.
@@ -13,6 +12,12 @@ permalink: /todo/
 ---
 
 #### Past Assignments
+
+#### Week 12 (4/12-4/16)
+✔️ [Class Pre-Readings](/wk12) (due before class)  
+✔️ [Wet Toe 13](/wt13) (due by Weds 4/14 @ 10am)  
+✔️ [Lab 12](/lab12)  (due during 4/14 lab session)  
+✔️ [Optional Sorting Lab](/sort-lab) (due by Thurs 4/29 @ 3:30pm)  
 
 #### Week 11 (4/5-4/9)
 ✔️ [Class Pre-Readings](/wk11) (due before class)  
