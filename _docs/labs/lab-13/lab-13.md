@@ -13,7 +13,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Motivation (Why are we doing this?) {#motivation}
-The goal of this lab is to provide background on , `Hash Tables, Chaining, & Open-Addressing`. 
+The goal of this lab is to provide background on **Hash Tables, Chaining, & Open-Addressing**. 
 
 ---
 
@@ -167,7 +167,7 @@ Please call a TA over to get checked off before leaving your lab section (regard
 ---
 
 #### Grade Breakdown {#grading}
-This assignment covers graphs and `BFS & DFS` and your level of knowledge on them will be assessed as follows: 
+This assignment covers graphs and **Hash Tables, Chaining, & Open-Addressing** and your level of knowledge on them will be assessed as follows: 
 - To demonstrate an `awareness` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1**
 - To demonstrate an `understanding` of these topics, you must:
