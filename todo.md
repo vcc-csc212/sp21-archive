@@ -4,7 +4,7 @@ permalink: /todo/
 ---
 #### This Week (4/19-4/23)
 ##### ✔️ [Class Pre-Readings](/wk13) (due before class)  
-##### ✔️ Lab 13(coming soon)  (due during 4/21 lab session)
+##### ✔️ [Lab 13](/lab13)  (due during 4/21 lab session)
 ##### ✔️ [Optional Sorting Lab](/sort-lab) (due by Thurs 4/29 @ 3:30pm)
 
 > Remember: Last day to [resubmit a DD](/resubmissions) is 4/29, [Final Proj and Exam](/final) on 5/6.
