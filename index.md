@@ -44,7 +44,9 @@ Midterm
 : Tuesday, March 16th, 2021, 3:30pm - 4:45pm ET
 
 Final
-: Thursday, May 6th, 2021, 3:00pm - 6:00pm ET
+: ~~Thursday, May 6th, 2021, 3:00pm - 6:00pm ET~~
+
+> The final exam has been cancelled due to an unfortunate incident of academic dishonesty. 
 
 ---
 

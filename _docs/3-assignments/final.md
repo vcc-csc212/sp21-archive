@@ -6,11 +6,37 @@ permalink: /final/
 ---
 It's never too early to start thinking about a final project! Final projects are a completely open-ended opportunity for you to demonstrate your deepest understanding of whatever topics you'd like. Final projects are **due Thursday, May 6th @ 3:30pm** (two weeks after classes end). 
 
-**If you're paying attention**, you'll notice that final projects are due on the same day of your final exam AND that the times coincide. Your final exam slot time starts at 3:00pm on the same day--  we'll use the first 25 minutes to answer any last minute questions. You'll then submit your final project if you haven't already, take a 5 min breather, and begin your final exam.
+~~**If you're paying attention**, you'll notice that final projects are due on the same day of your final exam AND that the times coincide. Your final exam slot time starts at 3:00pm on the same day--  we'll use the first 25 minutes to answer any last minute questions. You'll then submit your final project if you haven't already, take a 5 min breather, and begin your final exam.~~
 
 #### Notes on Final Exam 
-- Unlike traditional exams, the final exam **can only improve (not hurt) your course grade**.
-- It'll be cumulative, with a stronger focus on material from week 8 and forward (since the midterm covers weeks 1-7).
+> The final exam has been cancelled due to an unfortunate incident of academic dishonesty. 
+
+- ~~Unlike traditional exams, the final exam **can only improve (not hurt) your course grade**.~~
+- ~~It'll be cumulative, with a stronger focus on material from week 8 and forward (since the midterm covers weeks 1-7).~~
+
+#### Demonstrating awareness or understanding without a Final Project
+Since a lot of you were banking on using the final exam as an oportunity to raise your grade, I am giving students the opportunity to demonstrate awareness and understanding without doing a final project.
+
+Real-world <br>Analysis
+: Analyze and explain how a tool or technology uses or could use the [umbrella topics](/outcomes-skills) you'd like to address. Your analysis can be in written or video format.
+
+Tutorial
+: Create a tutorial that would help a new learner understand the [umbrella topics](/outcomes-skills) you'd like to address. Your tutorial can be in written or video format.
+
+##### Requirements and Grade Breakdown
+1. Be accurate, clear, and easy to understand
+2. Include citations and references
+3. Include resources to learn more
+4. Outline exactly what umbrella topics you're covering and where
+5. Include a thoroughly explained code snippet or example demonstrating the [umbrella topics](/outcomes-skills) you're addressing
+
+
+- To demonstrate an `awareness` of the topics you're covering, you must:
+    - Successfully meet requirements **1 through 4**
+- To demonstrate an `understanding` of the topics you're covering, you must:
+    - Successfully meet requirements **1 through 5**
+
+> Analysis and Tutorial submissions are individual (no pairs or groups) and are **due Thursday, May 6th @ 3:30pm**.
 
 #### Notes on Final Project 
 - You may work individually or in groups of up to 4.
@@ -35,7 +61,7 @@ Final projects are an opportunity for you to demonstrate how much you know about
 ##### For data structures and algorithms
 
 Understanding
-: Uses appropriate data structures and/or algorithms to complete a task. 
+: Uses appropriate data structures and/or algorithms to complete a task.  
 
 Competence
 : Uses the most appropriate data structures and/or algorithms to complete a task and can explain why said data structure or algorithm is the most appropriate. 
