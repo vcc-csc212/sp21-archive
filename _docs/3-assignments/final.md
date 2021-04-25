@@ -64,10 +64,10 @@ Understanding
 : Uses appropriate data structures and/or algorithms to complete a task.  
 
 Competence
-: Uses the most appropriate data structures and/or algorithms to complete a task and can explain why said data structure or algorithm is the most appropriate. 
+: Uses the most appropriate data structures and/or algorithms to complete a task **and can explain why said data structure or algorithm is the most appropriate** (do this in the README). 
 
 Mastery
-: Uses the most appropriate data structures and/or algorithms to complete a task based on a real-world problem/context/scenario and can explain why said data structure or algorithm is the most appropriate for the task and for the given context/scenario/application. 
+: Uses the most appropriate data structures and/or algorithms to complete a task based on a real-world problem/context/scenario **and can explain why said data structure or algorithm is the most appropriate for the task and for the given context/scenario/application** (do this in the README). 
 
 ##### For analysis
 
@@ -109,4 +109,4 @@ README
 - **Potential bugs:** A description of any possible bugs or problems with your program
 - **Easter Eggs:** A description of any extra features you chose to implement, if any
 - **Group:** The names of all group members
-- **Topic Overview:** What topics does your final project demonstrate `mastery` in and how?
+- **Topic Overview:** What topics does your final project demonstrate `understanding`, `competence`, or `mastery` in and how? (See above for explanations required for each level.)
