@@ -28,7 +28,7 @@ Tutorial
 2. Include citations and references
 3. Include resources to learn more
 4. Outline exactly what umbrella topics you're covering and where
-5. Include a thoroughly explained code snippet or code example (in C++) demonstrating the [umbrella topics](/outcomes-skills) you're addressing (for analysis, no code is required, instead you should include diagrams as you walk through the analysis)
+5. Include a thoroughly explained code snippet or code example (in C++) demonstrating the [umbrella topics](/outcomes-skills) you're addressing (for sorting algos or BST analysis, no code is required, instead you should include diagrams as you walk through the analysis)
 
 
 - To demonstrate an `awareness` of the topics you're covering, you must:
