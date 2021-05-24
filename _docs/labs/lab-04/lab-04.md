@@ -141,40 +141,40 @@ We'll start with a brief introduction to Linked Lists & a brief description of t
 
 Linked Lists are your first introduction to a dynamically resizing data structure that does **not** involve a copy operation. A Linked List is only ever as large as it needs to be. Unlike an array, data does not get stored directly into any primitive storage container. Instead, we utilize a second concept called the `Node`. Each `Node` contains the data it is storing, as well as a pointer(s) to neighboring nodes, with the amount of pointers depending on the type of Linked List being implemented. This class is meant to be very simple: each `Node` object holds: the datum and pointer(s) to other `Node` objects. Aside from constructors, getters, and setters are all you need to add to the `Node` class.
 
-![image](/labs/lab-04/images/node.png)
+![image](/sp21-archive/labs/lab-04/images/node.png)
 
 ###### The Linked List Class
 
 In a Linked List,`Nodes` are *linked* together to form a data structure, hence the name. The primary goals of the LinkedList class are to provide an entry point into the data structure (the `head pointer`) and facilitate traversal, insertion, deletion, etc. The Linked List class contains a `head pointer`, as well as any utility functions that should operate on the structure (some are listed below.)
 
-![image](/labs/lab-04/images/linked-list.png)
+![image](/sp21-archive/labs/lab-04/images/linked-list.png)
 
 ###### Linked List Traversal
 
 For many operations, we will be required to traverse the Linked List in order to get to the location we plan to perform an operation on. A quick reminder on going about this task; **you cannot move the head pointer!** If you do, you will lose access to all of the data in your list. Instead, we make use of a temporary pointer.
 
-![image](/labs/lab-04/images/linked-list-traversal-1.png)
+![image](/sp21-archive/labs/lab-04/images/linked-list-traversal-1.png)
 
 We start by creating a temporary pointer and making the assignment `temp = head`, so both `head` and `temp` point to the same location in memory (the first `Node`.)
 
-![image](/labs/lab-04/images/linked-list-traversal-2.png)
+![image](/sp21-archive/labs/lab-04/images/linked-list-traversal-2.png)
 
 To advance our temporary pointer, we use `temp = temp.next`. `temp.next` obtains the memory address of the `Node` pointed to by `temp`, and the assignment operator makes `temp` point to it.
 
-![image](/labs/lab-04/images/linked-list-traversal-3.png)
+![image](/sp21-archive/labs/lab-04/images/linked-list-traversal-3.png)
 
 This process repeats until some terminating condition is met. This condition will depend on the operation you are performing.
 
 ###### Singly Linked List
 
-![image](/labs/lab-04/images/singly-linked-list.png)
+![image](/sp21-archive/labs/lab-04/images/singly-linked-list.png)
 
 - Each node (pair of boxes) contains data (in this case integers), and a pointer to the next node. 
 - There is also a `head` pointer, which should always point to the first node in the linked list as long as operations are not currently being performed on it (i.e, "the `head` pointer points to the first node" is an *invariant* of a singly linked list).
 
 ###### Doubly Linked List
 
-![image](/labs/lab-04/images/doubly-linked-list.png)
+![image](/sp21-archive/labs/lab-04/images/doubly-linked-list.png)
 
 - Each node (triad of boxes) contains data (in this case integers), a pointer to the next node, *and* a pointer to the previous node.
 
@@ -184,14 +184,14 @@ This process repeats until some terminating condition is met. This condition wil
 
 ###### Circularly Singly Linked List
 
-![image](/labs/lab-04/images/circularly-singly-linked-list.png)
+![image](/sp21-archive/labs/lab-04/images/circularly-singly-linked-list.png)
 
 - Each node (pair of boxes) contains data (in this case integers), and a pointer to the next node. This time, the final node points back to the head node. 
 - There is also a `head` pointer, which should always point to the first node in the linked list as long as operations are not currently being performed on it (i.e, "the `head` pointer points to the first node" is an *invariant* of a circularly singly linked list).
 
 ###### Circularly Doubly Linked List
 
-![image](/labs/lab-04/images/circularly-double-linked-list.png)
+![image](/sp21-archive/labs/lab-04/images/circularly-double-linked-list.png)
 
 - Each node (triad of boxes) contains data (in this case integers), a pointer to the next node, *and* a pointer to the previous node.  
 - The `head` node's `prev` points to the last element, and the last element's `next` points to `head`.  
@@ -203,25 +203,25 @@ To begin our journey of fully understanding the inner-workings of linked lists, 
 
 ###### push_front
 
-![image](/labs/lab-04/images/linked-list-push-front.png)
+![image](/sp21-archive/labs/lab-04/images/linked-list-push-front.png)
 
 As we already have access to the head of the list, push_front is rather easy to implement. Simply create a new node, assign its 'next' to head, and assign head to the new node!
 
 ###### push_back
 
-![image](/labs/lab-04/images/linked-list-push-back.png)
+![image](/sp21-archive/labs/lab-04/images/linked-list-push-back.png)
 
 We'll need to do a bit more work to insert at the end of the list. Seeing as we only have access to 'head', we'll need to create a temp pointer that points to 'head', then traverse until we reach the end of the list.
 
 ###### insert
 
-![image](/labs/lab-04/images/linked-list-insert.png)
+![image](/sp21-archive/labs/lab-04/images/linked-list-insert.png)
 
 Similar to push_back, we need to traverse the list until we arrive at a particular location. Except this time, we don't just traverse until the end; we need to keep count of what "index" we are at in order for the function to work as intended.
 
 ###### delete
 
-![image](/labs/lab-04/images/linked-list-deletion.png)
+![image](/sp21-archive/labs/lab-04/images/linked-list-deletion.png)
 
 Deletion is a trickier operation than any of the inserts, as you'll need to use *two temp pointers* to complete this operation. Their final state is given above if 'C' were being deleted. You'll need to move the pointers together, and `prev` should trail `tmp`
 
@@ -259,7 +259,7 @@ Your task is to create both a ```LinkedList``` class that utilizes a ```Node``` 
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sp21-archive/staff#sched) to get checked off.
 
 ---
 
@@ -272,7 +272,7 @@ This assignment covers pointers & `Linked Lists` (a non-negotiable); your level 
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 3**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

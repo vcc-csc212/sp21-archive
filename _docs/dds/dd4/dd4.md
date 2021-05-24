@@ -24,8 +24,8 @@ The goal of this deep dive is to provide you an opportunity to create a one and 
 ---
 
 #### Pre-Req Info {#pre}
-Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/prep).  
-✔️ Classes ([OOP material](/prep#oop))  
+Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/sp21-archive/prep).  
+✔️ Classes ([OOP material](/sp21-archive/prep#oop))  
 ✔️ [Structs](http://www.cplusplus.com/doc/tutorial/structures/)  
 ✔️ [Macros](https://www.cplusplus.com/doc/tutorial/preprocessor/)
 
@@ -36,7 +36,7 @@ Before jumping into this assignment, below are the topics you're expected to be 
 ##### Tic Tac Toe
 Tic tac toe (ttt), also known as 'noughts and crosses' or 'Xs and Os' is a 2 player game that involves trying to get three marks in a horizontal, vertical, or diagonal row. In ttt, players alternate turns marking a 3x3 grid with either an X (for player 1) or an O (for player 2). The first to get 3 in a row wins and if no one gets three in a row and the grid gets filled up, then the game is over with a tie.
 
-![tic tac toe game](/dds/dd4/ttt-wiki.png) [Image source](https://en.wikipedia.org/wiki/Tic-tac-toe#/media/File:Tic-tac-toe-game-1.svg)
+![tic tac toe game](/sp21-archive/dds/dd4/ttt-wiki.png) [Image source](https://en.wikipedia.org/wiki/Tic-tac-toe#/media/File:Tic-tac-toe-game-1.svg)
 
 If you haven't played ttt (ever or in a while), I recommend you take a piece of paper and do a couple of rounds with a roommate or relative. You can also play one of the many online versions against a fellow human or an AI!
 
@@ -103,9 +103,9 @@ return best minmax value
 
 #### Your Task {#task}
 You are given three files:
-- [tic-tac-toe.h](/dds/dd4/template_code/tic-tac-toe.h)
-- [tic-tac-toe.cpp](/dds/dd4/template_code/tic-tac-toe.cpp)
-- [main.cpp](/dds/dd4/template_code/main.cpp)
+- [tic-tac-toe.h](/sp21-archive/dds/dd4/template_code/tic-tac-toe.h)
+- [tic-tac-toe.cpp](/sp21-archive/dds/dd4/template_code/tic-tac-toe.cpp)
+- [main.cpp](/sp21-archive/dds/dd4/template_code/main.cpp)
 
 Your task is to implement all of the `TODO`s so that you have a tic tac toe game that can be played wth two human players or human vs AI.
 - **Do not** change `main.cpp`. The `main()` has already been written for you to enable the AI mode if there's a command line argument or leave the game as a 2 human player game otherwise. 
@@ -156,7 +156,7 @@ This assignment covers the topics of **basic C++ tasks** and **recursive backtra
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 4**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

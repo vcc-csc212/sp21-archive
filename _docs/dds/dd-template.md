@@ -14,7 +14,7 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Pre-Req Info {#pre}
-Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/prep).  
+Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/sp21-archive/prep).  
 ✔️ XXX  
 
 ---
@@ -54,7 +54,7 @@ This assignment covers the **topic/nonnegot XXX** and your level of knowledge on
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through C**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

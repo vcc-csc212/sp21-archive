@@ -54,7 +54,7 @@ Before attending class, please complete the material below and use the following
 
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
-- Read the [Lab 3 Handout](/lab03)
+- Read the [Lab 3 Handout](/sp21-archive/lab03)
 	- If you'd like an additional written explainer on dynamic arrays, read [Dynamic Array Data Structure](https://www.interviewcake.com/concept/cpp/dynamic-array)
 - Watch [The Simple and Elegant Idea behind Efficient Dynamic Arrays](https://www.youtube.com/watch?v=Ij7NQ-0mIVA) (8 min)
 	- He refers to a "previous video" which is [What if you had to invent a dynamic array?](https://www.youtube.com/watch?v=5AllG-i_yto) (14 min)-- this "previous video" isn't required but it's strongly recommended if you're confused by the starting point in the assigned video.

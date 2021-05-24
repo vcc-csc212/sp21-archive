@@ -3,7 +3,7 @@ title: Week 1
 permalink: /wk1/
 ---
 
-> Reminder that this is a [flipped classroom](/flipped) which means you **must complete the pre-reading before each class**.
+> Reminder that this is a [flipped classroom](/sp21-archive/flipped) which means you **must complete the pre-reading before each class**.
 <br><br>
 On this page:  
 ✔️ [Pre-reading for Tuesday 1/26](#tues)  
@@ -22,11 +22,11 @@ Before attending class, please complete the material below and use the following
 
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
-- Read the course [intro page](/)
-- Read the course [grading structure](/grading)
-- Read the course [outcomes and non-negotiables](/outcomes-skills)
-- Read the course [policies](/policies)
-- Read about [flipped classrooms](/flipped)
+- Read the course [intro page](/sp21-archive/)
+- Read the course [grading structure](/sp21-archive/grading)
+- Read the course [outcomes and non-negotiables](/sp21-archive/outcomes-skills)
+- Read the course [policies](/sp21-archive/policies)
+- Read about [flipped classrooms](/sp21-archive/flipped)
 
 ##### In Class
 In today's class we'll be doing introductions (including an intro survey), going over the course structure, helping you set up your IDE, and running some simple C++ programs to confirm your setup is all set.
@@ -48,7 +48,7 @@ Before attending class, please complete the material below and use the following
 ✔️ When are **factorials** useful and how are they calculated?
 
 ##### Read/Watch/Review
-Before attending class, please complete the material below. If your math is rough around the edges, I recommend checking out the [Math Prep Work](/prep#math) posted over break **before** completing the material below.
+Before attending class, please complete the material below. If your math is rough around the edges, I recommend checking out the [Math Prep Work](/sp21-archive/prep#math) posted over break **before** completing the material below.
 - Read [Rules of Exponents](https://www.chilimath.com/lessons/intermediate-algebra/rules-of-exponents/)
 	- Alternatively, for a one-stop shop of Exponents and Logarithms, read [Exponentials: Discrete, Real, and Imaginary](https://sites.google.com/site/butwhymath/algebra/eponentials-discrete-real-and-imaginary)
 - Read [Logarithms Explained](https://www.chilimath.com/lessons/advanced-algebra/logarithms-explained/)

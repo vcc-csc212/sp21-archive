@@ -4,7 +4,7 @@ category: Assignments
 order: 1
 permalink: /types-assignments/
 ---
-There are 6 types of assignments that will allow you to demonstrate your knowledge on the topics in the course. Each assignment will have clear grading guidelines to allow you to determine what constitutes achiveing a certain level of [knowledge demonstration](/grading#knowledge-levels) (awareness/understanding/competence/mastery):
+There are 6 types of assignments that will allow you to demonstrate your knowledge on the topics in the course. Each assignment will have clear grading guidelines to allow you to determine what constitutes achiveing a certain level of [knowledge demonstration](/sp21-archive/grading#knowledge-levels) (awareness/understanding/competence/mastery):
 
 > FYI: At the beginning of class you'll be put into small '**study groups**'. These groups will be the ones you work with during class breakout sessions for the duration of the semester, though you're welcome and encouraged to work with them outside of class as well.
 

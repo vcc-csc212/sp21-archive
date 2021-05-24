@@ -23,12 +23,12 @@ Priority Queues are a special form of queue that allow for "cutting in line". Th
 
 ##### Linked List
 
-We'll be using Linked Lists as our base today. We are familiar with the Node & LinkedList classes as well as how they behave together from [Lab 4](/lab04).
+We'll be using Linked Lists as our base today. We are familiar with the Node & LinkedList classes as well as how they behave together from [Lab 4](/sp21-archive/lab04).
 
 Node objects store Data & a reference to the next Node in the list. The LinkedList maintains a pointer to the first Node in the list ("head") and contains all of the operations that can be performed on the list. LinkedLists can also contain a "tail" pointer that points to the last element in the list.
 
 <p align="center">
-  <img src="/labs/lab-08/images/linked-list.png" />
+  <img src="/sp21-archive/labs/lab-08/images/linked-list.png" />
 </p>
 
 
@@ -37,7 +37,7 @@ Node objects store Data & a reference to the next Node in the list. The LinkedLi
 As a refresher, a Queue is a Linked List with an enforced add/remove order: first-in first-out (FIFO). Elements added to the Queue (enqueued) are placed at the back, and we can only ever remove (dequeue) from the front.
 
 <p align="center">
-  <img src="/labs/lab-08/images/queue.png" />
+  <img src="/sp21-archive/labs/lab-08/images/queue.png" />
 </p>
 
 
@@ -46,7 +46,7 @@ As a refresher, a Queue is a Linked List with an enforced add/remove order: firs
 As you may suspect, a priority queue's roots lies in the Queue data structure, which we have previously seen as a special Linked List.
 
 <p align="center">
-  <img src="/labs/lab-08/images/priority-queue.jpg" />
+  <img src="/sp21-archive/labs/lab-08/images/priority-queue.jpg" />
 </p>
 
 
@@ -86,7 +86,7 @@ But fret not, there is a better way to implement a Priority Queue! But we'll lea
 
 You are given code for a working Linked List (the solution to Lab 4!) and are tasked with modifying it to be a Queue, then a Priority Queue.
 
-[Lab 4 Solution](/labs/lab-08/lab-04-solution.zip)
+[Lab 4 Solution](/sp21-archive/labs/lab-08/lab-04-solution.zip)
 
 ---
 
@@ -99,7 +99,7 @@ You are given code for a working Linked List (the solution to Lab 4!) and are ta
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sp21-archive/staff#sched) to get checked off.
 
 ---
 
@@ -112,4 +112,4 @@ This assignment covers the topic of `priority queues` and your level of knowledg
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 3**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.

@@ -14,10 +14,10 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Pre-Req Info {#pre}
-Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/prep).  
+Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/sp21-archive/prep).  
 ✔️ [Long addition](https://www.mathsisfun.com/numbers/addition-column.html)  
 ✔️ [Long multiplication](https://www.mathsisfun.com/numbers/multiplication-long.html)  
-✔️ Classes ([OOP material](/prep#oop))  
+✔️ Classes ([OOP material](/sp21-archive/prep#oop))  
 
 ---
 
@@ -56,9 +56,9 @@ Why do we reverse the order? If you learned how to do long addition and multipli
 
 #### Your Task {#task}
 You are given three files:
-- [bignum_calculator.h](/dds/dd3/template_code/bignum_calculator.h)
-- [bignum_calculator.cpp](/dds/dd3/template_code/bignum_calculator.cpp)
-- [main.cpp](/dds/dd3/template_code/main.cpp)
+- [bignum_calculator.h](/sp21-archive/dds/dd3/template_code/bignum_calculator.h)
+- [bignum_calculator.cpp](/sp21-archive/dds/dd3/template_code/bignum_calculator.cpp)
+- [main.cpp](/sp21-archive/dds/dd3/template_code/main.cpp)
 
 Your task is to implement all of the `TODO`s so that you have a calculator that can add and multiply large numbers. 
 - **Do not** change `main.cpp`. The `main()` has already been written for you to perform the reading and writing of files that is expected. 
@@ -139,7 +139,7 @@ This assignment covers the **non-negotiable** topics of `linked lists`, `stacks`
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 4b**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

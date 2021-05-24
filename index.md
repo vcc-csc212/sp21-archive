@@ -7,7 +7,7 @@ title: Welcome!
 Data structures and algorithms is arguably **the most important course you'll take** in Computer Science. From [getting internships and job offers](https://github.com/cassidoo/getting-a-gig) to [preparing for advanced courses](https://www.synergisticit.com/how-data-structures-and-algorithms-are-important-for-computer-science-graduates/), understanding data structures and algorithms is what differentiates programmers and coders from computer scientists and engineers.
 
 #### Navigating ths site
-This site will be used to house all non-confidential course information such as [prep material](/prep), [syllabus](/staff), and [assignments](/todo). Use the sidebar on the left (right if on mobile) to view the pages, scroll down for all **important links** (such as Zoom).
+This site will be used to house all non-confidential course information such as [prep material](/sp21-archive/prep), [syllabus](/sp21-archive/staff), and [assignments](/sp21-archive/todo). Use the sidebar on the left (right if on mobile) to view the pages, scroll down for all **important links** (such as Zoom).
 - We will **not be using** Brightspace 
 - We will be using **Piazza** for announcements and Q&A
 - We will be using **Zoom** for all lecture, lab, and hours meetings (find links below)
@@ -17,13 +17,13 @@ This site will be used to house all non-confidential course information such as 
 
 ---
 
-#### [Important Links](/links)
-This section has been moved to save space on this page. Please go to the [links page](/links) for all course-related links.
+#### [Important Links](/sp21-archive/links)
+This section has been moved to save space on this page. Please go to the [links page](/sp21-archive/links) for all course-related links.
 
 ---
 
 #### Meeting Times and Format
-> Add CSC 212 to your calendar (includes Zoom info): [CSC212.ics](/CSC212.ics)
+> Add CSC 212 to your calendar (includes Zoom info): [CSC212.ics](/sp21-archive/CSC212.ics)
 
 Lecture
 : Virtually on **Tuesdays and Thursdays 3:30pm - 4:45pm ET**  

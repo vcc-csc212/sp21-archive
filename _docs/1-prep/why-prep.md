@@ -19,4 +19,4 @@ Reviewing the material below before the start of the semester is **strongly reco
 - You haven't taken or will be concurrently taking MTH 180 
 
 #### Alright, fine, where do I start?
-The [prep work page](/prep) contains some resources you may find useful in preparing for the course.
+The [prep work page](/sp21-archive/prep) contains some resources you may find useful in preparing for the course.

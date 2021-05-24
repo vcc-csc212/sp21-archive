@@ -13,7 +13,7 @@ On this page:
 #### About your instructor {#vcc}
 My name is Victoria C. Chávez (they/she) and I’m excited to be your instructor for this course! You may call me Victoria or Professor Chávez, whichever you prefer. I am excited to get to meet you all and I'm looking forward to this semester!
 
-![cropped headshot of Prof. Chávez](/2-about/imgs/vcc.jpg)
+![cropped headshot of Prof. Chávez](/sp21-archive/2-about/imgs/vcc.jpg)
 : I was born and raised in Chicago, I’m Guatemalan, and I now call Rhode Island home. I have a Bachelor’s in Computer Science and a Master’s focusing on Computer Science Education. I’ve worked as a Software Engineer at Twitter and Microsoft, and I’ve taught middle, high school, and college level Computer Science courses. This is my fourth semester at URI and my second as a Lecturer (full-time faculty).
 
 **A note on pronounciation:** The correct way to say last name is with a **hard "ch"** (like in "chimichanga") and with **emphasis on the "a"** not "vez".
@@ -48,7 +48,7 @@ Hours
 
 ---
 
-![cropped headshot of Zach](/2-about/imgs/zach.jpg) 
+![cropped headshot of Zach](/sp21-archive/2-about/imgs/zach.jpg) 
 : **Zach**: I am from Hershey, Pennsylvania. I am currently finishing my last semester of senior year majoring in Computer Science with a minor in Cyber Security. This year I am a captain of the URI Mens Club Lacrosse team and once I graduate in the spring I will be moving to North Carolina to work as a software engineer for Fidelity Investments. Besides school some of my interests include snowboarding, reading, and calligraphy. 
 <br><br>
 **You'll see me:** At hours. Feel free to utilize my student hours if you need anything or have questions. I'm always happy to help!

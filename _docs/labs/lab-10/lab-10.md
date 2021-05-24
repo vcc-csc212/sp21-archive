@@ -25,7 +25,7 @@ These "keys" and the way they are stored means that during a lookup, at each ste
 
 
 <p align="center">
-  <img src="/labs/lab-10/bst.gif">
+  <img src="/sp21-archive/labs/lab-10/bst.gif">
 </p>
 
 
@@ -128,11 +128,11 @@ This lab is a bit different compared to previous labs in that you will be expose
 To be more specific, we give you a makefile, a unit test file, a doctest header file and a header file with class definitions for `BSTNode` and `BSTree` classes (plus a couple other things). 
 We have supplied ```bst.cpp``` to house your class definitions, and `test.cpp` will serve as your main file. 
 
-- [bst.h](/labs/lab-10/template-code/bst.h)
-- [bst.cpp](/labs/lab-10/template-code/bst.cpp)
-- [test.cpp](/labs/lab-10/template-code/test.cpp)
-- [doctest.h](/labs/lab-10/template-code/doctest.h)
-- [makefile](/labs/lab-10/template-code/makefile)
+- [bst.h](/sp21-archive/labs/lab-10/template-code/bst.h)
+- [bst.cpp](/sp21-archive/labs/lab-10/template-code/bst.cpp)
+- [test.cpp](/sp21-archive/labs/lab-10/template-code/test.cpp)
+- [doctest.h](/sp21-archive/labs/lab-10/template-code/doctest.h)
+- [makefile](/sp21-archive/labs/lab-10/template-code/makefile)
 
 Thus you will need to follow the specifications in the next section very closely in order to complete the lab correctly.
 
@@ -199,14 +199,14 @@ Your goal for this lab is to complete the following tasks **in order**:
    1. isFull() which tells us if the tree is full
 
 > **HINT 1:** Some of these will be very similar and some will be identical to your binary tree implementation from last week's lab! Others won't. Think about the differences between a BT and a BST and use that to guide your implementation. <br>
-**HINT 2:** Review [Lab 9](/lab09) to review the definitions of a complete and full tree for #4. <br>
+**HINT 2:** Review [Lab 9](/sp21-archive/lab09) to review the definitions of a complete and full tree for #4. <br>
 **HINT 3:** For #4, there is a relationship between how far down the tree you are and the # of total nodes in the tree to determine completeness. <br>
 **HINT 4:** For #4, you'll need to create new test cases in test.cpp. Insert -> Perfect should return True for isFull(), and you can easily modify that case to test for isComplete().
 
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sp21-archive/staff#sched) to get checked off.
 
 ---
 
@@ -222,7 +222,7 @@ This assignment covers `Binary Search Trees (Implementation)` and `Binary Search
 > We’re not asking for delete() but if you want to challenge yourself, you’re welcome to implement it as well!
 
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

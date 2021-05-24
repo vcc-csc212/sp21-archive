@@ -24,7 +24,7 @@ The goal of this lab is to provide background on `Heaps`.
 Heaps are special implementations of Complete Binary Treess and come in two flavors: Min-Heap and Max-Heap.
 
 <p align="center">
-  <img src="/labs/lab-11/images/min-max-heap.svg" />
+  <img src="/sp21-archive/labs/lab-11/images/min-max-heap.svg" />
     <figcaption><center>Min-Heap (left) and Max-Heap (right)</center></figcaption>
 </p>
 
@@ -47,7 +47,7 @@ The key at the root node must be the **maximum** among the keys present in its c
 For most operations in a Heap, we need to envision each Node in a heap as being "indexed" (not literally indexed as an array is!) as so:
 
 <p align="center">
-  <img src="/labs/lab-11/images/heap-notations.png" />
+  <img src="/sp21-archive/labs/lab-11/images/heap-notations.png" />
     <figcaption><center>Heap Notations</center></figcaption>
 </p>
 
@@ -122,11 +122,11 @@ Another common operation, and its very similar to Remove Min/max!
 Similar to last week's lab, we give you a makefile, a unit test file, a doctest header file and a header file with class definitions for `HeapNode` and `HeapTree` classes (plus a couple other things). 
 We have supplied ```heap.cpp``` to house your class definitions, and `test.cpp` will serve as your main file. 
 
-- [heap.h](/labs/lab-11/template-code/heap.h)
-- [heap.cpp](/labs/lab-11/template-code/heap.cpp)
-- [test.cpp](/labs/lab-11/template-code/test.cpp)
-- [doctest.h](/labs/lab-11/template-code/doctest.h)
-- [makefile](/labs/lab-11/template-code/makefile)
+- [heap.h](/sp21-archive/labs/lab-11/template-code/heap.h)
+- [heap.cpp](/sp21-archive/labs/lab-11/template-code/heap.cpp)
+- [test.cpp](/sp21-archive/labs/lab-11/template-code/test.cpp)
+- [doctest.h](/sp21-archive/labs/lab-11/template-code/doctest.h)
+- [makefile](/sp21-archive/labs/lab-11/template-code/makefile)
 
 Thus you will need to follow the specifications in the next section very closely in order to complete the lab correctly.
 
@@ -186,7 +186,7 @@ Your goal for this lab is to complete the following tasks **in order**:
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sp21-archive/staff#sched) to get checked off.
 
 ---
 
@@ -200,6 +200,6 @@ This assignment covers `heaps` and `balanced trees` and your level of knowledge 
     - Successfully meet [requirements](#reqs) **1 through 3**
 
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---

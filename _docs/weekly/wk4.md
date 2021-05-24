@@ -45,7 +45,7 @@ In today's class we'll be reviewing the algorithms for a single linked list's op
 
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
-- Read the [Lab 4 Handout](/lab04)
+- Read the [Lab 4 Handout](/sp21-archive/lab04)
 - Watch [Linked List Animation](https://www.youtube.com/watch?v=iNUS9iZwrVA) (3 min)
 	- Assumes **no tail pointer**
 - Explore the visualization sites below:

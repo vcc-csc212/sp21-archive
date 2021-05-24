@@ -34,7 +34,7 @@ On this page:
 #### Late Policy {#late}
 > **TLDR:** No late work. Manage your time wisely and submit what you can.
 
-No late work will be accepted. You have multiple opportunities to demonstrate your knowldege of any given topic, including through the final project. If you're running tight on time, submit a partial solution so you can [resubmit later](/resubmissions).
+No late work will be accepted. You have multiple opportunities to demonstrate your knowldege of any given topic, including through the final project. If you're running tight on time, submit a partial solution so you can [resubmit later](/sp21-archive/resubmissions).
 
 #### Collaboration and Academic Honesty {#integrity}
 Collaborating is key to succeeding in this course. Helping others will allow you to gauge and improve your own understanding, while asking for help will allow you to move forward without feeling overwhelmed or being stuck for too long. 

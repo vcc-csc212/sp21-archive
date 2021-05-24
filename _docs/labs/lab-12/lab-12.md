@@ -26,7 +26,7 @@ Graphs are non-linear data structures made of Nodes, where each Node is connecte
 ###### Directed Unweighted Graphs
 
 <p align="center">
-  <img src="/labs/lab-12/images/unweighted-directed.svg" />
+  <img src="/sp21-archive/labs/lab-12/images/unweighted-directed.svg" />
 </p>
 
 
@@ -35,7 +35,7 @@ In a Directed Unweighted Graph, you are limited in the direction you can travers
 ###### Directed Weighted
 
 <p align="center">
-  <img src="/labs/lab-12/images/weighted-directed.svg" />
+  <img src="/sp21-archive/labs/lab-12/images/weighted-directed.svg" />
 </p>
 
 
@@ -44,7 +44,7 @@ In a Directed Weighted Graph, you are still limited in the direction you can tra
 ###### Undirected Unweighted Graphs
 
 <p align="center">
-  <img src="/labs/lab-12/images/unweighted-undirected.svg" />
+  <img src="/sp21-archive/labs/lab-12/images/unweighted-undirected.svg" />
 </p>
 
 
@@ -55,7 +55,7 @@ In an Undirected Unweighted Graph, you are NOT limited in the direction you can 
 
 
 <p align="center">
-  <img src="/labs/lab-12/images/weighted-undirected.svg" />
+  <img src="/sp21-archive/labs/lab-12/images/weighted-undirected.svg" />
 </p>
 
 
@@ -116,7 +116,7 @@ In BFS we travel as wide as we can, using a Queue to mark the current Vertex's c
 - Visit 3. Queue[4, 5, 6, 7].
 
 <p align="center">
-  <img src="/labs/lab-12/images/Breadth-First-Search.gif" />
+  <img src="/sp21-archive/labs/lab-12/images/Breadth-First-Search.gif" />
 </p>
 
 Why care about BFS? BFS is used to find the shortest path between two points (in unweighted undirected graphs, such as getting cellphone data from the closest cell tower), when buying flights to determine possible itineraries, finding relatives via DNA-sites (i.e., ancestry.com), web crawlers, and more!
@@ -126,7 +126,7 @@ Why care about BFS? BFS is used to find the shortest path between two points (in
 In DFS we travel as deep down a path as we can, and upon hitting a dead end we backtrack as far as we need to hit another path. This process then repeats.
 
 <p align="center">
-  <img src="/labs/lab-12/images/Depth-First-Search.gif" />
+  <img src="/sp21-archive/labs/lab-12/images/Depth-First-Search.gif" />
 </p>
 
 Why care about DFS? DFS is used to find the shortest path between two points (in weighted directed graphs, such as finding the fastest path to a location in traffic), solving mazes, web crawlers, robots that clean your floor, and more!

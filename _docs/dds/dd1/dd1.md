@@ -14,10 +14,10 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Pre-Req Info {#pre}
-Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/prep).  
+Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/sp21-archive/prep).  
 ✔️ Command line arguments ([tutorial](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/), [video](https://www.youtube.com/watch?v=h2LGTzQXzJU))  
 ✔️ Reading and writing to files ([tutorial](https://www.w3schools.com/cpp/cpp_files.asp), [reference page](https://www.cplusplus.com/doc/tutorial/files/))  
-✔️ Classes ([OOP material](/prep#oop))  
+✔️ Classes ([OOP material](/sp21-archive/prep#oop))  
 
 ---
 
@@ -38,14 +38,14 @@ For this deep dive, you'll be writing a program that can be used as a command li
 ##### What is image binarization?
 In computer vision, *image binarization*, a.k.a. *thresholding* is the process of taking a grayscale image and converting it into a black and white image.  In grayscale images, every pixel represents an intensity value ranging from 0 (black) to 255 (white).  In black and white images, every pixel is either 0 or 255.  Intensity refers to the brightness of a color, white is the brightest and therefore the most intense, black is the darkest and the least intense.  The figure below shows an example of image binarization:
 
-![Image Binarization Example](/dds/dd1/binarization.jpg)
+![Image Binarization Example](/sp21-archive/dds/dd1/binarization.jpg)
 
 ##### Thresholding IRL
 A popular application of (color) thresholding is recreating the effects from Andy Warhol's Pop Art or Obama's 2008 Hope poster by Shepard Fairey. While these posters were done by hand, using color thresholding, we can create an algorithm that does the same. Nowadays, there are many online converters that will take an image and convert it to the likes of these iconic pieces. For simplicity's sake, we'll be doing the more simple black and white thresholding but you're welcome to [explore color thresholding](https://www.ecosia.org/search?q=color+thresholding) on your own!
 
-![Andy Warhol's Marilyn Monroe Pop Art Poster](/dds/dd1/warhol.jpg) 
+![Andy Warhol's Marilyn Monroe Pop Art Poster](/sp21-archive/dds/dd1/warhol.jpg) 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-![Obama's 2008 Hope Poster](/dds/dd1/obama-hope.jpeg) 
+![Obama's 2008 Hope Poster](/sp21-archive/dds/dd1/obama-hope.jpeg) 
 
 ##### Global Thresholding
 It's important to note that pixel values for an image are stored in a matrix. Matrices don't have to be perfect squares (i.e., 2x2, 3x3, 10x10), and while all most of our examples below are perfect squares, your program should work on images of any dimensions (perfect squares or not).
@@ -92,7 +92,7 @@ endfor
 
 As an illustration, the figure below shows an example of applying local thresholding.  In this specific example, the `median` is what's as the metric for deciding the new value of a pixel:
 
-![Image Binarization](/dds/dd1/local-thresholding.jpg)
+![Image Binarization](/sp21-archive/dds/dd1/local-thresholding.jpg)
 
 > Note that when calculating the neighborhood of pixels at the edges, where the neighborhood is not a perfect fit, we ignore all pixels that fall outside the boundaries of the image.  In the illustration above, this is the case of the pixel at position `[0,0]` highlighted in orange.
 
@@ -101,7 +101,7 @@ If you're paying attention and understanding the concept of thresholding so far,
 
 Below is an example of thresholding gone wrong. Notice how in the last image, two of the objects and part of the third completely disappear:
 
-[![Example of thresholding removing objects from the image altogether](/dds/dd1/bad-thresholding.jpg)](https://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic3.htm)
+[![Example of thresholding removing objects from the image altogether](/sp21-archive/dds/dd1/bad-thresholding.jpg)](https://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic3.htm)
 
 The implications of these types of miscalculations in computer science are far reaching and can lead to issues such as:
 - Infra-red light from a soap dispense not recognizing dark-skinned hands ([read more](https://www.mic.com/articles/124899/the-reason-this-racist-soap-dispenser-doesn-t-work-on-black-skin)).
@@ -127,7 +127,7 @@ Your goal in this assignment is to develop a command line tool that performs ima
 
 Below is an image of the formula with better formatting. This formula is from the paper [*Adaptive document image binarization*](https://doi.org/10.1016/S0031-3203(99)00055-2) by Sauvola and PietikaKinen, 2000.
 
-![Image Binarization](/dds/dd1/formula.png)
+![Image Binarization](/sp21-archive/dds/dd1/formula.png)
 
 ---
 
@@ -222,7 +222,7 @@ This assignment covers the **pre-requisite topics of C++ and OOP basics** and yo
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 7**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

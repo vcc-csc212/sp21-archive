@@ -26,7 +26,7 @@ Fractals are geometric figures in which each part has the same statistical chara
 
 > **Sierpinski Carpet:** A square with 8 smaller squares one-third its size placed around it.
 
-<center><img src="/labs/lab-06/images/sierpinskicarpet.jpg"/></center>
+<center><img src="/sp21-archive/labs/lab-06/images/sierpinskicarpet.jpg"/></center>
 
 <br>
 
@@ -34,7 +34,7 @@ Fractals are geometric figures in which each part has the same statistical chara
 
 > **Sierpinski Triangle:** An equilateral triangle subdivided into 4 smaller equilateral triangles, with the inner triangle removed.
 
-<center><img src="/labs/lab-06/images/sierpinski_triangle.png"/></center>
+<center><img src="/sp21-archive/labs/lab-06/images/sierpinski_triangle.png"/></center>
 
 <br>
 
@@ -42,7 +42,7 @@ Fractals are geometric figures in which each part has the same statistical chara
 
 > **Koch Snowflake:** An equilateral triangle where each edge gets a triangle placed one-third the size of the original, and has its base removed.
 
-<center><img src="/labs/lab-06/images/koch_snowflake.png"/></center>
+<center><img src="/sp21-archive/labs/lab-06/images/koch_snowflake.png"/></center>
 
 <br>
 
@@ -77,28 +77,28 @@ Here are some animations to help you in determining the rules for your strings:
 ##### Sierpinski Triangle
 
 <video width="960" height="540" controls>
-  <source src="/labs/lab-06/images/sierpinski-triangle-3.mp4" type="video/mp4">
+  <source src="/sp21-archive/labs/lab-06/images/sierpinski-triangle-3.mp4" type="video/mp4">
 </video>
 
 ##### Koch Snowflake
 
 <video width="960" height="540" controls>
-  <source src="/labs/lab-06/images/koch-snowflake-3.mp4" type="video/mp4">
+  <source src="/sp21-archive/labs/lab-06/images/koch-snowflake-3.mp4" type="video/mp4">
 </video>
 
 To understand how the Koch Snowflake is drawn, these images show the completion of the image at the 3 loop iterations in the ```koch_snowflake``` function.
 
 After the first iteration:
 
-<center><img src="/labs/lab-06/images/koch-snowflake-3 (1-3 iterations).png"/></center>
+<center><img src="/sp21-archive/labs/lab-06/images/koch-snowflake-3 (1-3 iterations).png"/></center>
 
 After the second iteration:
 
-<center><img src="/labs/lab-06/images/koch-snowflake-3 (2-3 iterations).png"/></center>
+<center><img src="/sp21-archive/labs/lab-06/images/koch-snowflake-3 (2-3 iterations).png"/></center>
 
 After the third iteration:
 
-<center><img src="/labs/lab-06/images/koch-snowflake-3 (3-3 iterations).png"/></center>
+<center><img src="/sp21-archive/labs/lab-06/images/koch-snowflake-3 (3-3 iterations).png"/></center>
 
 ##### Notes
 
@@ -121,7 +121,7 @@ After the third iteration:
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sp21-archive/staff#sched) to get checked off.
 
 ---
 
@@ -134,7 +134,7 @@ This assignment covers **advanced recursion** and your level of knowledge on the
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 4**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

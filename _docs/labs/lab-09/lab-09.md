@@ -26,7 +26,7 @@ Trees are a Data Structure that models hierarchical data, as opposed to a Linked
 Lets dive into some terminology:
 
 <p align="center">
-  <img src="/labs/lab-09/images/tree_terminology.png"/>
+  <img src="/sp21-archive/labs/lab-09/images/tree_terminology.png"/>
 </p>
 
 
@@ -54,13 +54,13 @@ Subtree
 Tree Data Structures are very flexible, and can be tweaked to fit a problem as needed. Without any bounding rules, a Tree can have any number of children at each Node. Observe:
 
 <p align="center">
-  <img src="/labs/lab-09/images/tree.png"/>
+  <img src="/sp21-archive/labs/lab-09/images/tree.png"/>
 </p>
 
 These types of trees are typically known as "K-Ary Trees" and are implemented in slightly more advanced algorithms than we'll be covering today, so lets simplify things a bit. Behold, the **Binary Tree**!
 
 <p align="center">
-  <img src="/labs/lab-09/images/binary-tree.png"/>
+  <img src="/sp21-archive/labs/lab-09/images/binary-tree.png"/>
 </p>
 
 Binary trees have a simple rule:
@@ -70,7 +70,7 @@ Binary trees have a simple rule:
 and are not to be confused with **Ternary Trees**:
 
 <p align="center">
-  <img src="/labs/lab-09/images/ternary-tree.png"/>
+  <img src="/sp21-archive/labs/lab-09/images/ternary-tree.png"/>
 </p>
 
 which have the following rule:
@@ -84,7 +84,7 @@ For all of the above definitions, Trees can be further classified as Full, Compl
 A Tree is classified as "Full" if **every Node other than the leaves have K children**.
 
 <p align="center">
-  <img src="/labs/lab-09/images/full-binary-tree.png"/>
+  <img src="/sp21-archive/labs/lab-09/images/full-binary-tree.png"/>
 </p>
 
 ##### Complete Trees
@@ -92,7 +92,7 @@ A Tree is classified as "Full" if **every Node other than the leaves have K chil
 A Tree is classified as "Complete" if every Node other than the leaves have K children, with an exception for the last row. This last row must have **all Leaf Nodes as far left as possible**.
 
 <p align="center">
-  <img src="/labs/lab-09/images/complete-binary-tree.jpg"/>
+  <img src="/sp21-archive/labs/lab-09/images/complete-binary-tree.jpg"/>
 </p>
 
 ##### Tree Balance
@@ -102,7 +102,7 @@ A Tree is considered balanced if the following is observed:
 - Each sub-tree is balanced and the height of the two sub-trees differ at most by 1.
 
 <p align="center">
-  <img src="/labs/lab-09/images/balanced-vs-unbalanced-trees.jpg"/>
+  <img src="/sp21-archive/labs/lab-09/images/balanced-vs-unbalanced-trees.jpg"/>
 </p>
 
 Don't worry too much about Tree Balance, we'll cover this in depth at a later date. Just know it exists and is accomplished by rotating subtrees.
@@ -112,7 +112,7 @@ Don't worry too much about Tree Balance, we'll cover this in depth at a later da
 Unliked a LinkedList, we can traverse a Tree structure in many different ways. Traversal of a tree (like **all** operations) are done recursively (yaaaaaaay!) Typically, we use a Node* to mark where we currently are and assign it as needed to perform the traversal. Very similar to how we used a 'curr' Node in our LinkedList class. Lets re-use one of our Trees from earlier to see how we could display its contents using the three most commonly used traversal methods:
 
 <p align="center">
-  <img src="/labs/lab-09/images/full-binary-tree.png"/>
+  <img src="/sp21-archive/labs/lab-09/images/full-binary-tree.png"/>
 </p>
 
 ##### In-Order Traversal
@@ -188,7 +188,7 @@ Create your own solution, from scratch, to complete the requirements listed belo
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you want to continue working on your lab after your lab section, come to [hours](/sp21-archive/staff#sched) to get checked off.
 
 ---
 
@@ -201,6 +201,6 @@ This assignment covers the topic of **introduction to trees** and your level of 
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 3**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 

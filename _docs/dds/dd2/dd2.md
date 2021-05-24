@@ -14,11 +14,11 @@ On this page:
 ✔️ [Grade Breakdown](#grading)
 
 #### Pre-Req Info {#pre}
-Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/prep).  
+Before jumping into this assignment, below are the topics you're expected to be familiar with. If you need some review, check out our [resource/prep page](/sp21-archive/prep).  
 ✔️ Binary notation ([overview](https://arith-matic.com/notebook/binary-numbers))  
 ✔️ Command line arguments ([tutorial](https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/), [video](https://www.youtube.com/watch?v=h2LGTzQXzJU))  
 ✔️ Reading and writing to files ([tutorial](https://www.w3schools.com/cpp/cpp_files.asp), [reference page](https://www.cplusplus.com/doc/tutorial/files/))  
-✔️ Classes ([OOP material](/prep#oop))  
+✔️ Classes ([OOP material](/sp21-archive/prep#oop))  
 
 ---
 
@@ -37,14 +37,14 @@ Your goal in this assignment is to develop a command line tool that will generat
 ##### What is a Maze?
 A maze is a puzzle, with starting and ending points, in which a player is tasked to find a path connecting a starting point to an ending point.  While many algorithms for automatically generating random mazes have been proposed, in this assignment we will implement a **randomized depth-first search** approach that uses **dynamic arrays**.  For the context of this assignment, every maze is two-dimensional and it only contains 1 starting and 1 ending cell.  There should be exactly one path connecting both cells.  The example below illustrates a random maze of dimensions `n=6, m=12`, `n` rows and `m` columns.  Note that the starting point always happens at cell `0, 0` and the ending point at `n-1, m-1`.
 
-![Two dimensional maze](/dds/dd2/maze-6-12.png)
+![Two dimensional maze](/sp21-archive/dds/dd2/maze-6-12.png)
 
 ##### Generating a Maze
 A data structure for representing a maze in memory may be a two dimensional array in which every cell encodes whether each of the 4 walls is closed or open.  We can assume each cell has 4 walls: `north`, `south`, `east`, and `west`.
 
 The algorithm for generating a maze starts with a grid where only 2 walls are removed, `north` for the starting position, and `south` for the ending position, as illustrated in the 6x6 grid below.
 
-![The starting point for a 6x6 maze, with the north wall at (0,0) and south wall at (n-1,m-1) removed](/dds/dd2/start-6-6.png)
+![The starting point for a 6x6 maze, with the north wall at (0,0) and south wall at (n-1,m-1) removed](/sp21-archive/dds/dd2/start-6-6.png)
 
 A common approach for maze generation involves removing interior walls iteratively.  At each iteration a wall is removed to connect two adjacent cells.  This iterative process must follow these rules:
 
@@ -120,11 +120,11 @@ $ ./generator 0 10 10 example.txt
 
 The file format for saving the maze is a two dimensional array of integers, where each integer is used to represent a cell and its walls.  Each integer in the matrix ranges from 0 to 15.  The idea behind this representation is that the walls are encoded using 4 bits (a nibble), and the integers are their corresponding values in decimal notation.  The figure below illustrates the encoding, with 4 of the possible 16 possibilities. To see the 4-bit representation of all possible numbers (0-15), see [this table](https://www.swarthmore.edu/NatSci/echeeve1/Ref/BinaryMath/NumSys.html#hex).
 
-![Two-dimensional maze](/dds/dd2/walls.jpg)
+![Two-dimensional maze](/sp21-archive/dds/dd2/walls.jpg)
 
 When saving the grid, the output file must be a `text file` in which cell values are separated by a single whitespace, and organized in `n` rows and `m` columns (the grid dimensions).  For example, the image below shows one grid with 5 rows and 5 columns.  The text file representation of the grid appears on the left, and the corresponding maze appears on the right.  Note how each number maps into a cell encoding its walls. Note that every integer value is separated by a **single** whitespace.
 
-![Two-dimensional maze](/dds/dd2/example.png)
+![Two-dimensional maze](/sp21-archive/dds/dd2/example.png)
 
 > A maze visualization will be useful to visualize and understand what your program is doing. You can:
 - Copy and paste your program's output onto [this maze web visualizer](https://maze-viewer.isaacchen9.repl.co) (courtesy of [Isaac Chen](https://repl.it/@IsaacChen9/Maze-viewer)).
@@ -176,7 +176,7 @@ This assignment covers the **non-negotiable topic of** `dynamic arrays` as well 
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 5**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

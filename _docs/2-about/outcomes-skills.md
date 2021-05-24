@@ -40,4 +40,4 @@ Each time we meet for lab or lecture, you'll be learning a new topic. **We move 
 19. Intro to Graphs 
 20. `BFS & DFS`
 
-Of these 20, the`formatted`**13 are non-negotiable** which means that in order to pass the course, you **must** demonstrate at a minimum, a [level of understanding](/grading#grades) about them.
+Of these 20, the`formatted`**13 are non-negotiable** which means that in order to pass the course, you **must** demonstrate at a minimum, a [level of understanding](/sp21-archive/grading#grades) about them.

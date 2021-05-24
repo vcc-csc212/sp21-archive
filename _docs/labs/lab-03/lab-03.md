@@ -59,17 +59,17 @@ For arrays, it is a simple task to see that an **insert** operation runs in O(1)
 
 But what about for a Dynamic Array? Some inserts will take O(1) time, but others will require the above steps to resize of the array (O(n)). Observe the following series of inserts:
 
-![image](/labs/lab-03/Dynamic-Table.png)
+![image](/sp21-archive/labs/lab-03/Dynamic-Table.png)
 
 Any time there is the (Overflow) label, that is saying the array must be resized. How can we calculate the run time for a function (insert) for a function that is sometimes O(1), and sometimes O(n)? Well, we essentially just take the average:
 
-![image](/labs/lab-03/AmortizedAnalysis.png)
+![image](/sp21-archive/labs/lab-03/AmortizedAnalysis.png)
 
 ---
 
 #### Your Task {#task}
 
-In order to implement your own class, we are providing starter code. You will be given a [*header file*](/labs/lab-03/code/DynamicArray.h) (`DynamicArray.h`) and a partially-implemented [*source file*](/labs/lab-03/code/DynamicArray.cpp) (`DynamicArray.cpp`) for a class `DynamicArray`.
+In order to implement your own class, we are providing starter code. You will be given a [*header file*](/sp21-archive/labs/lab-03/code/DynamicArray.h) (`DynamicArray.h`) and a partially-implemented [*source file*](/sp21-archive/labs/lab-03/code/DynamicArray.cpp) (`DynamicArray.cpp`) for a class `DynamicArray`.
 
 ```c++
 #ifndef DYNAMIC_ARRAY_H
@@ -272,7 +272,7 @@ Some functions have already been implemented for you inside of the `DynamicArray
 ---
 
 #### Handing in {#submit}
-Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you continue working on your lab after your lab section, come to [hours](/staff#sched) to get checked off.
+Please call a TA over to get checked off before leaving your lab section (regardless of how far you got). If you continue working on your lab after your lab section, come to [hours](/sp21-archive/staff#sched) to get checked off.
 
 ---
 
@@ -285,7 +285,7 @@ This assignment covers `Dynamic Arrays` and your level of knowledge on them will
 - To demonstrate `competence` of these topics, you must:
     - Successfully meet [requirements](#reqs) **1 through 4**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 

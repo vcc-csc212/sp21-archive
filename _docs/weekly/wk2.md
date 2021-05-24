@@ -22,7 +22,7 @@ Before attending class, please complete the material below and use the following
 
 ##### Read/Watch/Review
 Before attending class, please complete the material below:
-- Read [Gaddis 9.6: Introduction to Analysis of Algorithms](/files/Gaddis-Algos.pdf)
+- Read [Gaddis 9.6: Introduction to Analysis of Algorithms](/sp21-archive/files/Gaddis-Algos.pdf)
 - Watch [Analyzing Algorithms](https://www.youtube.com/watch?v=-gN6KCS_D4k) (15 min)
 - Watch [Big O Notation](https://www.youtube.com/watch?v=3Yo7Kxa0vOU) (14 min)
 - Explore [Common Complexities, Graphed](https://www.desmos.com/calculator/pdft1nieox)

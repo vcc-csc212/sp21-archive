@@ -4,7 +4,7 @@ category: About / Syllabus
 order: 5
 permalink: /schedule/
 ---
-Each time we meet for lab or lecture, you'll be learning a new topic. **We move incredibly fast so don't fall behind**. [Non-negotiable](/grading) topic items are `formatted as so`.
+Each time we meet for lab or lecture, you'll be learning a new topic. **We move incredibly fast so don't fall behind**. [Non-negotiable](/sp21-archive/grading) topic items are `formatted as so`.
 
 As a reminder, we meet **virtually on Tuesdays and Thursdays 3:30pm - 4:45pm ET** and you have **lab on Wednesdays**, also virtually, at either **10:00am - 11:45am ET or 12:00pm - 1:45pm ET**.
 

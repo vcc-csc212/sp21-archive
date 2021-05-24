@@ -3,16 +3,16 @@ title: Important Links
 permalink: /links/
 ---
 
-[Flipped Learning](/flipped)
+[Flipped Learning](/sp21-archive/flipped)
 : Learn how to **thrive in a flipped environment** you're probably not used to.
 
-[Student To Do](/todo)
+[Student To Do](/sp21-archive/todo)
 : Page with weekly **pre-class readings and assignments**
 
 [Piazza](http://piazza.com/uri/spring2021/csc212)
 : Forum for **announcements and Q&A**.
 
-[Class Slides](/slides)
+[Class Slides](/sp21-archive/slides)
 : Slides used in class.
 
 [Anon Feedback](https://docs.google.com/forms/d/e/1FAIpQLSeeC80Z4Pv0yBd7vhMfafAHAdl5I-_83qtTNKquztkvMEPKHA/viewform?usp=sf_link)
@@ -39,7 +39,7 @@ permalink: /links/
 : For **12pm lab** meetings on Wednesdays.  
 
 [Join Hours Zoom](https://uri-edu.zoom.us/j/99113409560?pwd=TjlDdmo5cFNzYWozMXJHSGtaZm1TQT09)
-: To join an **hours session**-- [check schedule first](/staff#sched).  
+: To join an **hours session**-- [check schedule first](/sp21-archive/staff#sched).  
 
 [Join Lab Review](https://uri-edu.zoom.us/j/95414158050?pwd=TlhFS2h0OWVUaUJXN0xCVUg5RkR6Zz09)
 : For **lab review, Fridays at 5pm**.  

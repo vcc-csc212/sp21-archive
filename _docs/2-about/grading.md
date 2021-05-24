@@ -24,11 +24,11 @@ While confusing at first, you'll see that this approach has several benefits (ou
 	- The autograder gives you immediate feedback to let you know whether functionality is incorrect in your code. Use this to find mistake early!
 	> **TLDR**: Start early and submit often.
 - **Keep track of your progress to determine what work you need to prioritize and what you can put on the back-burner**
-	- With this grading scheme, you don't necessarily need to complete *every* assignment in order to get an A or to pass. However, you do need to keep track of your progress with the [**non-negotiables**](/outcomes-skills) to ensure you pass the class.
+	- With this grading scheme, you don't necessarily need to complete *every* assignment in order to get an A or to pass. However, you do need to keep track of your progress with the [**non-negotiables**](/sp21-archive/outcomes-skills) to ensure you pass the class.
 	> **TLDR**: You can skip some assignments and still get an A, BUT if you skip the wrong assignments you won't pass.
 - **Resubmit**
 	- While we cover several topics over the span of a week, it is not expected that you'll fully understand all of them by the end of that week. A lot of us need more time and practice with any given concept before it 'clicks' and we get it. That being said, it's only fair to actually give you the opportunity to revisit your work and show me you've learned more since we last talked about it in class. 
-	> **TLDR**: You're allowed (and encouraged!) to [resubmit assignments](/resubmissions).
+	> **TLDR**: You're allowed (and encouraged!) to [resubmit assignments](/sp21-archive/resubmissions).
 
 #### What do grades look like? {#grades}
 As has been previously mentioned, there are 20 umbrella topics we'll be covering, of which **13 are non-negotiable**. Your grade for the course will be based on your demonstrated knowledge of the non-negotiable topics.
@@ -66,7 +66,7 @@ If you'd like to receive a + designation (B+/C+/D+) you'll also have to demonstr
 	- Demonstrate `mastery` in at least 5 topics (any)
 
 #### How do I demonstrate my knowledge? {#knowledge-levels}
-There are [6 types of assignments](/types-assignments) that will allow you to demonstrate your knowledge on all 20 umbrella topics. Here's an outline of the various ways to demonstrate your level of knowledge (awareness/understanding/competence/mastery):
+There are [6 types of assignments](/sp21-archive/types-assignments) that will allow you to demonstrate your knowledge on all 20 umbrella topics. Here's an outline of the various ways to demonstrate your level of knowledge (awareness/understanding/competence/mastery):
 
 - `Awareness` can be demonstrated via: 
 	- SME Presentations

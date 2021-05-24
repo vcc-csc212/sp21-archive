@@ -18,17 +18,17 @@ It's never too early to start thinking about a final project! Final projects are
 Since a lot of you were banking on using the final exam as an oportunity to raise your grade, I am giving students the opportunity to demonstrate awareness and understanding without doing a final project.
 
 Real-world <br>Analysis
-: Analyze and explain how a tool or technology uses or could use the [umbrella topics](/outcomes-skills) you'd like to address. Your analysis can be in written or video format.
+: Analyze and explain how a tool or technology uses or could use the [umbrella topics](/sp21-archive/outcomes-skills) you'd like to address. Your analysis can be in written or video format.
 
 Tutorial
-: Create a tutorial that would help a new learner understand the [umbrella topics](/outcomes-skills) you'd like to address. Your tutorial can be in written or video format.
+: Create a tutorial that would help a new learner understand the [umbrella topics](/sp21-archive/outcomes-skills) you'd like to address. Your tutorial can be in written or video format.
 
 ##### Requirements and Grade Breakdown
 1. Be accurate, clear, and easy to understand
 2. Include citations and references
 3. Include resources to learn more
 4. Outline exactly what umbrella topics you're covering and where
-5. Include a thoroughly explained code snippet or code example (in C++) demonstrating the [umbrella topics](/outcomes-skills) you're addressing (for sorting algos or BST analysis, no code is required, instead you should include diagrams as you walk through the analysis)
+5. Include a thoroughly explained code snippet or code example (in C++) demonstrating the [umbrella topics](/sp21-archive/outcomes-skills) you're addressing (for sorting algos or BST analysis, no code is required, instead you should include diagrams as you walk through the analysis)
 
 
 - To demonstrate an `awareness` of the topics you're covering, you must:

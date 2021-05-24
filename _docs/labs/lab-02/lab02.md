@@ -37,7 +37,7 @@ At first, this may seem like an infinite loop of sorts, but if the function is i
 
 ##### How to think about recursive function calls
 
-![image](/labs/lab-02/recursive_example.png)
+![image](/sp21-archive/labs/lab-02/recursive_example.png)
 
 In the above diagram, each box is a call to the recursive function `foo`. In the base case, simple, often times even trivial, steps are taken for some special case of the input. After returning from the base case, each call to `foo` may *use* the result returned to it and return to its caller.
 
@@ -56,13 +56,13 @@ If we answer the three questions above for calculating factorials:
 3. "How do I use solutions to the smaller problem to solve the bigger problem?" 
     - **Since** `5! = 5*4*3*2*1` **this can be rewritten as** `5! = 5 * 4!` **and** `4! = 4 * 3!` **and so on and so forth.**
 
-![recursive waterfall of 5 factorial](/labs/lab-02/recursive-waterfall.gif)
+![recursive waterfall of 5 factorial](/sp21-archive/labs/lab-02/recursive-waterfall.gif)
 
 #### An example: Sum of Numbers {#example}
 
 Before you begin implementing recursive algorithms for yourself, you'll be guided through each step of a recursive implementation of the sum from 1 to n. Along the way, you will see which part of the algorithm corresponds to which concept, and hopefully you will get a better understanding of how to think about a recursive algorithm.
 
-First, [download or copy](/labs/lab-02/sum.cpp) the contents of `sum.cpp`. All you have is a small `main` and an empty function `sum` which presently returns 0. Enter each of the following lines after reading the description for each, starting at line `4`.
+First, [download or copy](/sp21-archive/labs/lab-02/sum.cpp) the contents of `sum.cpp`. All you have is a small `main` and an empty function `sum` which presently returns 0. Enter each of the following lines after reading the description for each, starting at line `4`.
 
 ```
 if (n == 0) {
@@ -148,7 +148,7 @@ This assignment covers **recursion** and your level of knowledge on it will be a
 - To demonstrate `competence` of this topic, you must:
     - Successfully meet [requirements](#reqs) **1 through 4**
 
-> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
+> To receive any credit at all, you **must abide by our [Collaboration and Academic Honesty Policy](/sp21-archive/policies/#integrity)**. Failure to do so may result in a failing grade in the class and/or further disciplinary action.
 
 ---
 
